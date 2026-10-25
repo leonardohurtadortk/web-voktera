@@ -1,0 +1,5 @@
+name = "voktera"
+compatibility_date = "2024-03-20"
+
+[assets]
+directory = "./voktera.online"
