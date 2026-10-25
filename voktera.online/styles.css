@@ -93,6 +93,7 @@
     border-bottom:1px solid var(--line);
   }
   .nav-inner{
+    position:relative;
     display:flex;
     align-items:center;
     justify-content:space-between;
@@ -111,6 +112,12 @@
     align-items:center;
     gap:10px;
   }
+  .logo img{
+    max-height:48px;
+    width:auto;
+    object-fit:contain;
+    display:block;
+  }
   .logo .mark{
     width:34px; height:34px;
     border-radius:8px;
@@ -124,17 +131,30 @@
     font-size:1rem;
     flex-shrink:0;
   }
+  /* Base móvil: nav colapsado, burger visible, panel desplegable */
   .nav-links{
-    display:flex;
-    align-items:center;
-    gap:28px;
+    display:none;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    flex-direction:column;
+    align-items:stretch;
+    gap:0;
+    background:var(--card);
+    border-bottom:1px solid var(--line);
+    padding:16px 24px;
+    box-shadow:0 12px 24px -16px rgba(31,27,22,.25);
+    z-index:1000;
     font-size:0.9rem;
     font-weight:500;
   }
+  .nav-toggle:checked ~ .nav-links{ display:flex; }
   .nav-links a{
     text-decoration:none;
     color:var(--ink-soft);
     transition:color .15s;
+    padding:12px 0;
   }
   .nav-links a:hover{ color:var(--ink); }
   .nav-cta{
@@ -149,6 +169,8 @@
     align-items:center;
     gap:8px;
     white-space:nowrap;
+    align-self:flex-start;
+    margin-top:8px;
   }
   .nav-cta:hover{
     transform:translateY(-1px);
@@ -157,7 +179,7 @@
   /* ---- Menú hamburguesa móvil (CSS-only, T-028) ---- */
   .nav-toggle{ display:none; }
   .nav-burger{
-    display:none;
+    display:flex;
     cursor:pointer;
     width:40px;
     height:40px;
@@ -172,45 +194,51 @@
   .nav-burger span{
     display:block;
     width:24px;
-    height:2px;
+    height:3px;
     background:var(--ink);
     border-radius:2px;
     transition:transform .2s, opacity .2s;
   }
-  @media (max-width: 900px){
-    .nav-burger{ display:flex; }
-    .nav-inner{ position:relative; }
+  /* Mejora progresiva: escritorio con nav horizontal y dropdown en hover */
+  @media (min-width: 900px){
+    .nav-burger{ display:none; }
     .nav-links{
-      display:none;
-      position:absolute;
-      top:100%;
-      left:0;
-      right:0;
-      flex-direction:column;
-      align-items:stretch;
-      gap:0;
-      background:var(--card);
-      border-bottom:1px solid var(--line);
-      padding:16px 24px;
-      box-shadow:0 12px 24px -16px rgba(31,27,22,.25);
-      z-index:1000;
-    }
-    .nav-toggle:checked ~ .nav-links{ display:flex; }
-    .nav-links a{ padding:12px 0; }
-    .nav-dropdown{ position:static; }
-    .nav-dropdown-panel{
+      display:flex;
       position:static;
+      flex-direction:row;
+      align-items:center;
+      gap:28px;
+      background:none;
+      border-bottom:none;
+      padding:0;
+      box-shadow:none;
+    }
+    .nav-links a{ padding:0; }
+    .nav-dropdown{ position:relative; }
+    .nav-dropdown-panel{
+      position:absolute;
+      top:calc(100% + 10px);
+      left:0;
+      right:auto;
+      min-width:220px;
+      background:var(--card);
+      border:1px solid var(--line);
+      border-radius:12px;
+      box-shadow:0 16px 40px -20px rgba(31,27,22,.35);
+      padding:8px;
+      opacity:0;
+      visibility:hidden;
+      transform:translateY(-4px);
+      margin-top:0;
+    }
+    .nav-dropdown:hover > .nav-dropdown-panel,
+    .nav-dropdown:focus-within > .nav-dropdown-panel{
       opacity:1;
       visibility:visible;
-      transform:none;
-      box-shadow:none;
-      border:none;
-      padding:0 0 0 16px;
-      min-width:0;
-      margin-top:4px;
+      transform:translateY(0);
     }
-    .nav-dropdown-panel a{ padding:8px 0; }
-    .nav-cta{ align-self:flex-start; margin-top:8px; }
+    .nav-dropdown-panel a{ padding:10px 14px; }
+    .nav-cta{ align-self:auto; margin-top:0; }
   }
 
   /* ================= NAV DROPDOWN ================= */
@@ -237,34 +265,30 @@
     opacity:0.75;
     line-height:1;
   }
+  /* Base móvil: panel estático dentro del menú desplegable */
   .nav-dropdown-panel{
-    position:absolute;
-    top:calc(100% + 10px);
-    left:0;
-    min-width:220px;
-    background:var(--card);
-    border:1px solid var(--line);
-    border-radius:12px;
-    box-shadow:0 16px 40px -20px rgba(31,27,22,.35);
-    padding:8px;
+    position:static;
+    top:auto;
+    left:auto;
+    min-width:0;
+    background:transparent;
+    border:none;
+    border-radius:0;
+    box-shadow:none;
+    padding:0 0 0 16px;
     display:flex;
     flex-direction:column;
     gap:2px;
-    opacity:0;
-    visibility:hidden;
-    transform:translateY(-4px);
-    transition:opacity .12s, transform .12s, visibility .12s;
-    z-index:60;
-  }
-  .nav-dropdown:hover > .nav-dropdown-panel,
-  .nav-dropdown:focus-within > .nav-dropdown-panel{
     opacity:1;
     visibility:visible;
-    transform:translateY(0);
+    transform:none;
+    transition:none;
+    z-index:60;
+    margin-top:4px;
   }
   .nav-dropdown-panel a{
     display:block;
-    padding:10px 14px;
+    padding:8px 0;
     border-radius:8px;
     font-size:0.9rem;
     color:var(--ink-soft);
@@ -698,7 +722,7 @@
   /* ================= WHATSAPP FLOAT (T-021) ================= */
   .wa-float{
     position:fixed;
-    bottom:24px;
+    bottom:32px;
     right:24px;
     z-index:100;
     width:60px;
@@ -719,7 +743,7 @@
     .wa-float{
       width:56px;
       height:56px;
-      bottom:20px;
+      bottom:32px;
       right:16px;
       z-index:1000;
     }
