@@ -174,6 +174,15 @@
     color:var(--accent);
     background:var(--bg-soft);
   }
+  /* T-051: parpadeo del "Blog" al hacer clic. Los estados :visited y :active
+     heredaban del navegador (color transparente) y la transición .2s hacía
+     que el texto se desvaneciera durante la navegación. Fijamos color estable
+     y desactivamos la transición en estos estados. */
+  .nav-links > a:visited,
+  .nav-links > a:active {
+    color: var(--ink-soft);
+    transition: none;
+  }
   /* CTA WhatsApp del nav oculto: redundante con .wa-float (decisión del humano).
      El markup queda intacto; para restaurar, cambiar display:none por display:inline-flex. */
   .nav-cta{
