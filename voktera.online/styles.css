@@ -152,19 +152,28 @@
     background:var(--card);
     border-bottom:1px solid var(--line);
     padding:16px 24px;
-    box-shadow:0 12px 24px -16px rgba(31,27,22,.25);
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
     z-index:1000;
     font-size:0.9rem;
     font-weight:500;
   }
   .nav-toggle:checked ~ .nav-links{ display:flex; }
-  .nav-links a{
+  /* Ítems del menú móvil: sin líneas, con hover tipo píldora */
+  .nav-links > a,
+  .nav-dropdown > .nav-dropdown-toggle{
+    display:block;
     text-decoration:none;
     color:var(--ink-soft);
-    transition:color .2s ease;
-    padding:12px 0;
+    transition:color .2s ease, background .2s ease;
+    padding:14px 12px;
+    border-radius:10px;
+    margin:0 -12px;
   }
-  .nav-links a:hover{ color:var(--accent); }
+  .nav-links > a:hover,
+  .nav-dropdown > .nav-dropdown-toggle:hover{
+    color:var(--accent);
+    background:var(--bg-soft);
+  }
   /* CTA WhatsApp del nav oculto: redundante con .wa-float (decisión del humano).
      El markup queda intacto; para restaurar, cambiar display:none por display:inline-flex. */
   .nav-cta{
@@ -179,15 +188,16 @@
     height:44px;
     flex-direction:column;
     justify-content:center;
+    align-items:center;
     gap:5px;
-    background:var(--bg-soft);
+    background:transparent;
     border:none;
     border-radius:10px;
     padding:0;
     margin-left:auto;
     transition:background .15s ease;
   }
-  .nav-burger:hover{ background:var(--line); }
+  .nav-burger:hover{ background:var(--bg-soft); }
   .nav-burger span{
     display:block;
     width:24px;
@@ -213,6 +223,21 @@
       box-shadow:none;
     }
     .nav-links a{ padding:0; }
+    .nav-links > a,
+    .nav-links > .nav-dropdown{
+      margin:0;
+      border-radius:0;
+      background:none;
+    }
+    .nav-links > a:hover{ background:none; }
+    .nav-dropdown > .nav-dropdown-toggle{
+      display:inline-flex;
+      width:auto;
+      padding:0;
+      margin:0;
+      border-radius:0;
+    }
+    .nav-dropdown > .nav-dropdown-toggle:hover{ background:none; }
     .nav-cta{ align-self:auto; margin-top:0; }
   }
 
@@ -221,7 +246,8 @@
     position:relative;
   }
   .nav-dropdown > .nav-dropdown-toggle{
-    display:inline-flex;
+    display:flex;
+    width:100%;
     align-items:center;
     gap:6px;
     cursor:pointer;
@@ -229,7 +255,8 @@
     border:none;
     font:inherit;
     color:var(--ink-soft);
-    padding:0;
+    padding:14px 0;
+    text-align:left;
     transition:color .15s;
   }
   .nav-dropdown > .nav-dropdown-toggle:hover,
@@ -239,9 +266,15 @@
     font-size:0.75em;
     opacity:0.75;
     line-height:1;
+    display:inline-block;
+    transition:transform .25s ease;
+  }
+  .nav-dropdown.open > .nav-dropdown-toggle::after{
+    transform:rotate(180deg);
   }
   /* Base móvil: panel estático dentro del menú desplegable.
-     Acordeón: oculto por defecto; se abre al tocar "Servicios" (.open por nav.js). */
+     Acordeón animado: cerrado por max-height/opacity (display no es animable);
+     se abre al tocar "Servicios" (.open por nav.js). */
   .nav-dropdown-panel{
     position:static;
     top:auto;
@@ -251,21 +284,27 @@
     border:none;
     border-radius:0;
     box-shadow:none;
-    padding:0 0 0 16px;
-    display:none;
+    padding:4px 0 8px 16px;
+    display:flex;
     flex-direction:column;
     gap:2px;
-    opacity:1;
+    max-height:0;
+    opacity:0;
+    overflow:hidden;
     visibility:visible;
     transform:none;
-    transition:none;
+    transition:max-height .3s ease, opacity .25s ease, margin-top .3s ease;
     z-index:60;
+    margin-top:0;
+  }
+  .nav-dropdown.open > .nav-dropdown-panel{
+    max-height:320px;
+    opacity:1;
     margin-top:4px;
   }
-  .nav-dropdown.open > .nav-dropdown-panel{ display:flex; }
   .nav-dropdown-panel a{
     display:block;
-    padding:8px 0;
+    padding:12px 0;
     border-radius:8px;
     font-size:0.9rem;
     color:var(--ink-soft);
@@ -304,9 +343,12 @@
       box-shadow:0 10px 30px rgba(0,0,0,.08);
       padding:12px;
       display:flex;
+      max-height:none;
+      overflow:visible;
       opacity:0;
       visibility:hidden;
       transform:translateY(-4px);
+      transition:opacity .2s ease, transform .2s ease, visibility .2s;
       margin-top:0;
     }
     /* Flecha apuntando al botón Servicios */

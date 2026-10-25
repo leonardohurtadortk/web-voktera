@@ -4,7 +4,7 @@
  * - Clic en el botón: abre/cierra (.open + aria-expanded).
  * - Clic fuera del dropdown: cierra.
  * - Teclado: Enter/Espacio alternan, Escape cierra y devuelve foco al botón.
- * - Hover sigue funcionando por CSS en escritorio.
+ * - Escritorio (>=900px): hover por JS (mouseenter abre; mouseleave cierra si el foco no está dentro).
  * Sin dependencias. Cargar con <script src=".../nav.js" defer>.
  */
 (function () {
@@ -13,6 +13,8 @@
   function init() {
     var dropdowns = document.querySelectorAll('.nav-dropdown');
     if (!dropdowns.length) return;
+
+    var desktopMQ = window.matchMedia('(min-width: 900px)');
 
     dropdowns.forEach(function (dropdown) {
       var toggle = dropdown.querySelector('.nav-dropdown-toggle');
@@ -40,6 +42,22 @@
         } else {
           open();
         }
+      });
+
+      // Escritorio (>=900px): hover por JS. En móvil/táctil no se activa.
+      dropdown.addEventListener('mouseenter', function () {
+        if (desktopMQ.matches) open();
+      });
+      dropdown.addEventListener('mouseleave', function () {
+        if (!desktopMQ.matches) return;
+        if (dropdown.contains(document.activeElement)) return;
+        close();
+      });
+
+      // Al salir el foco del dropdown (Tab, clic fuera), cerrar.
+      dropdown.addEventListener('focusout', function (event) {
+        var next = event.relatedTarget;
+        if (!next || !dropdown.contains(next)) close();
       });
 
       // Teclado: Enter/Espacio ya disparan click en <button>,

@@ -39,18 +39,6 @@
   ],
   "docs/tasks/T-014.md": [
     {
-      "id": "T-014",
-      "type": "task",
-      "title": "Migrar CSS de Desktop-First a Mobile-First (deuda técnica CTR-001)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "in_progress",
-      "source": "tasks/T-014.md",
-      "category": "mejora",
-      "parent": "",
-      "epic_task": "",
-      "archived": false
-    },
-    {
       "id": "SESSION-2026-10-25-3",
       "type": "session",
       "title": "Sesion Claude-001 (2026-10-23)",
@@ -97,45 +85,21 @@
       "parent": "T-018",
       "epic_task": "",
       "archived": false
-    }
-  ],
-  "voktera.online/styles.css": [
+    },
     {
       "id": "T-014",
       "type": "task",
       "title": "Migrar CSS de Desktop-First a Mobile-First (deuda técnica CTR-001)",
       "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "in_progress",
-      "source": "tasks/T-014.md",
+      "status": "completed",
+      "source": "tasks/history/T-014.md",
       "category": "mejora",
       "parent": "",
       "epic_task": "",
       "archived": false
-    },
-    {
-      "id": "T-036",
-      "type": "task",
-      "title": "Migrar nav/burger/dropdown a mobile-first (max-width 900px → min-width)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "in_progress",
-      "source": "tasks/T-036.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "T-037",
-      "type": "task",
-      "title": "Migrar hero-grid/hero-media/hero-gallery a mobile-first (max-width 900px → min-width)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "in_progress",
-      "source": "tasks/T-037.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
+    }
+  ],
+  "voktera.online/styles.css": [
     {
       "id": "T-021",
       "type": "task",
@@ -231,18 +195,6 @@
       "parent": "",
       "epic_task": "",
       "archived": true
-    },
-    {
-      "id": "MOD-009",
-      "type": "module",
-      "title": "voktera.online/styles.css — Hoja compartida mobile-first del sitio VOKTERA",
-      "summary": "- `adn familia <ruta>` → ver conocimiento vinculado a la ruta. - `adn arbol <ruta>` → ver jerarquía del módulo. - `adn crear modulo \"...\" --scope <ruta>` → crear MOD. - Si el módulo cuelga de una carp",
-      "status": "active",
-      "source": "modules/MOD-009.md",
-      "category": "",
-      "parent": "MOD-002",
-      "epic_task": "",
-      "archived": false
     },
     {
       "id": "SESSION-2026-10-24-5",
@@ -363,6 +315,56 @@
       "parent": "T-018",
       "epic_task": "",
       "archived": false
+    },
+    {
+      "id": "MOD-009",
+      "type": "module",
+      "title": "voktera.online/styles.css — Hoja compartida mobile-first del sitio VOKTERA",
+      "summary": "- `adn familia <ruta>` → ver conocimiento vinculado a la ruta. - `adn arbol <ruta>` → ver jerarquía del módulo. - `adn crear modulo \"...\" --scope <ruta>` → crear MOD. - Si el módulo cuelga de una carp",
+      "status": "active",
+      "source": "modules/MOD-009.md",
+      "category": "documentacion",
+      "parent": "MOD-002",
+      "epic_task": "",
+      "archived": false,
+      "updated_by": "DeepSeek-009",
+      "updated_at": "2026-10-25T04:59:36Z"
+    },
+    {
+      "id": "T-037",
+      "type": "task",
+      "title": "Migrar hero-grid/hero-media/hero-gallery a mobile-first (max-width 900px → min-width)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-037.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "T-036",
+      "type": "task",
+      "title": "Migrar nav/burger/dropdown a mobile-first (max-width 900px → min-width)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-036.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "T-014",
+      "type": "task",
+      "title": "Migrar CSS de Desktop-First a Mobile-First (deuda técnica CTR-001)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-014.md",
+      "category": "mejora",
+      "parent": "",
+      "epic_task": "",
+      "archived": false
     }
   ],
   "docs/tasks/T-032.md": [
@@ -437,18 +439,6 @@
       "source": "tasks/T-032.md",
       "category": "arquitectura",
       "parent": "",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "T-049",
-      "type": "task",
-      "title": "Implementar toggle JS para dropdown del nav en PC",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "in_progress",
-      "source": "tasks/T-049.md",
-      "category": "mejora",
-      "parent": "T-036",
       "epic_task": "",
       "archived": false
     },
@@ -655,6 +645,18 @@
       "parent": "",
       "epic_task": "",
       "archived": false
+    },
+    {
+      "id": "T-049",
+      "type": "task",
+      "title": "Implementar toggle JS para dropdown del nav en PC",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-049.md",
+      "category": "mejora",
+      "parent": "T-036",
+      "epic_task": "",
+      "archived": false
     }
   ],
   "docs/tasks/T-036.md": [
@@ -663,8 +665,8 @@
       "type": "task",
       "title": "Migrar nav/burger/dropdown a mobile-first (max-width 900px → min-width)",
       "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "in_progress",
-      "source": "tasks/T-036.md",
+      "status": "completed",
+      "source": "tasks/history/T-036.md",
       "category": "mejora",
       "parent": "T-014",
       "epic_task": "",
@@ -677,8 +679,8 @@
       "type": "task",
       "title": "Migrar hero-grid/hero-media/hero-gallery a mobile-first (max-width 900px → min-width)",
       "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "in_progress",
-      "source": "tasks/T-037.md",
+      "status": "completed",
+      "source": "tasks/history/T-037.md",
       "category": "mejora",
       "parent": "T-014",
       "epic_task": "",
@@ -691,8 +693,8 @@
       "type": "task",
       "title": "Implementar toggle JS para dropdown del nav en PC",
       "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "in_progress",
-      "source": "tasks/T-049.md",
+      "status": "completed",
+      "source": "tasks/history/T-049.md",
       "category": "mejora",
       "parent": "T-036",
       "epic_task": "",
@@ -783,18 +785,6 @@
       "source": "modules/MOD-001.md",
       "category": "",
       "parent": "MOD-002",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "CTR-001",
-      "type": "contract",
-      "title": "Estándar de Diseño Responsive y UX",
-      "summary": "Define el estándar de diseño responsive y experiencia de usuario para el sitio `voktera.online` y sus futuras landings (verticales y zonas). Garantiza comportamiento consistente en móvil, tablet y esc",
-      "status": "active",
-      "source": "contracts/CTR-001.md",
-      "category": "",
-      "parent": "",
       "epic_task": "",
       "archived": false
     },
@@ -941,6 +931,20 @@
       "parent": "T-018",
       "epic_task": "",
       "archived": false
+    },
+    {
+      "id": "CTR-001",
+      "type": "contract",
+      "title": "Estándar de Diseño Responsive y UX",
+      "summary": "Define el estándar de diseño responsive y experiencia de usuario para el sitio `voktera.online` y sus futuras landings (verticales y zonas). Garantiza comportamiento consistente en móvil, tablet y esc",
+      "status": "active",
+      "source": "contracts/CTR-001.md",
+      "category": "arquitectura",
+      "parent": "",
+      "epic_task": "",
+      "archived": false,
+      "updated_by": "DeepSeek-009",
+      "updated_at": "2026-10-25T05:00:24Z"
     }
   ],
   "docs/tasks/T-002.md": [
@@ -3709,10 +3713,12 @@
       "summary": "- `adn familia <ruta>` → ver conocimiento vinculado a la ruta. - `adn arbol <ruta>` → ver jerarquía del módulo. - `adn crear modulo \"...\" --scope <ruta>` → crear MOD. - Si el módulo cuelga de una carp",
       "status": "active",
       "source": "modules/MOD-009.md",
-      "category": "",
+      "category": "documentacion",
       "parent": "MOD-002",
       "epic_task": "",
-      "archived": false
+      "archived": false,
+      "updated_by": "DeepSeek-009",
+      "updated_at": "2026-10-25T04:59:36Z"
     }
   ],
   "docs/modules/MOD-010.md": [
@@ -3723,10 +3729,12 @@
       "summary": "- `adn familia <ruta>` → ver conocimiento vinculado a la ruta. - `adn arbol <ruta>` → ver jerarquía del módulo. - `adn crear modulo \"...\" --scope <ruta>` → crear MOD. - Si el módulo cuelga de una carp",
       "status": "active",
       "source": "modules/MOD-010.md",
-      "category": "",
+      "category": "mejora",
       "parent": "MOD-002",
       "epic_task": "",
-      "archived": false
+      "archived": false,
+      "updated_by": "Claude-005",
+      "updated_at": "2026-10-25T05:04:06Z"
     }
   ],
   "voktera.online/nav.js": [
@@ -3737,10 +3745,12 @@
       "summary": "- `adn familia <ruta>` → ver conocimiento vinculado a la ruta. - `adn arbol <ruta>` → ver jerarquía del módulo. - `adn crear modulo \"...\" --scope <ruta>` → crear MOD. - Si el módulo cuelga de una carp",
       "status": "active",
       "source": "modules/MOD-010.md",
-      "category": "",
+      "category": "mejora",
       "parent": "MOD-002",
       "epic_task": "",
-      "archived": false
+      "archived": false,
+      "updated_by": "Claude-005",
+      "updated_at": "2026-10-25T05:04:06Z"
     }
   ],
   "docs/flows/FLW-001.md": [
@@ -3782,18 +3792,6 @@
     }
   ],
   "docs/contracts/CTR-001.md": [
-    {
-      "id": "CTR-001",
-      "type": "contract",
-      "title": "Estándar de Diseño Responsive y UX",
-      "summary": "Define el estándar de diseño responsive y experiencia de usuario para el sitio `voktera.online` y sus futuras landings (verticales y zonas). Garantiza comportamiento consistente en móvil, tablet y esc",
-      "status": "active",
-      "source": "contracts/CTR-001.md",
-      "category": "",
-      "parent": "",
-      "epic_task": "",
-      "archived": false
-    },
     {
       "id": "SESSION-2026-10-24-2",
       "type": "session",
@@ -3841,6 +3839,20 @@
       "parent": "T-018",
       "epic_task": "",
       "archived": false
+    },
+    {
+      "id": "CTR-001",
+      "type": "contract",
+      "title": "Estándar de Diseño Responsive y UX",
+      "summary": "Define el estándar de diseño responsive y experiencia de usuario para el sitio `voktera.online` y sus futuras landings (verticales y zonas). Garantiza comportamiento consistente en móvil, tablet y esc",
+      "status": "active",
+      "source": "contracts/CTR-001.md",
+      "category": "arquitectura",
+      "parent": "",
+      "epic_task": "",
+      "archived": false,
+      "updated_by": "DeepSeek-009",
+      "updated_at": "2026-10-25T05:00:24Z"
     }
   ],
   "docs/contracts/CTR-002.md": [

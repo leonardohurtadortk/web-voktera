@@ -1,8 +1,8 @@
 {
   "project_root": "/mnt/disco_hdd/work/workspace/apps/web-voktera",
   "total_files": 130,
-  "total_loc": 21395,
-  "max_mtime": 1792904335.5879068,
+  "total_loc": 21492,
+  "max_mtime": 1792905706.5450003,
   "completo": true,
   "files": {
     "human_backlog.md": {
@@ -36,7 +36,7 @@
       "path": "docs/.knowledge_index.json",
       "language": "json",
       "framework": null,
-      "lines": 4512,
+      "lines": 4524,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -216,7 +216,7 @@
       "path": "docs/contracts/CTR-001.md",
       "language": "markdown",
       "framework": null,
-      "lines": 100,
+      "lines": 103,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -342,7 +342,7 @@
       "path": "docs/modules/MOD-009.md",
       "language": "markdown",
       "framework": null,
-      "lines": 74,
+      "lines": 79,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -351,7 +351,7 @@
       "path": "docs/modules/MOD-010.md",
       "language": "markdown",
       "framework": null,
-      "lines": 73,
+      "lines": 84,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -527,47 +527,11 @@
       "symbols": [],
       "imported_by": []
     },
-    "docs/tasks/T-014.md": {
-      "path": "docs/tasks/T-014.md",
-      "language": "markdown",
-      "framework": null,
-      "lines": 73,
-      "imports": [],
-      "symbols": [],
-      "imported_by": []
-    },
     "docs/tasks/T-032.md": {
       "path": "docs/tasks/T-032.md",
       "language": "markdown",
       "framework": null,
       "lines": 66,
-      "imports": [],
-      "symbols": [],
-      "imported_by": []
-    },
-    "docs/tasks/T-036.md": {
-      "path": "docs/tasks/T-036.md",
-      "language": "markdown",
-      "framework": null,
-      "lines": 72,
-      "imports": [],
-      "symbols": [],
-      "imported_by": []
-    },
-    "docs/tasks/T-037.md": {
-      "path": "docs/tasks/T-037.md",
-      "language": "markdown",
-      "framework": null,
-      "lines": 73,
-      "imports": [],
-      "symbols": [],
-      "imported_by": []
-    },
-    "docs/tasks/T-049.md": {
-      "path": "docs/tasks/T-049.md",
-      "language": "markdown",
-      "framework": null,
-      "lines": 78,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -694,6 +658,15 @@
       "language": "markdown",
       "framework": null,
       "lines": 61,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-014.md": {
+      "path": "docs/tasks/history/T-014.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 74,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -869,6 +842,24 @@
       "symbols": [],
       "imported_by": []
     },
+    "docs/tasks/history/T-036.md": {
+      "path": "docs/tasks/history/T-036.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-037.md": {
+      "path": "docs/tasks/history/T-037.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 76,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
     "docs/tasks/history/T-038.md": {
       "path": "docs/tasks/history/T-038.md",
       "language": "markdown",
@@ -968,6 +959,15 @@
       "symbols": [],
       "imported_by": []
     },
+    "docs/tasks/history/T-049.md": {
+      "path": "docs/tasks/history/T-049.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 79,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
     "docs/tasks/history/T-050.md": {
       "path": "docs/tasks/history/T-050.md",
       "language": "markdown",
@@ -1060,7 +1060,7 @@
       "path": "voktera.online/nav.js",
       "language": "javascript",
       "framework": null,
-      "lines": 83,
+      "lines": 101,
       "imports": [],
       "symbols": [
         {
@@ -1078,44 +1078,58 @@
           "docstring": null
         },
         {
+          "name": "desktopMQ",
+          "type": "function",
+          "line_start": 17,
+          "line_end": null,
+          "docstring": null
+        },
+        {
           "name": "toggle",
           "type": "function",
-          "line_start": 18,
+          "line_start": 20,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "open",
           "type": "function",
-          "line_start": 21,
+          "line_start": 23,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "close",
           "type": "function",
-          "line_start": 26,
+          "line_start": 28,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "isOpen",
           "type": "function",
-          "line_start": 31,
+          "line_start": 33,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "next",
+          "type": "function",
+          "line_start": 59,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "panel",
           "type": "function",
-          "line_start": 55,
+          "line_start": 73,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "toggle",
           "type": "function",
-          "line_start": 71,
+          "line_start": 89,
           "line_end": null,
           "docstring": null
         }
@@ -1144,7 +1158,7 @@
       "path": "voktera.online/styles.css",
       "language": "css",
       "framework": null,
-      "lines": 850,
+      "lines": 892,
       "imports": [],
       "symbols": [
         {
@@ -1253,240 +1267,240 @@
           "docstring": null
         },
         {
+          "name": ".nav-dropdown-toggle",
+          "type": "selector",
+          "line_start": 163,
+          "line_end": null,
+          "docstring": null
+        },
+        {
           "name": ".nav-cta",
           "type": "selector",
-          "line_start": 170,
+          "line_start": 179,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-toggle",
           "type": "selector",
-          "line_start": 174,
+          "line_start": 183,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-burger",
           "type": "selector",
-          "line_start": 175,
+          "line_start": 184,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-burger",
           "type": "selector",
-          "line_start": 203,
+          "line_start": 213,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-links",
           "type": "selector",
-          "line_start": 204,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".nav-cta",
-          "type": "selector",
-          "line_start": 216,
+          "line_start": 214,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown",
           "type": "selector",
-          "line_start": 220,
+          "line_start": 227,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-toggle",
           "type": "selector",
-          "line_start": 223,
+          "line_start": 233,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".nav-dropdown-panel",
+          "name": ".nav-cta",
           "type": "selector",
-          "line_start": 245,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".nav-dropdown-panel",
-          "type": "selector",
-          "line_start": 265,
+          "line_start": 241,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown",
           "type": "selector",
-          "line_start": 285,
+          "line_start": 245,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown-toggle",
+          "type": "selector",
+          "line_start": 248,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-panel",
           "type": "selector",
-          "line_start": 295,
+          "line_start": 278,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-panel",
           "type": "selector",
-          "line_start": 327,
+          "line_start": 300,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown",
+          "type": "selector",
+          "line_start": 324,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-panel",
           "type": "selector",
-          "line_start": 342,
+          "line_start": 334,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown-panel",
+          "type": "selector",
+          "line_start": 369,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown-panel",
+          "type": "selector",
+          "line_start": 384,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero",
           "type": "selector",
-          "line_start": 346,
+          "line_start": 388,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero-grid",
           "type": "selector",
-          "line_start": 352,
+          "line_start": 394,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero-grid",
           "type": "selector",
-          "line_start": 360,
+          "line_start": 402,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".single",
           "type": "selector",
-          "line_start": 362,
+          "line_start": 404,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".eyebrow",
           "type": "selector",
-          "line_start": 367,
+          "line_start": 409,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".dot",
           "type": "selector",
-          "line_start": 378,
+          "line_start": 420,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".accent",
           "type": "selector",
-          "line_start": 398,
+          "line_start": 440,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".lead",
           "type": "selector",
-          "line_start": 400,
+          "line_start": 442,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero-actions",
           "type": "selector",
-          "line_start": 407,
+          "line_start": 449,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".btn",
           "type": "selector",
-          "line_start": 413,
+          "line_start": 455,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".btn-primary",
           "type": "selector",
-          "line_start": 426,
+          "line_start": 468,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".btn-ghost",
           "type": "selector",
-          "line_start": 434,
+          "line_start": 476,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero-meta",
           "type": "selector",
-          "line_start": 445,
+          "line_start": 487,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".toolbox",
           "type": "selector",
-          "line_start": 459,
+          "line_start": 501,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".toolbox-label",
           "type": "selector",
-          "line_start": 466,
+          "line_start": 508,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".toolbox-grid",
           "type": "selector",
-          "line_start": 476,
+          "line_start": 518,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".compartment",
           "type": "selector",
-          "line_start": 481,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".compartment",
-          "type": "selector",
-          "line_start": 499,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".toolbox-grid",
-          "type": "selector",
-          "line_start": 505,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".icon",
-          "type": "selector",
-          "line_start": 514,
+          "line_start": 523,
           "line_end": null,
           "docstring": null
         },
@@ -1498,296 +1512,317 @@
           "docstring": null
         },
         {
+          "name": ".toolbox-grid",
+          "type": "selector",
+          "line_start": 547,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".icon",
+          "type": "selector",
+          "line_start": 556,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".compartment",
+          "type": "selector",
+          "line_start": 583,
+          "line_end": null,
+          "docstring": null
+        },
+        {
           "name": ".dot",
           "type": "selector",
-          "line_start": 542,
+          "line_start": 584,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".section",
           "type": "selector",
-          "line_start": 546,
+          "line_start": 588,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".section-head",
           "type": "selector",
-          "line_start": 550,
+          "line_start": 592,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".section-eyebrow",
           "type": "selector",
-          "line_start": 553,
+          "line_start": 595,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".section-title",
           "type": "selector",
-          "line_start": 561,
+          "line_start": 603,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".section-sub",
           "type": "selector",
-          "line_start": 568,
+          "line_start": 610,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".zones-grid",
           "type": "selector",
-          "line_start": 575,
+          "line_start": 617,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".zone-card",
           "type": "selector",
-          "line_start": 580,
+          "line_start": 622,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".zone-tag",
           "type": "selector",
-          "line_start": 591,
+          "line_start": 633,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".base",
           "type": "selector",
-          "line_start": 605,
+          "line_start": 647,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".zone-tag",
           "type": "selector",
-          "line_start": 609,
+          "line_start": 651,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".steps",
-          "type": "selector",
-          "line_start": 614,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".steps",
-          "type": "selector",
-          "line_start": 621,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".step",
-          "type": "selector",
-          "line_start": 623,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".step-line",
-          "type": "selector",
-          "line_start": 627,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".services-list",
-          "type": "selector",
-          "line_start": 647,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".service-row",
           "type": "selector",
           "line_start": 656,
           "line_end": null,
           "docstring": null
         },
         {
+          "name": ".steps",
+          "type": "selector",
+          "line_start": 663,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".step",
+          "type": "selector",
+          "line_start": 665,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".step-line",
+          "type": "selector",
+          "line_start": 669,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".services-list",
+          "type": "selector",
+          "line_start": 689,
+          "line_end": null,
+          "docstring": null
+        },
+        {
           "name": ".service-row",
           "type": "selector",
-          "line_start": 666,
+          "line_start": 698,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".service-row",
+          "type": "selector",
+          "line_start": 708,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".name",
           "type": "selector",
-          "line_start": 668,
+          "line_start": 710,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".items",
           "type": "selector",
-          "line_start": 673,
+          "line_start": 715,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".contact",
-          "type": "selector",
-          "line_start": 684,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".contact",
-          "type": "selector",
-          "line_start": 695,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".contact-inner",
-          "type": "selector",
-          "line_start": 706,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".contact-actions",
-          "type": "selector",
-          "line_start": 719,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".btn-primary",
           "type": "selector",
           "line_start": 726,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".btn-ghost",
+          "name": ".contact",
           "type": "selector",
-          "line_start": 730,
+          "line_start": 737,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".contact-hours",
+          "name": ".contact-inner",
           "type": "selector",
-          "line_start": 738,
+          "line_start": 748,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".footer-inner",
-          "type": "selector",
-          "line_start": 751,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".logo",
-          "type": "selector",
-          "line_start": 760,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".footer-links",
+          "name": ".contact-actions",
           "type": "selector",
           "line_start": 761,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".wa-float",
+          "name": ".btn-primary",
+          "type": "selector",
+          "line_start": 768,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".btn-ghost",
           "type": "selector",
           "line_start": 772,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".wa-float",
+          "name": ".contact-hours",
+          "type": "selector",
+          "line_start": 780,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".footer-inner",
           "type": "selector",
           "line_start": 793,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".wa-float",
+          "name": ".logo",
           "type": "selector",
           "line_start": 802,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".blog-index",
+          "name": ".footer-links",
           "type": "selector",
-          "line_start": 806,
+          "line_start": 803,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".blog-card-desc",
+          "name": ".wa-float",
           "type": "selector",
-          "line_start": 807,
+          "line_start": 814,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".blog-content",
+          "name": ".wa-float",
           "type": "selector",
-          "line_start": 808,
+          "line_start": 835,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".faq",
-          "type": "selector",
-          "line_start": 833,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".faq-item",
-          "type": "selector",
-          "line_start": 837,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".blog-cta",
-          "type": "selector",
-          "line_start": 843,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".footer-blog",
+          "name": ".wa-float",
           "type": "selector",
           "line_start": 844,
           "line_end": null,
           "docstring": null
         },
         {
-          "name": ".blog-content",
+          "name": ".blog-index",
           "type": "selector",
-          "line_start": 846,
+          "line_start": 848,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-card-desc",
+          "type": "selector",
+          "line_start": 849,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".blog-content",
           "type": "selector",
-          "line_start": 849,
+          "line_start": 850,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".faq",
+          "type": "selector",
+          "line_start": 875,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".faq-item",
+          "type": "selector",
+          "line_start": 879,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-cta",
+          "type": "selector",
+          "line_start": 885,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".footer-blog",
+          "type": "selector",
+          "line_start": 886,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-content",
+          "type": "selector",
+          "line_start": 888,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-content",
+          "type": "selector",
+          "line_start": 891,
           "line_end": null,
           "docstring": null
         }

@@ -35,8 +35,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -63,8 +63,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -137,8 +137,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -165,8 +165,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -366,8 +366,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -416,8 +416,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -989,6 +989,38 @@
                 }
               ],
               "hijos": []
+            },
+            {
+              "nombre": "MOD-009.md",
+              "artefactos": [
+                {
+                  "id": "MOD-009",
+                  "type": "module",
+                  "title": "voktera.online/styles.css — Hoja compartida mobile-first del sitio VOKTERA",
+                  "status": "active",
+                  "scope": [
+                    "voktera.online/styles.css",
+                    "docs/modules/MOD-009.md"
+                  ]
+                }
+              ],
+              "hijos": []
+            },
+            {
+              "nombre": "MOD-010.md",
+              "artefactos": [
+                {
+                  "id": "MOD-010",
+                  "type": "module",
+                  "title": "nav.js — Toggle accesible del dropdown de Servicios (clic + teclado)",
+                  "status": "active",
+                  "scope": [
+                    "docs/modules/MOD-010.md",
+                    "voktera.online/nav.js"
+                  ]
+                }
+              ],
+              "hijos": []
             }
           ]
         },
@@ -1276,78 +1308,6 @@
               "hijos": []
             },
             {
-              "nombre": "T-018.md",
-              "artefactos": [
-                {
-                  "id": "SESSION-2026-10-25",
-                  "type": "session",
-                  "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
-                  "status": "closed",
-                  "scope": [
-                    "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
-                    "voktera.online/index.html",
-                    "voktera.online/blog/llave-rota.html",
-                    "voktera.online/blog/precio-cerrajero.html",
-                    "voktera.online/cerrajero-valdemoro/index.html",
-                    "voktera.online/cerrajero-getafe/index.html",
-                    "voktera.online/cerrajero-leganes/index.html",
-                    "voktera.online/cerrajero-fuenlabrada/index.html",
-                    "voktera.online/cerrajero-parla/index.html",
-                    "voktera.online/cerrajero-pinto/index.html",
-                    "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
-                    "docs/modules/MOD-001.md",
-                    "docs/contracts/CTR-001.md",
-                    "docs/contracts/CTR-002.md",
-                    "voktera.online/cerrajeria/index.html",
-                    "voktera.online/mantenimiento/index.html",
-                    "voktera.online/muebles/index.html",
-                    "voktera.online/persianas/index.html",
-                    "voktera.online/blog/index.html"
-                  ]
-                },
-                {
-                  "id": "CHANGELOG-2026-10-25",
-                  "type": "changelog",
-                  "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
-                  "status": "closed",
-                  "scope": [
-                    "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
-                    "voktera.online/index.html",
-                    "voktera.online/blog/llave-rota.html",
-                    "voktera.online/blog/precio-cerrajero.html",
-                    "voktera.online/cerrajero-valdemoro/index.html",
-                    "voktera.online/cerrajero-getafe/index.html",
-                    "voktera.online/cerrajero-leganes/index.html",
-                    "voktera.online/cerrajero-fuenlabrada/index.html",
-                    "voktera.online/cerrajero-parla/index.html",
-                    "voktera.online/cerrajero-pinto/index.html",
-                    "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
-                    "docs/modules/MOD-001.md",
-                    "docs/contracts/CTR-001.md",
-                    "docs/contracts/CTR-002.md",
-                    "voktera.online/cerrajeria/index.html",
-                    "voktera.online/mantenimiento/index.html",
-                    "voktera.online/muebles/index.html",
-                    "voktera.online/persianas/index.html",
-                    "voktera.online/blog/index.html"
-                  ]
-                },
-                {
-                  "id": "T-018",
-                  "type": "task",
-                  "title": "WhatsApp coherente y nav unificado en todo el sitio (11 páginas)",
-                  "status": "pending",
-                  "scope": [
-                    "docs/tasks/T-018.md",
-                    "voktera.online/"
-                  ]
-                }
-              ],
-              "hijos": []
-            },
-            {
               "nombre": "T-032.md",
               "artefactos": [
                 {
@@ -1402,8 +1362,8 @@
                   "title": "Definir arquitectura de 'Cómo trabajamos' (página independiente o sección en Home)",
                   "status": "pending",
                   "scope": [
-                    "voktera.online/",
-                    "docs/tasks/T-032.md"
+                    "docs/tasks/T-032.md",
+                    "voktera.online/"
                   ]
                 }
               ],
@@ -1442,93 +1402,13 @@
               "hijos": []
             },
             {
-              "nombre": "T-038.md",
-              "artefactos": [
-                {
-                  "id": "T-038",
-                  "type": "task",
-                  "title": "Migrar toolbox/compartment a mobile-first (max-width 600px → min-width)",
-                  "status": "in_progress",
-                  "scope": [
-                    "voktera.online/styles.css",
-                    "docs/tasks/T-038.md"
-                  ]
-                }
-              ],
-              "hijos": []
-            },
-            {
-              "nombre": "T-039.md",
-              "artefactos": [
-                {
-                  "id": "T-039",
-                  "type": "task",
-                  "title": "Migrar steps a mobile-first (max-width 800px → min-width)",
-                  "status": "pending",
-                  "scope": [
-                    "voktera.online/styles.css",
-                    "docs/tasks/T-039.md"
-                  ]
-                }
-              ],
-              "hijos": []
-            },
-            {
-              "nombre": "T-040.md",
-              "artefactos": [
-                {
-                  "id": "T-040",
-                  "type": "task",
-                  "title": "Migrar service-row a mobile-first (max-width 700px → min-width)",
-                  "status": "pending",
-                  "scope": [
-                    "voktera.online/styles.css",
-                    "docs/tasks/T-040.md"
-                  ]
-                }
-              ],
-              "hijos": []
-            },
-            {
-              "nombre": "T-041.md",
-              "artefactos": [
-                {
-                  "id": "T-041",
-                  "type": "task",
-                  "title": "Migrar contact a mobile-first (max-width 600px → min-width)",
-                  "status": "pending",
-                  "scope": [
-                    "voktera.online/styles.css",
-                    "docs/tasks/T-041.md"
-                  ]
-                }
-              ],
-              "hijos": []
-            },
-            {
-              "nombre": "T-042.md",
-              "artefactos": [
-                {
-                  "id": "T-042",
-                  "type": "task",
-                  "title": "Migrar wa-float + blog-content a mobile-first (max-width 600px → min-width)",
-                  "status": "pending",
-                  "scope": [
-                    "voktera.online/styles.css",
-                    "docs/tasks/T-042.md"
-                  ]
-                }
-              ],
-              "hijos": []
-            },
-            {
               "nombre": "T-049.md",
               "artefactos": [
                 {
                   "id": "T-049",
                   "type": "task",
                   "title": "Implementar toggle JS para dropdown del nav en PC",
-                  "status": "pending",
+                  "status": "in_progress",
                   "scope": [
                     "voktera.online/",
                     "docs/tasks/T-049.md"
@@ -1555,30 +1435,20 @@
       "nombre": "voktera.online",
       "artefactos": [
         {
-          "id": "T-018",
-          "type": "task",
-          "title": "WhatsApp coherente y nav unificado en todo el sitio (11 páginas)",
-          "status": "pending",
-          "scope": [
-            "docs/tasks/T-018.md",
-            "voktera.online/"
-          ]
-        },
-        {
           "id": "T-032",
           "type": "task",
           "title": "Definir arquitectura de 'Cómo trabajamos' (página independiente o sección en Home)",
           "status": "pending",
           "scope": [
-            "voktera.online/",
-            "docs/tasks/T-032.md"
+            "docs/tasks/T-032.md",
+            "voktera.online/"
           ]
         },
         {
           "id": "T-049",
           "type": "task",
           "title": "Implementar toggle JS para dropdown del nav en PC",
-          "status": "pending",
+          "status": "in_progress",
           "scope": [
             "voktera.online/",
             "docs/tasks/T-049.md"
@@ -1689,8 +1559,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -1775,8 +1645,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -1895,8 +1765,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -1981,8 +1851,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -2101,8 +1971,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -2187,8 +2057,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -2288,8 +2158,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -2338,8 +2208,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -2444,8 +2314,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -2538,8 +2408,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -2678,8 +2548,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -2772,8 +2642,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -2912,8 +2782,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -3006,8 +2876,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -3146,8 +3016,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -3240,8 +3110,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -3380,8 +3250,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -3474,8 +3344,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -3614,8 +3484,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -3708,8 +3578,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -3848,8 +3718,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -3942,8 +3812,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -4097,8 +3967,8 @@
               "status": "closed",
               "scope": [
                 "voktera.online/styles.css",
-                "docs/tasks/T-018.md",
                 "voktera.online/index.html",
+                "docs/tasks/T-018.md",
                 "voktera.online/blog/llave-rota.html",
                 "voktera.online/blog/precio-cerrajero.html",
                 "voktera.online/cerrajero-valdemoro/index.html",
@@ -4205,8 +4075,8 @@
               "status": "closed",
               "scope": [
                 "voktera.online/styles.css",
-                "docs/tasks/T-018.md",
                 "voktera.online/index.html",
+                "docs/tasks/T-018.md",
                 "voktera.online/blog/llave-rota.html",
                 "voktera.online/blog/precio-cerrajero.html",
                 "voktera.online/cerrajero-valdemoro/index.html",
@@ -4316,8 +4186,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -4366,8 +4236,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -4467,8 +4337,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -4517,8 +4387,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -4542,6 +4412,22 @@
               "hijos": []
             }
           ]
+        },
+        {
+          "nombre": "nav.js",
+          "artefactos": [
+            {
+              "id": "MOD-010",
+              "type": "module",
+              "title": "nav.js — Toggle accesible del dropdown de Servicios (clic + teclado)",
+              "status": "active",
+              "scope": [
+                "docs/modules/MOD-010.md",
+                "voktera.online/nav.js"
+              ]
+            }
+          ],
+          "hijos": []
         },
         {
           "nombre": "persianas",
@@ -4590,8 +4476,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -4640,8 +4526,8 @@
                   "status": "closed",
                   "scope": [
                     "voktera.online/styles.css",
-                    "docs/tasks/T-018.md",
                     "voktera.online/index.html",
+                    "docs/tasks/T-018.md",
                     "voktera.online/blog/llave-rota.html",
                     "voktera.online/blog/precio-cerrajero.html",
                     "voktera.online/cerrajero-valdemoro/index.html",
@@ -4808,53 +4694,13 @@
               ]
             },
             {
-              "id": "T-038",
-              "type": "task",
-              "title": "Migrar toolbox/compartment a mobile-first (max-width 600px → min-width)",
-              "status": "in_progress",
+              "id": "MOD-009",
+              "type": "module",
+              "title": "voktera.online/styles.css — Hoja compartida mobile-first del sitio VOKTERA",
+              "status": "active",
               "scope": [
                 "voktera.online/styles.css",
-                "docs/tasks/T-038.md"
-              ]
-            },
-            {
-              "id": "T-039",
-              "type": "task",
-              "title": "Migrar steps a mobile-first (max-width 800px → min-width)",
-              "status": "pending",
-              "scope": [
-                "voktera.online/styles.css",
-                "docs/tasks/T-039.md"
-              ]
-            },
-            {
-              "id": "T-040",
-              "type": "task",
-              "title": "Migrar service-row a mobile-first (max-width 700px → min-width)",
-              "status": "pending",
-              "scope": [
-                "voktera.online/styles.css",
-                "docs/tasks/T-040.md"
-              ]
-            },
-            {
-              "id": "T-041",
-              "type": "task",
-              "title": "Migrar contact a mobile-first (max-width 600px → min-width)",
-              "status": "pending",
-              "scope": [
-                "voktera.online/styles.css",
-                "docs/tasks/T-041.md"
-              ]
-            },
-            {
-              "id": "T-042",
-              "type": "task",
-              "title": "Migrar wa-float + blog-content a mobile-first (max-width 600px → min-width)",
-              "status": "pending",
-              "scope": [
-                "voktera.online/styles.css",
-                "docs/tasks/T-042.md"
+                "docs/modules/MOD-009.md"
               ]
             },
             {
@@ -4944,8 +4790,8 @@
               "status": "closed",
               "scope": [
                 "voktera.online/styles.css",
-                "docs/tasks/T-018.md",
                 "voktera.online/index.html",
+                "docs/tasks/T-018.md",
                 "voktera.online/blog/llave-rota.html",
                 "voktera.online/blog/precio-cerrajero.html",
                 "voktera.online/cerrajero-valdemoro/index.html",
@@ -5052,8 +4898,8 @@
               "status": "closed",
               "scope": [
                 "voktera.online/styles.css",
-                "docs/tasks/T-018.md",
                 "voktera.online/index.html",
+                "docs/tasks/T-018.md",
                 "voktera.online/blog/llave-rota.html",
                 "voktera.online/blog/precio-cerrajero.html",
                 "voktera.online/cerrajero-valdemoro/index.html",

@@ -1,6 +1,6 @@
 {
   "session_id": "DeepSeek-010",
-  "status": "activa",
+  "status": "cerrada",
   "ia_profile": "deepseek",
   "max_chars": 40000,
   "goal": "T-018: WhatsApp coherente y nav unificado en todo el sitio (11 páginas)",
@@ -681,7 +681,8 @@
     "T-042",
     "T-045"
   ],
-  "force_secuencia": true,
+  "force_secuencia": false,
   "fase_guardado": 2,
-  "ideas_debates_reviewed": true
+  "ideas_debates_reviewed": true,
+  "closed": "2026-10-25T04:59:18.278164+00:00"
 }

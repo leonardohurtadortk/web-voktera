@@ -28,7 +28,8 @@
     "voktera.online/cerrajero-parla/index.html",
     "voktera.online/cerrajero-pinto/index.html",
     "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
-    "docs/modules/MOD-010.md"
+    "docs/modules/MOD-010.md",
+    "docs/tasks/T-049.md"
   ],
   "steps": [
     {
@@ -561,10 +562,154 @@
       "file": "voktera.online/nav.js",
       "task": null,
       "description": "lectura en voktera.online/nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T05:00:06.067090+00:00",
+      "operation": "ver",
+      "description": "ver MOD-010",
+      "file": "MOD-010"
+    },
+    {
+      "timestamp": "2026-10-25T05:00:06.075440+00:00",
+      "operation": "lectura",
+      "file": "MOD-010",
+      "task": null,
+      "description": "lectura en MOD-010"
+    },
+    {
+      "timestamp": "2026-10-25T05:00:39.792533+00:00",
+      "operation": "ayuda",
+      "description": "ayuda editar",
+      "file": "editar"
+    },
+    {
+      "timestamp": "2026-10-25T05:01:22.480638+00:00",
+      "operation": "reemplazar",
+      "file": "voktera.online/nav.js",
+      "task": null,
+      "description": "reemplazar en voktera.online/nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T05:01:22.628450+00:00",
+      "operation": "reemplazar",
+      "file": "voktera.online/nav.js",
+      "task": null,
+      "description": "reemplazar en voktera.online/nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T05:01:22.775776+00:00",
+      "operation": "reemplazar",
+      "file": "voktera.online/nav.js",
+      "task": null,
+      "description": "reemplazar en voktera.online/nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T05:03:16.114929+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/nav.js",
+      "file": "voktera.online/nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T05:03:16.125348+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/nav.js",
+      "task": null,
+      "description": "lectura en voktera.online/nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T05:03:55.229697+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T05:04:06.545246+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T05:04:06.895584+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T05:04:26.617812+00:00",
+      "operation": "descartar",
+      "description": "descartar 02aff61128",
+      "file": "02aff61128"
+    },
+    {
+      "timestamp": "2026-10-25T05:04:26.619292+00:00",
+      "operation": "completar",
+      "description": "completar T-049",
+      "file": "T-049"
+    },
+    {
+      "timestamp": "2026-10-25T05:08:20.508452+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-049.md absorbido_en MOD-010",
+      "file": "docs/tasks/T-049.md"
+    },
+    {
+      "timestamp": "2026-10-25T05:08:26.575305+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-049.md set absorbido_en=MOD-010",
+      "file": "docs/tasks/T-049.md"
+    },
+    {
+      "timestamp": "2026-10-25T05:08:33.091727+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-049.md",
+      "task": "T-049",
+      "description": "confirmar en docs/tasks/T-049.md (relacionado con T-049)"
+    },
+    {
+      "timestamp": "2026-10-25T05:10:58.934665+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 T-049 COMPLETADA y archivada. Resumen final: (1) nav.js creado con toggle clic + hover JS gated por matchMedia(min-width:900px) + focusout + Escape + aria-expanded; (2) <script> en las 15 páginas (home=nav.js, subcarpetas=../nav.js); (3) MOD-010 documenta el módulo y absorbe el conocimiento (absorbido_en=MOD-010). El humano validó escritorio/tablet/móvil (clic, hover, teclado, acordeón). Listo para auditoría de Claude-003. T-036 y T-014 quedan desbloqueadas del lado JS.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T05:10:58.959243+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-009 T-049 COMPLETADA. nav.js final: toggle clic (móvil+desktop), hover por JS gated por matchMedia('(min-width:900px)').matches con mouseenter/mouseleave, mouseleave respeta document.activeElement, focusout cierra al salir foco, Escape con retorno de foco, clic-fuera. Coherente con tu CSS: .nav-dropdown.open > .nav-dropdown-panel (línea 307) como única regla de estado. El humano ya validó todo (escritorio/tablet/móvil). Podés cerrar T-036. Gracias por el fix del @media duplicado.",
+      "file": "DeepSeek-009"
+    },
+    {
+      "timestamp": "2026-10-25T05:11:06.616676+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T05:23:05.698048+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T05:27:38.192677+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T05:28:11.600777+00:00",
+      "operation": "ideas",
+      "description": "ideas "
+    },
+    {
+      "timestamp": "2026-10-25T05:28:11.616722+00:00",
+      "operation": "debate",
+      "description": "debate "
     }
   ],
   "started": "2026-10-25T03:44:44.217556+00:00",
-  "last_activity": "2026-10-25T04:58:08Z",
+  "last_activity": "2026-10-25T05:08:33Z",
   "pasos_flujo_vistos": [
     "ia_guide",
     "readme",
@@ -652,7 +797,29 @@
       "scope": null,
       "tarea": null,
       "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "T-049 COMPLETADA y archivada. Resumen final: (1) nav.js creado con toggle clic + hover JS gated por matchMedia(min-width:900px) + focusout + Escape + aria-expanded; (2) <script> en las 15 páginas (home=nav.js, subcarpetas=../nav.js); (3) MOD-010 documenta el módulo y absorbe el conocimiento (absorbido_en=MOD-010). El humano validó escritorio/tablet/móvil (clic, hover, teclado, acordeón). Listo para auditoría de Claude-003. T-036 y T-014 quedan desbloqueadas del lado JS.",
+      "timestamp": "2026-10-25T05:10:58.949430+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-009",
+      "texto": "T-049 COMPLETADA. nav.js final: toggle clic (móvil+desktop), hover por JS gated por matchMedia('(min-width:900px)').matches con mouseenter/mouseleave, mouseleave respeta document.activeElement, focusout cierra al salir foco, Escape con retorno de foco, clic-fuera. Coherente con tu CSS: .nav-dropdown.open > .nav-dropdown-panel (línea 307) como única regla de estado. El humano ya validó todo (escritorio/tablet/móvil). Podés cerrar T-036. Gracias por el fix del @media duplicado.",
+      "timestamp": "2026-10-25T05:10:58.970856+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
     }
   ],
-  "aviso_punto_espacio": true
+  "aviso_punto_espacio": true,
+  "tareas_completadas": 1,
+  "ideas_debates_reviewed": true
 }
