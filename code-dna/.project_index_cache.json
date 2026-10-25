@@ -1,0 +1,2526 @@
+{
+  "project_root": "/mnt/disco_hdd/work/workspace/apps/web-voktera",
+  "total_files": 130,
+  "total_loc": 21395,
+  "max_mtime": 1792904335.5879068,
+  "completo": true,
+  "files": {
+    "human_backlog.md": {
+      "path": "human_backlog.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 7,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "README.md": {
+      "path": "README.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 86,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "code-dna/session_log.json": {
+      "path": "code-dna/session_log.json",
+      "language": "json",
+      "framework": null,
+      "lines": 365,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/.knowledge_index.json": {
+      "path": "docs/.knowledge_index.json",
+      "language": "json",
+      "framework": null,
+      "lines": 4512,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/ARCHITECTURE.md": {
+      "path": "docs/ARCHITECTURE.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 23,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/AUDITORIA.md": {
+      "path": "docs/AUDITORIA.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 17,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/CHANGELOG.md": {
+      "path": "docs/CHANGELOG.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 10,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/ROADMAP.md": {
+      "path": "docs/ROADMAP.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 29,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/SESSIONS.md": {
+      "path": "docs/SESSIONS.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 10,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-24-2.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-24-2.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 39,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-24-3.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-24-3.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 37,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-24-4.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-24-4.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 24,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-24-5.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-24-5.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 52,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-24-6.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-24-6.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 28,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-24-7.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-24-7.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 36,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-24-8.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-24-8.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 53,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-24.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-24.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 26,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-25-2.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-25-2.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 52,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-25-3.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-25-3.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 44,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-25-4.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-25-4.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 41,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-25-5.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-25-5.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 42,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-25-6.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-25-6.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 25,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/changelog/CHANGELOG-2026-10-25.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-25.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/contracts/CTR-001.md": {
+      "path": "docs/contracts/CTR-001.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 100,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/contracts/CTR-002.md": {
+      "path": "docs/contracts/CTR-002.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 82,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/contracts/CTR-003.md": {
+      "path": "docs/contracts/CTR-003.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 110,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/decisions/DEC-001.md": {
+      "path": "docs/decisions/DEC-001.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 50,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/flows/absorcion-proyecto-existente.md": {
+      "path": "docs/flows/absorcion-proyecto-existente.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 77,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/flows/FLW-001.md": {
+      "path": "docs/flows/FLW-001.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 74,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-001.md": {
+      "path": "docs/modules/MOD-001.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 75,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-002.md": {
+      "path": "docs/modules/MOD-002.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 72,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-003.md": {
+      "path": "docs/modules/MOD-003.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 57,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-004.md": {
+      "path": "docs/modules/MOD-004.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 55,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-005.md": {
+      "path": "docs/modules/MOD-005.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 56,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-006.md": {
+      "path": "docs/modules/MOD-006.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 56,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-007.md": {
+      "path": "docs/modules/MOD-007.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 78,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-008.md": {
+      "path": "docs/modules/MOD-008.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 77,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-009.md": {
+      "path": "docs/modules/MOD-009.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 74,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/modules/MOD-010.md": {
+      "path": "docs/modules/MOD-010.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/notes/NOTE-001.md": {
+      "path": "docs/notes/NOTE-001.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 50,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/notes/NOTE-002.md": {
+      "path": "docs/notes/NOTE-002.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 98,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/seo/articulo-3-persiana-atascada.md": {
+      "path": "docs/seo/articulo-3-persiana-atascada.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 64,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/seo/articulo-4-montar-muebles.md": {
+      "path": "docs/seo/articulo-4-montar-muebles.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 66,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/seo/articulo-5-cambiar-bombin.md": {
+      "path": "docs/seo/articulo-5-cambiar-bombin.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 63,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-24-2.md": {
+      "path": "docs/sessions/SESSION-2026-10-24-2.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 148,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-24-3.md": {
+      "path": "docs/sessions/SESSION-2026-10-24-3.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 180,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-24-4.md": {
+      "path": "docs/sessions/SESSION-2026-10-24-4.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 171,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-24-5.md": {
+      "path": "docs/sessions/SESSION-2026-10-24-5.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 236,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-24-6.md": {
+      "path": "docs/sessions/SESSION-2026-10-24-6.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 105,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-24-7.md": {
+      "path": "docs/sessions/SESSION-2026-10-24-7.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 163,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-24-8.md": {
+      "path": "docs/sessions/SESSION-2026-10-24-8.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 229,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-24.md": {
+      "path": "docs/sessions/SESSION-2026-10-24.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 112,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-25-2.md": {
+      "path": "docs/sessions/SESSION-2026-10-25-2.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 262,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-25-3.md": {
+      "path": "docs/sessions/SESSION-2026-10-25-3.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 845,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-25-4.md": {
+      "path": "docs/sessions/SESSION-2026-10-25-4.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 843,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-25-5.md": {
+      "path": "docs/sessions/SESSION-2026-10-25-5.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 299,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-25-6.md": {
+      "path": "docs/sessions/SESSION-2026-10-25-6.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 115,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-25.md": {
+      "path": "docs/sessions/SESSION-2026-10-25.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 752,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/T-014.md": {
+      "path": "docs/tasks/T-014.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/T-032.md": {
+      "path": "docs/tasks/T-032.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 66,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/T-036.md": {
+      "path": "docs/tasks/T-036.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 72,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/T-037.md": {
+      "path": "docs/tasks/T-037.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/T-049.md": {
+      "path": "docs/tasks/T-049.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 78,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-022.md": {
+      "path": "docs/tasks/history/T-022.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-001.md": {
+      "path": "docs/tasks/history/T-001.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 70,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-002.md": {
+      "path": "docs/tasks/history/T-002.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-003.md": {
+      "path": "docs/tasks/history/T-003.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 67,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-004.md": {
+      "path": "docs/tasks/history/T-004.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-005.md": {
+      "path": "docs/tasks/history/T-005.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-006.md": {
+      "path": "docs/tasks/history/T-006.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-007.md": {
+      "path": "docs/tasks/history/T-007.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-008.md": {
+      "path": "docs/tasks/history/T-008.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-009.md": {
+      "path": "docs/tasks/history/T-009.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-010.md": {
+      "path": "docs/tasks/history/T-010.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-011.md": {
+      "path": "docs/tasks/history/T-011.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-012.md": {
+      "path": "docs/tasks/history/T-012.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 69,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-013.md": {
+      "path": "docs/tasks/history/T-013.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 61,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-015.md": {
+      "path": "docs/tasks/history/T-015.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-016.md": {
+      "path": "docs/tasks/history/T-016.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 72,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-017.md": {
+      "path": "docs/tasks/history/T-017.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 80,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-018.md": {
+      "path": "docs/tasks/history/T-018.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 80,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-019.md": {
+      "path": "docs/tasks/history/T-019.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 65,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-020.md": {
+      "path": "docs/tasks/history/T-020.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 75,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-021.md": {
+      "path": "docs/tasks/history/T-021.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 62,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-023.md": {
+      "path": "docs/tasks/history/T-023.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 69,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-024.md": {
+      "path": "docs/tasks/history/T-024.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 70,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-025.md": {
+      "path": "docs/tasks/history/T-025.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 70,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-026.md": {
+      "path": "docs/tasks/history/T-026.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 84,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-027.md": {
+      "path": "docs/tasks/history/T-027.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 71,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-028.md": {
+      "path": "docs/tasks/history/T-028.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 76,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-029.md": {
+      "path": "docs/tasks/history/T-029.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-030.md": {
+      "path": "docs/tasks/history/T-030.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 71,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-031.md": {
+      "path": "docs/tasks/history/T-031.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-033.md": {
+      "path": "docs/tasks/history/T-033.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 62,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-034.md": {
+      "path": "docs/tasks/history/T-034.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 69,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-035.md": {
+      "path": "docs/tasks/history/T-035.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 74,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-038.md": {
+      "path": "docs/tasks/history/T-038.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 75,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-039.md": {
+      "path": "docs/tasks/history/T-039.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 75,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-040.md": {
+      "path": "docs/tasks/history/T-040.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 75,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-041.md": {
+      "path": "docs/tasks/history/T-041.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 75,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-042.md": {
+      "path": "docs/tasks/history/T-042.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 75,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-043.md": {
+      "path": "docs/tasks/history/T-043.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 70,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-044.md": {
+      "path": "docs/tasks/history/T-044.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 69,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-045.md": {
+      "path": "docs/tasks/history/T-045.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 73,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-046.md": {
+      "path": "docs/tasks/history/T-046.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 78,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-047.md": {
+      "path": "docs/tasks/history/T-047.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 68,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-048.md": {
+      "path": "docs/tasks/history/T-048.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 79,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-050.md": {
+      "path": "docs/tasks/history/T-050.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 79,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/templates/ADN_APP.md.template": {
+      "path": "docs/templates/ADN_APP.md.template",
+      "language": "unknown",
+      "framework": null,
+      "lines": 30,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/templates/IA_GUIDE.md": {
+      "path": "docs/templates/IA_GUIDE.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 377,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/templates/README.md.template": {
+      "path": "docs/templates/README.md.template",
+      "language": "unknown",
+      "framework": null,
+      "lines": 46,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "voktera.online/index.html": {
+      "path": "voktera.online/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 327,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 75,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 97,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 135,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 213,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 240,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 283,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/nav.js": {
+      "path": "voktera.online/nav.js",
+      "language": "javascript",
+      "framework": null,
+      "lines": 83,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "init",
+          "type": "function",
+          "line_start": 13,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "dropdowns",
+          "type": "function",
+          "line_start": 14,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "toggle",
+          "type": "function",
+          "line_start": 18,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "open",
+          "type": "function",
+          "line_start": 21,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "close",
+          "type": "function",
+          "line_start": 26,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "isOpen",
+          "type": "function",
+          "line_start": 31,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "panel",
+          "type": "function",
+          "line_start": 55,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "toggle",
+          "type": "function",
+          "line_start": 71,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/robots.txt": {
+      "path": "voktera.online/robots.txt",
+      "language": "unknown",
+      "framework": null,
+      "lines": 4,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "voktera.online/sitemap.xml": {
+      "path": "voktera.online/sitemap.xml",
+      "language": "unknown",
+      "framework": null,
+      "lines": 78,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "voktera.online/styles.css": {
+      "path": "voktera.online/styles.css",
+      "language": "css",
+      "framework": null,
+      "lines": 850,
+      "imports": [],
+      "symbols": [
+        {
+          "name": ".hero-img",
+          "type": "selector",
+          "line_start": 35,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-media",
+          "type": "selector",
+          "line_start": 45,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-img",
+          "type": "selector",
+          "line_start": 54,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-gallery",
+          "type": "selector",
+          "line_start": 63,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-img",
+          "type": "selector",
+          "line_start": 69,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-media",
+          "type": "selector",
+          "line_start": 81,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-gallery",
+          "type": "selector",
+          "line_start": 82,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-img",
+          "type": "selector",
+          "line_start": 83,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".wrap",
+          "type": "selector",
+          "line_start": 86,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav",
+          "type": "selector",
+          "line_start": 95,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-inner",
+          "type": "selector",
+          "line_start": 103,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".logo",
+          "type": "selector",
+          "line_start": 112,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".mark",
+          "type": "selector",
+          "line_start": 129,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-links",
+          "type": "selector",
+          "line_start": 143,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-links",
+          "type": "selector",
+          "line_start": 160,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-cta",
+          "type": "selector",
+          "line_start": 170,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-toggle",
+          "type": "selector",
+          "line_start": 174,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-burger",
+          "type": "selector",
+          "line_start": 175,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-burger",
+          "type": "selector",
+          "line_start": 203,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-links",
+          "type": "selector",
+          "line_start": 204,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-cta",
+          "type": "selector",
+          "line_start": 216,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown",
+          "type": "selector",
+          "line_start": 220,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown-toggle",
+          "type": "selector",
+          "line_start": 223,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown-panel",
+          "type": "selector",
+          "line_start": 245,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown-panel",
+          "type": "selector",
+          "line_start": 265,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown",
+          "type": "selector",
+          "line_start": 285,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown-panel",
+          "type": "selector",
+          "line_start": 295,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown-panel",
+          "type": "selector",
+          "line_start": 327,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".nav-dropdown-panel",
+          "type": "selector",
+          "line_start": 342,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero",
+          "type": "selector",
+          "line_start": 346,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-grid",
+          "type": "selector",
+          "line_start": 352,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-grid",
+          "type": "selector",
+          "line_start": 360,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".single",
+          "type": "selector",
+          "line_start": 362,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".eyebrow",
+          "type": "selector",
+          "line_start": 367,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".dot",
+          "type": "selector",
+          "line_start": 378,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".accent",
+          "type": "selector",
+          "line_start": 398,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".lead",
+          "type": "selector",
+          "line_start": 400,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-actions",
+          "type": "selector",
+          "line_start": 407,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".btn",
+          "type": "selector",
+          "line_start": 413,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".btn-primary",
+          "type": "selector",
+          "line_start": 426,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".btn-ghost",
+          "type": "selector",
+          "line_start": 434,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".hero-meta",
+          "type": "selector",
+          "line_start": 445,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".toolbox",
+          "type": "selector",
+          "line_start": 459,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".toolbox-label",
+          "type": "selector",
+          "line_start": 466,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".toolbox-grid",
+          "type": "selector",
+          "line_start": 476,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".compartment",
+          "type": "selector",
+          "line_start": 481,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".compartment",
+          "type": "selector",
+          "line_start": 499,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".toolbox-grid",
+          "type": "selector",
+          "line_start": 505,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".icon",
+          "type": "selector",
+          "line_start": 514,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".compartment",
+          "type": "selector",
+          "line_start": 541,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".dot",
+          "type": "selector",
+          "line_start": 542,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".section",
+          "type": "selector",
+          "line_start": 546,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".section-head",
+          "type": "selector",
+          "line_start": 550,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".section-eyebrow",
+          "type": "selector",
+          "line_start": 553,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".section-title",
+          "type": "selector",
+          "line_start": 561,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".section-sub",
+          "type": "selector",
+          "line_start": 568,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".zones-grid",
+          "type": "selector",
+          "line_start": 575,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".zone-card",
+          "type": "selector",
+          "line_start": 580,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".zone-tag",
+          "type": "selector",
+          "line_start": 591,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".base",
+          "type": "selector",
+          "line_start": 605,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".zone-tag",
+          "type": "selector",
+          "line_start": 609,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".steps",
+          "type": "selector",
+          "line_start": 614,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".steps",
+          "type": "selector",
+          "line_start": 621,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".step",
+          "type": "selector",
+          "line_start": 623,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".step-line",
+          "type": "selector",
+          "line_start": 627,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".services-list",
+          "type": "selector",
+          "line_start": 647,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".service-row",
+          "type": "selector",
+          "line_start": 656,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".service-row",
+          "type": "selector",
+          "line_start": 666,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".name",
+          "type": "selector",
+          "line_start": 668,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".items",
+          "type": "selector",
+          "line_start": 673,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".contact",
+          "type": "selector",
+          "line_start": 684,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".contact",
+          "type": "selector",
+          "line_start": 695,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".contact-inner",
+          "type": "selector",
+          "line_start": 706,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".contact-actions",
+          "type": "selector",
+          "line_start": 719,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".btn-primary",
+          "type": "selector",
+          "line_start": 726,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".btn-ghost",
+          "type": "selector",
+          "line_start": 730,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".contact-hours",
+          "type": "selector",
+          "line_start": 738,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".footer-inner",
+          "type": "selector",
+          "line_start": 751,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".logo",
+          "type": "selector",
+          "line_start": 760,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".footer-links",
+          "type": "selector",
+          "line_start": 761,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".wa-float",
+          "type": "selector",
+          "line_start": 772,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".wa-float",
+          "type": "selector",
+          "line_start": 793,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".wa-float",
+          "type": "selector",
+          "line_start": 802,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-index",
+          "type": "selector",
+          "line_start": 806,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-card-desc",
+          "type": "selector",
+          "line_start": 807,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-content",
+          "type": "selector",
+          "line_start": 808,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".faq",
+          "type": "selector",
+          "line_start": 833,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".faq-item",
+          "type": "selector",
+          "line_start": 837,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-cta",
+          "type": "selector",
+          "line_start": 843,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".footer-blog",
+          "type": "selector",
+          "line_start": 844,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-content",
+          "type": "selector",
+          "line_start": 846,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".blog-content",
+          "type": "selector",
+          "line_start": 849,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/blog/index.html": {
+      "path": "voktera.online/blog/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 158,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 69,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 90,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 116,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/blog/llave-rota.html": {
+      "path": "voktera.online/blog/llave-rota.html",
+      "language": "html",
+      "framework": null,
+      "lines": 254,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 112,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 133,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/blog/precio-cerrajero.html": {
+      "path": "voktera.online/blog/precio-cerrajero.html",
+      "language": "html",
+      "framework": null,
+      "lines": 261,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 112,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 133,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/cerrajeria/index.html": {
+      "path": "voktera.online/cerrajeria/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 343,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 104,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 126,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 163,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 206,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 233,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 257,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 300,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/cerrajero-fuenlabrada/index.html": {
+      "path": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 340,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 107,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 127,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 186,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 214,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 240,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 263,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 303,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/cerrajero-getafe/index.html": {
+      "path": "voktera.online/cerrajero-getafe/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 340,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 107,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 127,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 186,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 214,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 240,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 263,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 303,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/cerrajero-leganes/index.html": {
+      "path": "voktera.online/cerrajero-leganes/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 340,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 107,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 127,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 186,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 214,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 240,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 263,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 303,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/cerrajero-parla/index.html": {
+      "path": "voktera.online/cerrajero-parla/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 340,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 107,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 127,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 186,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 214,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 240,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 263,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 303,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/cerrajero-pinto/index.html": {
+      "path": "voktera.online/cerrajero-pinto/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 340,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 107,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 127,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 186,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 214,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 240,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 263,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 303,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/cerrajero-rivas-vaciamadrid/index.html": {
+      "path": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 340,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 107,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 127,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 186,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 214,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 240,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 263,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 303,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/cerrajero-valdemoro/index.html": {
+      "path": "voktera.online/cerrajero-valdemoro/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 343,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 110,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 130,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 189,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 217,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 243,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 266,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 306,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/mantenimiento/index.html": {
+      "path": "voktera.online/mantenimiento/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 343,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 104,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 126,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 163,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 206,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 233,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 257,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 300,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/muebles/index.html": {
+      "path": "voktera.online/muebles/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 343,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 104,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 126,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 163,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 206,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 233,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 257,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 300,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/persianas/index.html": {
+      "path": "voktera.online/persianas/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 343,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 104,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 126,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 163,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 206,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 233,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 257,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 300,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    }
+  }
+}

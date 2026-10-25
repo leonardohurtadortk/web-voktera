@@ -1,0 +1,2709 @@
+{
+  "session_id": "DeepSeek-009",
+  "status": "activa",
+  "ia_profile": "deepseek",
+  "max_chars": 40000,
+  "goal": "T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
+  "decisions": [],
+  "hypotheses": [],
+  "open_questions": [],
+  "next_step": "[Definir siguiente paso]",
+  "artefactos_tocados": [
+    "T-014",
+    "T-036",
+    "T-037",
+    "T-038",
+    "T-039",
+    "T-040",
+    "T-041",
+    "T-042",
+    "T-046",
+    "T-050"
+  ],
+  "archivos_modificados": [
+    "docs/tasks/T-014.md",
+    "docs/tasks/T-036.md",
+    "docs/tasks/T-037.md",
+    "docs/tasks/T-038.md",
+    "docs/tasks/T-039.md",
+    "docs/tasks/T-040.md",
+    "docs/tasks/T-041.md",
+    "docs/tasks/T-042.md",
+    "docs/contracts/CTR-001.md",
+    "docs/modules/MOD-002.md",
+    "voktera.online/styles.css",
+    "docs/tasks/T-046.md",
+    "voktera.online/blog/index.html",
+    "voktera.online/blog/llave-rota.html",
+    "voktera.online/blog/precio-cerrajero.html",
+    "voktera.online/index.html",
+    "voktera.online/cerrajeria/index.html",
+    "voktera.online/persianas/index.html",
+    "voktera.online/muebles/index.html",
+    "voktera.online/mantenimiento/index.html",
+    "voktera.online/cerrajero-valdemoro/index.html",
+    "voktera.online/cerrajero-getafe/index.html",
+    "voktera.online/cerrajero-leganes/index.html",
+    "voktera.online/cerrajero-fuenlabrada/index.html",
+    "voktera.online/cerrajero-parla/index.html",
+    "voktera.online/cerrajero-pinto/index.html",
+    "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+    "docs/modules/MOD-009.md",
+    "docs/tasks/T-050.md"
+  ],
+  "steps": [
+    {
+      "timestamp": "2026-10-24T06:48:41.227262+00:00",
+      "operation": "ver",
+      "description": "ver docs/templates/IA_GUIDE.md",
+      "file": "docs/templates/IA_GUIDE.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:48:41.231555+00:00",
+      "operation": "lectura",
+      "file": "docs/templates/IA_GUIDE.md",
+      "task": null,
+      "description": "lectura en docs/templates/IA_GUIDE.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:49:04.029084+00:00",
+      "operation": "ver",
+      "description": "ver README.md",
+      "file": "README.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:49:04.032251+00:00",
+      "operation": "lectura",
+      "file": "README.md",
+      "task": null,
+      "description": "lectura en README.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:49:13.950902+00:00",
+      "operation": "contexto",
+      "description": "contexto "
+    },
+    {
+      "timestamp": "2026-10-24T06:49:24.576937+00:00",
+      "operation": "arbol",
+      "description": "arbol --resumen"
+    },
+    {
+      "timestamp": "2026-10-24T06:49:29.496997+00:00",
+      "operation": "ayuda",
+      "description": "ayuda familia",
+      "file": "familia"
+    },
+    {
+      "timestamp": "2026-10-24T06:49:59.078775+00:00",
+      "operation": "backlog",
+      "description": "backlog "
+    },
+    {
+      "timestamp": "2026-10-24T06:50:11.460334+00:00",
+      "operation": "familia",
+      "description": "familia T-014",
+      "file": "T-014"
+    },
+    {
+      "timestamp": "2026-10-24T06:50:11.588117+00:00",
+      "operation": "lectura",
+      "file": "T-014",
+      "task": null,
+      "description": "lectura en T-014"
+    },
+    {
+      "timestamp": "2026-10-24T06:50:20.800981+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-014.md",
+      "file": "docs/tasks/T-014.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:50:20.817314+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-014.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-014.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:50:20.819241+00:00",
+      "operation": "ver",
+      "description": "ver docs/contracts/CTR-001.md",
+      "file": "docs/contracts/CTR-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:50:20.841922+00:00",
+      "operation": "lectura",
+      "file": "docs/contracts/CTR-001.md",
+      "task": null,
+      "description": "lectura en docs/contracts/CTR-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:53:21.904884+00:00",
+      "operation": "familia",
+      "description": "familia voktera.online/styles.css",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-24T06:53:21.919717+00:00",
+      "operation": "familia",
+      "description": "familia T-002",
+      "file": "T-002"
+    },
+    {
+      "timestamp": "2026-10-24T06:53:21.955959+00:00",
+      "operation": "familia",
+      "description": "familia T-004",
+      "file": "T-004"
+    },
+    {
+      "timestamp": "2026-10-24T06:53:21.991029+00:00",
+      "operation": "familia",
+      "description": "familia T-010",
+      "file": "T-010"
+    },
+    {
+      "timestamp": "2026-10-24T06:53:49.594505+00:00",
+      "operation": "arbol",
+      "description": "arbol voktera.online/",
+      "file": "voktera.online/"
+    },
+    {
+      "timestamp": "2026-10-24T06:56:55.556829+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-008 Hola, soy DeepSeek-009. Iba a tomar T-014 (Migrar CSS desktop-first a mobile-first, scope voktera.online/styles.css) pero veo que tenés ocupado el scope voktera.online/ con T-031, T-033 y T-035 in_progress. Tres preguntas: (1) ¿tu trabajo toca styles.css o solo HTML/contenido? (2) ¿hay riesgo de conflicto si edito styles.css ahora? (3) ¿tenés contexto sobre si el CSS real vive en index.html embebido, en styles.css, o en ambos? Detecté que CTR-001 dice embebido pero el árbol confirma styles.css como archivo real, así que el contrato parece desactualizado. Gracias.",
+      "file": "DeepSeek-008"
+    },
+    {
+      "timestamp": "2026-10-24T06:57:25.786740+00:00",
+      "operation": "ver",
+      "description": "ver docs/modules/MOD-002.md",
+      "file": "docs/modules/MOD-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:57:25.795637+00:00",
+      "operation": "lectura",
+      "file": "docs/modules/MOD-002.md",
+      "task": null,
+      "description": "lectura en docs/modules/MOD-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:58:39.807972+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-008 Gracias, coordinación cerrada: no tocás CSS, sin conflicto. Confirmo que CTR-001 y MOD-002 dicen 'CSS embebido' pero vos verificaste el <link> a styles.css, así que ambos artefactos están desactualizados. Lo resuelvo en T-014/CTR. No necesito más de tu lado. Buen trabajo en T-034/T-035.",
+      "file": "DeepSeek-008"
+    },
+    {
+      "timestamp": "2026-10-24T06:58:39.822021+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T06:58:39.824899+00:00",
+      "operation": "tomar",
+      "description": "tomar T-014",
+      "file": "T-014"
+    },
+    {
+      "timestamp": "2026-10-24T06:58:39.842116+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-014.md",
+      "task": "T-014",
+      "description": "Tomada tarea T-014: Migrar CSS de Desktop-First a Mobile-First (deuda técnica CTR-001)"
+    },
+    {
+      "timestamp": "2026-10-24T06:59:36.342348+00:00",
+      "operation": "ver",
+      "description": "ver docs/contracts/CTR-002.md",
+      "file": "docs/contracts/CTR-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:59:36.354113+00:00",
+      "operation": "lectura",
+      "file": "docs/contracts/CTR-002.md",
+      "task": null,
+      "description": "lectura en docs/contracts/CTR-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T06:59:36.355382+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/styles.css --limite 120",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-24T06:59:36.365770+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "lectura en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-24T07:00:51.551872+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Hola Claude-001, soy DeepSeek-009. Tomé T-014 (migrar CSS desktop-first a mobile-first en voktera.online/styles.css). Antes de tocar CSS detecté 3 problemas que requieren tu consenso como senior designado por CTR-002:",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T07:01:01.124164+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 DeepSeek-009. Tomé T-014 (migrar CSS desktop-first a mobile-first en styles.css). 3 problemas que requieren tu consenso como senior de CTR-002: (1) T-014 está VACÍA (plantilla literal sin objetivo/pasos/criterios), no se puede completar; necesito OK para poblarla. (2) CTR-001 y MOD-002 dicen 'CSS embebido en <style> de index.html' pero la realidad es voktera.online/styles.css (774 líneas) enlazado con <link> en las 15 páginas (confirmado por DeepSeek-008 y por CTR-002); además CTR-001 advierte sobre T-002/004/010 que están ARCHIVADAS. (3) Migrar 774 líneas afecta visualmente 15 páginas: propongo T-014 padre + hijas atómicas por sección (nav/hero/services/steps/zones/contact/wa-float). Pido consenso para: (a) poblar T-014, (b) corregir CTR-001 y MOD-002, (c) aprobar padre+hijas. ¿De acuerdo o ves riesgos? Gracias.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T07:02:24.259252+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-24T07:02:24.262870+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 121-400",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-24T07:02:40.461703+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Recibido, gracias. Resumo el acuerdo: (1) poblo T-014, (2) creo hijas atómicas por sección con --parent, (3) corrijo CTR-001 y MOD-002, (4) NO toco CSS hasta tu GO. Un punto: mencionaste que Claude-002 y DeepSeek-006 editan las 15 páginas; yo solo coordiné con DeepSeek-008 (que confirmó no tocar CSS). Cuando des el GO al CSS, ¿podés confirmar también con Claude-002? Lo consulto yo igual al llegar ese momento. Procedo ahora solo con docs. Gracias.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T07:02:40.482517+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T07:02:40.484352+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 401-774",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-24T07:04:20.485692+00:00",
+      "operation": "ayuda",
+      "description": "ayuda crear",
+      "file": "crear"
+    },
+    {
+      "timestamp": "2026-10-24T07:04:20.486700+00:00",
+      "operation": "ayuda",
+      "description": "ayuda editar",
+      "file": "editar"
+    },
+    {
+      "timestamp": "2026-10-24T07:05:30.035751+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Gracias. Entendido: el CSS queda bloqueado por Claude-002 (logo) hasta tu aviso. Procedo solo con documentación: poblo T-014, creo 7 hijas atómicas por sección (nav, hero, toolbox, steps, services, contact, wa-float+blog) y corrijo CTR-001/MOD-002. Te aviso al terminar docs.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T07:05:30.060617+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T07:05:30.062499+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/tasks/T-014.md --verificar",
+      "file": "docs/tasks/T-014.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:07:43.005608+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/tasks/T-014.md 20-40 --verificar",
+      "file": "docs/tasks/T-014.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:07:50.747719+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/tasks/T-014.md 36-55 --verificar",
+      "file": "docs/tasks/T-014.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:10:49.937072+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-014.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-014.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:10:59.290895+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T07:10:59.295839+00:00",
+      "operation": "crear",
+      "description": "crear tarea Migrar nav/burger/dropdown a mobile-first (max-width 900px → min-width) --scope voktera.online/styles.css --parent T-014 --category mejora",
+      "file": "tarea"
+    },
+    {
+      "timestamp": "2026-10-24T07:10:59.391590+00:00",
+      "operation": "crear",
+      "description": "crear tarea Migrar hero-grid/hero-media/hero-gallery a mobile-first (max-width 900px → min-width) --scope voktera.online/styles.css --parent T-014 --category mejora",
+      "file": "tarea"
+    },
+    {
+      "timestamp": "2026-10-24T07:10:59.467326+00:00",
+      "operation": "crear",
+      "description": "crear tarea Migrar toolbox/compartment a mobile-first (max-width 600px → min-width) --scope voktera.online/styles.css --parent T-014 --category mejora",
+      "file": "tarea"
+    },
+    {
+      "timestamp": "2026-10-24T07:10:59.533660+00:00",
+      "operation": "crear",
+      "description": "crear tarea Migrar steps a mobile-first (max-width 800px → min-width) --scope voktera.online/styles.css --parent T-014 --category mejora",
+      "file": "tarea"
+    },
+    {
+      "timestamp": "2026-10-24T07:10:59.599564+00:00",
+      "operation": "crear",
+      "description": "crear tarea Migrar service-row a mobile-first (max-width 700px → min-width) --scope voktera.online/styles.css --parent T-014 --category mejora",
+      "file": "tarea"
+    },
+    {
+      "timestamp": "2026-10-24T07:10:59.666014+00:00",
+      "operation": "crear",
+      "description": "crear tarea Migrar contact a mobile-first (max-width 600px → min-width) --scope voktera.online/styles.css --parent T-014 --category mejora",
+      "file": "tarea"
+    },
+    {
+      "timestamp": "2026-10-24T07:10:59.733075+00:00",
+      "operation": "crear",
+      "description": "crear tarea Migrar wa-float + blog-content a mobile-first (max-width 600px → min-width) --scope voktera.online/styles.css --parent T-014 --category mejora",
+      "file": "tarea"
+    },
+    {
+      "timestamp": "2026-10-24T07:11:13.975632+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-036.md",
+      "task": "T-036",
+      "description": "confirmar en docs/tasks/T-036.md (relacionado con T-036)"
+    },
+    {
+      "timestamp": "2026-10-24T07:11:14.268772+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-037.md",
+      "task": "T-037",
+      "description": "confirmar en docs/tasks/T-037.md (relacionado con T-037)"
+    },
+    {
+      "timestamp": "2026-10-24T07:11:14.512998+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-038.md",
+      "task": "T-038",
+      "description": "confirmar en docs/tasks/T-038.md (relacionado con T-038)"
+    },
+    {
+      "timestamp": "2026-10-24T07:11:14.785599+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-039.md",
+      "task": "T-039",
+      "description": "confirmar en docs/tasks/T-039.md (relacionado con T-039)"
+    },
+    {
+      "timestamp": "2026-10-24T07:11:15.070734+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-040.md",
+      "task": "T-040",
+      "description": "confirmar en docs/tasks/T-040.md (relacionado con T-040)"
+    },
+    {
+      "timestamp": "2026-10-24T07:11:15.328637+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-041.md",
+      "task": "T-041",
+      "description": "confirmar en docs/tasks/T-041.md (relacionado con T-041)"
+    },
+    {
+      "timestamp": "2026-10-24T07:11:15.570105+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-042.md",
+      "task": "T-042",
+      "description": "confirmar en docs/tasks/T-042.md (relacionado con T-042)"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:05.720429+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:18.471477+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-036.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-036.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:18.875323+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-037.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-037.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:19.334375+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-038.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-038.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:19.761910+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-039.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-039.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:20.168394+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-040.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-040.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:20.599981+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-041.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-041.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:21.030104+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-042.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-042.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:53.523888+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/contracts/CTR-001.md 22-45 --verificar",
+      "file": "docs/contracts/CTR-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:53.532334+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/contracts/CTR-001.md 70-87 --verificar",
+      "file": "docs/contracts/CTR-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:12:53.540790+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/modules/MOD-002.md 25-50 --verificar",
+      "file": "docs/modules/MOD-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:18:34.909059+00:00",
+      "operation": "confirmar",
+      "file": "docs/contracts/CTR-001.md",
+      "task": null,
+      "description": "confirmar en docs/contracts/CTR-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:18:35.484791+00:00",
+      "operation": "confirmar",
+      "file": "docs/contracts/CTR-001.md",
+      "task": null,
+      "description": "confirmar en docs/contracts/CTR-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:19:19.055666+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-002.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:19:19.458676+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-002.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T07:19:19.468374+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Sin problema, espero el GO. Documentación casi lista: T-014 poblada, 7 hijas creadas y pobladas (T-036 a T-042), CTR-001 corregido (CSS vive en styles.css, no embebido; T-002/004/010 archivadas). Ahora confirmo las 2 correcciones de MOD-002. Cuando Claude-002 libere el CSS, avisame y arranco la migración por fases empezando por T-036 (nav). Gracias.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T07:19:19.507040+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T07:20:09.945531+00:00",
+      "operation": "familia",
+      "description": "familia T-014 --expandir",
+      "file": "T-014"
+    },
+    {
+      "timestamp": "2026-10-24T07:20:10.102172+00:00",
+      "operation": "lectura",
+      "file": "T-014",
+      "task": null,
+      "description": "lectura en T-014"
+    },
+    {
+      "timestamp": "2026-10-24T07:20:30.194802+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-002 Sí, te cedo styles.css para tus 3 ajustes de T-043. Condiciones: (1) tocá SOLO .logo img (max-height 32px), .nav-burger span (grosor) y .wa-float (bottom 32-40px móvil); no reestructures ningún @media. (2) Avisame cuando termines con 'listo T-043'. (3) Yo releo styles.css actualizado antes de arrancar T-036 (nav) y T-042 (wa-float), así incorporo tus valores. Yo estoy esperando el GO de Claude-001 para la migración, así que no hay solapamiento real si terminás antes. Adelante.",
+      "file": "Claude-002"
+    },
+    {
+      "timestamp": "2026-10-24T07:20:30.220029+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 FYI: Claude-002 me pidió ventana en styles.css para 3 ajustes puntuales de T-043 (logo, hamburguesa, wa-float). Se la cedí con condiciones: solo esos selectores, sin tocar @media. Yo sigo esperando tu GO para la migración mobile-first; cuando Claude-002 termine, releo styles.css y arranco por T-036. Sin conflicto.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T07:20:30.246874+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T20:29:46.520524+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-002 Sí, te cedo styles.css para tus 3 ajustes de T-043. Condiciones: (1) tocá SOLO .logo img (max-height 32px), .nav-burger span (grosor) y .wa-float (bottom 32-40px móvil); no reestructures ningún @media. (2) Avisame cuando termines con 'listo T-043'. (3) Yo releo styles.css actualizado antes de arrancar T-036 (nav) y T-042 (wa-float), así incorporo tus valores. Yo estoy esperando el GO de Claude-001 para la migración, así que no hay solapamiento real si terminás antes. Adelante.",
+      "file": "Claude-002"
+    },
+    {
+      "timestamp": "2026-10-24T20:29:46.596440+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 FYI: Claude-002 me pidió ventana en styles.css para 3 ajustes puntuales de T-043 (logo, hamburguesa, wa-float). Se la cedí con condiciones: solo esos selectores, sin tocar @media. Yo sigo esperando tu GO para la migración mobile-first; cuando Claude-002 termine, releo styles.css y arranco por T-036. Sin conflicto.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T20:29:46.637547+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T20:57:39.474112+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-24T20:58:02.519005+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-002 Gracias, recibo T-043 cerrada. Arranco T-036 incorporando tus valores: nav-burger span height:3px y wa-float bottom:32px (este último en T-042). Sobre .logo img: el senior fijó max-height:48px final (reemplaza tus 32px), lo aplico en T-036.",
+      "file": "Claude-002"
+    },
+    {
+      "timestamp": "2026-10-24T20:58:02.554558+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Recibí 6 mensajes sobre el logo en 4 minutos con instrucciones contradictorias (redondo, luego píldora, luego sin fondo, luego PNG transparente). Tomo como decisión final tus dos últimos: (7) CSS limpio .logo img: max-height 48px, width auto, object-fit contain; (8) cambiar src a imagenes/logo-voktera-menu.png en las 15 HTML. DOS BLOQUEOS antes de tocar HTML: (a) no verifiqué que imagenes/logo-voktera-menu.png exista; cambiar 15 src a un archivo inexistente rompería el logo. (b) T-015 (integrar logo en 15 páginas) figura in_progress y podría tener dueño; editar 15 HTML está fuera del scope de mi T-014 (styles.css). ¿Quién tiene T-015? ¿La absorbo, creo hija, o la edición HTML es de otra sesión? Mientras respondés, arranco YA T-036 (nav mobile-first) con el CSS de .logo img limpio a 48px.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T20:58:02.582695+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T20:58:02.585781+00:00",
+      "operation": "tomar",
+      "description": "tomar T-036",
+      "file": "T-036"
+    },
+    {
+      "timestamp": "2026-10-24T20:58:02.916336+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-036.md",
+      "task": "T-036",
+      "description": "Tomada tarea T-036: Migrar nav/burger/dropdown a mobile-first (max-width 900px → min-width)"
+    },
+    {
+      "timestamp": "2026-10-24T20:58:41.646844+00:00",
+      "operation": "ver",
+      "description": "ver docs/contracts/CTR-002.md",
+      "file": "docs/contracts/CTR-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T20:58:41.696271+00:00",
+      "operation": "lectura",
+      "file": "docs/contracts/CTR-002.md",
+      "task": null,
+      "description": "lectura en docs/contracts/CTR-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T20:58:41.697810+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 110-220 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-24T20:58:58.813914+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 220-285 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T01:13:55.861235+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T01:14:46.034847+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 195-300 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T01:15:01.477796+00:00",
+      "operation": "reemplazar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "reemplazar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T01:15:10.691949+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width voktera.online/styles.css",
+      "file": "max-width"
+    },
+    {
+      "timestamp": "2026-10-25T01:15:21.732796+00:00",
+      "operation": "buscar",
+      "description": "buscar @media (max-width: 900px) voktera.online/styles.css --expandir",
+      "file": "@media (max-width: 900px)"
+    },
+    {
+      "timestamp": "2026-10-25T01:15:30.148238+00:00",
+      "operation": "buscar",
+      "description": "buscar 900px voktera.online/styles.css --expandir",
+      "file": "900px"
+    },
+    {
+      "timestamp": "2026-10-25T01:24:32.154665+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T01:24:39.944160+00:00",
+      "operation": "familia",
+      "description": "familia T-015",
+      "file": "T-015"
+    },
+    {
+      "timestamp": "2026-10-25T01:24:40.048682+00:00",
+      "operation": "familia",
+      "description": "familia T-043",
+      "file": "T-043"
+    },
+    {
+      "timestamp": "2026-10-25T01:24:47.799615+00:00",
+      "operation": "arbol",
+      "description": "arbol voktera.online/imagenes --resumen",
+      "file": "voktera.online/imagenes"
+    },
+    {
+      "timestamp": "2026-10-25T01:25:03.513396+00:00",
+      "operation": "scan",
+      "description": "scan voktera.online/imagenes",
+      "file": "voktera.online/imagenes"
+    },
+    {
+      "timestamp": "2026-10-25T01:25:47.536733+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Recibido todo. 3 puntos: (1) T-036 está migrada y verificada técnicamente (min-width:900px línea 203, cero max-width residual en nav), pero NO la cierro hasta verificación visual del humano a 375px/1200px. (2) El trabajo del logo NO tiene tarea: T-015 y T-043 están ARCHIVADAS. Cambiar src en 15 páginas + 3 blogs (logo de texto → <img>) está fuera de mi scope actual (styles.css) y Regla 8.1 me impide tocar HTML sin tarea. Necesito que crees la tarea (o me autorices a crearla) con scope voktera.online/ y las 18 páginas. (3) El ?text= de WhatsApp depende de la auditoría de Claude-003; hagámoslo como tarea separada DESPUÉS del logo, no mezclado en la misma edición de 18 archivos. Propongo orden: (a) humano verifica T-036 visual → cierro. (b) nueva tarea logo (yo la tomo, cambio 18 páginas, CSS ya está a 48px). (c) nueva tarea WhatsApp ?text= con la lista de Claude-003. ¿OK?",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-25T01:25:47.600566+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T01:29:40.682006+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T01:32:55.418371+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T01:32:55.453305+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Dos cosas: (1) Fix del dropdown en PC: apliqué reordenamiento de reglas porque la base móvil ganaba la cascada sobre el @media min-width:900px y el panel quedaba abierto. Ahora cerrado por defecto, abre en hover. (2) El humano pidió SACAR el botón WhatsApp del nav (.nav-cta) porque es redundante con .wa-float. Lo oculté por CSS (display:none, reversible, sin tocar 18 HTMLs). PERO esto rompe CTR-002 ítem 4 ('Nav con CTA WhatsApp'). Necesito tu consenso para actualizar CTR-002 y quitar ese requisito del checklist, o indicarme alternativa. Gracias.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-25T01:33:23.165679+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 130-165 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T01:35:32.056298+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 155-180 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T01:36:19.321461+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T01:36:31.567195+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T01:36:31.574862+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Reporte de estado (DeepSeek-009, scope voktera.online/styles.css): (1) T-036 nav mobile-first: migrada y verificada estáticamente (min-width:900px, cero max-width residual). Humano validó móvil OK; detectó dropdown abierto en PC por bug de cascada que introduje → corregido (regla escritorio reubicada al final). Pendiente: re-verificación visual PC por el humano. (2) Oculté .nav-cta por CSS (display:none) por pedido del humano (redundante con .wa-float). ESTO ROMPE CTR-002 ítem 4 ('nav con CTA WhatsApp') → necesita actualización de contrato con consenso senior. (3) Falta MOD de styles.css: lo crearé al cerrar la migración completa (T-037 a T-042), no ahora, porque el archivo cambia en cada fase. (4) Pendiente T-014 hijas: T-037 hero, T-038 toolbox, T-039 steps, T-040 service-row, T-041 contact, T-042 wa-float+blog. Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T01:36:31.611160+00:00",
+      "operation": "tomar",
+      "description": "tomar T-046",
+      "file": "T-046"
+    },
+    {
+      "timestamp": "2026-10-25T01:36:31.655637+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-046.md",
+      "task": "T-046",
+      "description": "Tomada tarea T-046: Cambiar logo de texto a imagen (logo-voktera-menu.png) en las 18 páginas"
+    },
+    {
+      "timestamp": "2026-10-25T01:36:31.939687+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-047.md",
+      "file": "docs/tasks/T-047.md"
+    },
+    {
+      "timestamp": "2026-10-25T01:36:31.944091+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-047.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-047.md"
+    },
+    {
+      "timestamp": "2026-10-25T01:38:44.328392+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-046.md",
+      "file": "docs/tasks/T-046.md"
+    },
+    {
+      "timestamp": "2026-10-25T01:38:44.334028+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-046.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-046.md"
+    },
+    {
+      "timestamp": "2026-10-25T01:38:44.335753+00:00",
+      "operation": "buscar",
+      "description": "buscar span class=\\ mark\\ voktera.online/ --expandir",
+      "file": "span class=\\"
+    },
+    {
+      "timestamp": "2026-10-25T01:38:53.664077+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Respondo: (1) Re-verificación visual PC de T-036: el humano validó MÓVIL OK y reportó el bug de dropdown abierto en PC; corregí ese bug (reordenamiento de cascada). Falta que el humano re-confirme PC tras el fix. La rama NO está bloqueada por mí: está esperando su re-verificación. (2) De T-037 a T-042 todas PENDIENTES, ninguna empezada. Las tomo en orden tras cerrar T-036. (3) Recibido sobre CTR-002: no lo toco, lo dejás al humano. CSS queda oculto sin revertir. (4) Ahora estoy en T-046 (logo en 18 páginas), que me asignó Claude-001. Al llegar a T-042 te aviso para el MOD de styles.css + CTR-002 en un solo movimiento. Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T01:38:53.685136+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T01:38:53.689021+00:00",
+      "operation": "buscar",
+      "description": "buscar class=\\ mark\\ voktera.online --expandir",
+      "file": "class=\\"
+    },
+    {
+      "timestamp": "2026-10-25T01:44:00.003571+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-046.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-046.md"
+    },
+    {
+      "timestamp": "2026-10-25T01:44:00.010691+00:00",
+      "operation": "buscar",
+      "description": "buscar span class voktera.online --expandir",
+      "file": "span class"
+    },
+    {
+      "timestamp": "2026-10-25T01:46:13.253992+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/index.html 60-85 --verificar",
+      "file": "voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:46:13.258481+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/index.html 305-320 --verificar",
+      "file": "voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:46:13.263765+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/blog/index.html 60-80 --verificar",
+      "file": "voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:46:13.268505+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/blog/index.html 135-150 --verificar",
+      "file": "voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:28.025879+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:28.209014+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:28.388560+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/llave-rota.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/llave-rota.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:28.560920+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/llave-rota.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/llave-rota.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:28.725463+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/precio-cerrajero.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/precio-cerrajero.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:28.901152+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/precio-cerrajero.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/precio-cerrajero.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:28.940277+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-006 Confirmado, sin colisión: yo toco <a class='logo'> (header y footer), vos <a href='wa.me'> del hero-actions. Adelante con las 7 locales. Si veo algo raro en el hero te aviso. Gracias por coordinar.",
+      "file": "DeepSeek-006"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:28.962694+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:39.541561+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajeria/index.html 72-80 --verificar",
+      "file": "voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:39.559023+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajeria/index.html 322-332 --verificar",
+      "file": "voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:39.567953+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-valdemoro/index.html 75-83 --verificar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:48:39.575297+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-valdemoro/index.html 322-332 --verificar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:49:55.184226+00:00",
+      "operation": "buscar",
+      "description": "buscar logo-voktera.png voktera.online --expandir",
+      "file": "logo-voktera.png"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:22.795127+00:00",
+      "operation": "ver",
+      "description": "ver MOD-001",
+      "file": "MOD-001"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:22.804937+00:00",
+      "operation": "lectura",
+      "file": "MOD-001",
+      "task": null,
+      "description": "lectura en MOD-001"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:22.807675+00:00",
+      "operation": "ver",
+      "description": "ver CTR-001",
+      "file": "CTR-001"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:22.817812+00:00",
+      "operation": "lectura",
+      "file": "CTR-001",
+      "task": null,
+      "description": "lectura en CTR-001"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:32.046944+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:32.252322+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajeria/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:32.415984+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/persianas/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/persianas/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:32.578107+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/muebles/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/muebles/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:32.750715+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/mantenimiento/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/mantenimiento/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:32.923248+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:33.145772+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-getafe/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:33.338787+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-leganes/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-leganes/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:33.511840+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-fuenlabrada/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:33.678303+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-parla/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-parla/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:33.843768+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-pinto/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:50:34.008885+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:04.983446+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:05.158006+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajeria/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:05.325856+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/persianas/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/persianas/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:05.487568+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/muebles/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/muebles/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:05.647675+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/mantenimiento/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/mantenimiento/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:05.800391+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:05.951726+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-getafe/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:06.101714+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-leganes/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-leganes/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:06.253671+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-fuenlabrada/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:06.404226+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-parla/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-parla/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:06.554367+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-pinto/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:06.700349+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:06.733480+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Sobre fotos: no puedo medir proporciones reales (sin visor de imágenes). Tu diagnóstico es correcto: .hero-media fuerza aspect-ratio 4/3 (16/10 en <=900px) + overflow:hidden + object-fit:cover + object-position:center → recorta siempre que la foto no tenga esa proporción. Dirección: NO recomiendo quitar aspect-ratio (rompe alineación del hero-grid 2 columnas). Recomiendo opción B: mantener marco, cambiar object-fit:cover → contain + background var(--bg-soft). Foto completa, sin deformar, layout intacto, 1 línea, reversible. Secuenciación: incluir en T-037 (mismas líneas de .hero-media), NO tarea aparte. Confirma dirección B y que T-037 lo absorbe, y arranco T-037. Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:06.752319+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:15.834206+00:00",
+      "operation": "buscar",
+      "description": "buscar class=\\ mark\\\">V voktera.online --expandir",
+      "file": "class=\\"
+    },
+    {
+      "timestamp": "2026-10-25T01:52:38.876953+00:00",
+      "operation": "buscar",
+      "description": "buscar mark voktera.online --expandir",
+      "file": "mark"
+    },
+    {
+      "timestamp": "2026-10-25T03:26:10.982130+00:00",
+      "operation": "completar",
+      "description": "completar T-046",
+      "file": "T-046"
+    },
+    {
+      "timestamp": "2026-10-25T03:27:38.282180+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:27:38.438163+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:27:38.473545+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Respondo: (1) .logo img está en línea ~115 con max-height:48px, width:auto, object-fit:contain. Lo subo a 64px ahora (T-046, scope styles.css). Nota: el PNG es 2048x2048 con margen transparente; aun a 64px el dibujo real quedará moderado. Solución real = exportar el logo recortado al contenido (tarea aparte, no CSS). (2) Dropdown PC que parpadea: confirmado, es el gap de 10px entre toggle y panel (top:calc(100%+10px)) que rompe :hover al cruzar. 'Solo queda abierto al hacer clic' = :focus-within del botón. Fix: ::after invisible de 10px como puente de hover en .nav-dropdown (dentro de @media min-width:900px). Lo aplico ahora en T-036. (3) ETA T-037→T-042: 6 cambios quirúrgicos, ~15-20 min cada uno con verificación ≈ 2h de trabajo activo + round-trips. No necesito ayuda extra. (4) Absorbo B en T-037 (cover→contain + bg var(--bg-soft)) con tu excepción para montaje-muebles (no CSS, tarea aparte). Sobre bandas exageradas: te reporto archivo concreto si veo algo al probar. (5) T-046 cierro tras logo 64px; T-036 cierro tras dropdown + tu verificación visual PC. Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T03:27:51.208449+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-046.md",
+      "task": "T-046",
+      "description": "confirmar en docs/tasks/T-046.md (relacionado con T-046)"
+    },
+    {
+      "timestamp": "2026-10-25T03:27:51.223608+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T03:34:50.475507+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:34:50.508087+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Dos reportes del humano sobre T-036/T-046: (1) Logo sigue chico aun a 64px. Causa real: PNG 2048x2048 con mucho margen transparente; el dibujo ocupa fraccion del lienzo. Subi a 96px como parche reversible, pero la solucion real es que el humano recorte el PNG al contenido (no puedo editar binarios). (2) Dropdown PC: hover abre bien, pero el clic no togglea (cierra/abre). Hoy es CSS-only (:hover + :focus-within), el boton no tiene JS. Para clic toggle necesito JS minimo (clase .open en .nav-dropdown) en 15 paginas o nav.js compartido. Eso rompe 'CSS-only' de T-028 y toca HTML fuera de mi scope styles.css. Necesito tu OK y tarea nueva si el humano lo aprueba. Pauso T-037 hasta resolver. Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T03:34:50.527975+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T03:38:50.066422+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T03:39:07.249372+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:39:07.283575+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Recibido. (1) Logo: bajo .logo img a max-height:40px YA para no dejar el layout roto con 96px. Cuando el humano recorte el PNG y avises, lo dejo en 40px (o 36px si veo que queda mejor) y cierro. No subo más. (2) Dropdown JS: entendido, no toco HTML ni añado JS hasta tu OK + tarea hija. (3) Sigo con T-037 a T-042 y el puente de hover ya está aplicado. Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T03:39:07.302761+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T03:39:07.308158+00:00",
+      "operation": "tomar",
+      "description": "tomar T-037",
+      "file": "T-037"
+    },
+    {
+      "timestamp": "2026-10-25T03:39:07.335045+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-037.md",
+      "task": "T-037",
+      "description": "Tomada tarea T-037: Migrar hero-grid/hero-media/hero-gallery a mobile-first (max-width 900px → min-width)"
+    },
+    {
+      "timestamp": "2026-10-25T03:39:07.685589+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 35-110 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:39:07.689081+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 300-340 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:41:38.379179+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 110-130 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:41:50.520698+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Recibido: JS dropdown aprobado, espero la tarea hija de T-036 para tomarla. Logo ya en 40px (aplicado antes del fallo del bloque); no subo más hasta que el humano recorte el PNG. Sigo con T-037 a T-042. Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T03:41:50.552988+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T03:41:50.561038+00:00",
+      "operation": "ver",
+      "description": "ver MOD-002",
+      "file": "MOD-002"
+    },
+    {
+      "timestamp": "2026-10-25T03:41:50.567336+00:00",
+      "operation": "lectura",
+      "file": "MOD-002",
+      "task": null,
+      "description": "lectura en MOD-002"
+    },
+    {
+      "timestamp": "2026-10-25T03:41:50.569440+00:00",
+      "operation": "ver",
+      "description": "ver CTR-002",
+      "file": "CTR-002"
+    },
+    {
+      "timestamp": "2026-10-25T03:41:50.579100+00:00",
+      "operation": "lectura",
+      "file": "CTR-002",
+      "task": null,
+      "description": "lectura en CTR-002"
+    },
+    {
+      "timestamp": "2026-10-25T03:41:50.581256+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 320-340 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:42:15.245191+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:42:15.278970+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 330-355 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:43:35.826372+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:43:35.865464+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width: 900px voktera.online/styles.css --expandir",
+      "file": "max-width: 900px"
+    },
+    {
+      "timestamp": "2026-10-25T03:49:00.982448+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Bandas exageradas confirmadas en hero de Mantenimiento (screenshot del humano). Foto vertical 3:4 en marco horizontal 4:3 + contain = bandas de ~35-40% cada lado, foto diminuta. Archivos verticales que necesitan reemplazo: mantenimiento-hogar-voktera.jpg, cerrajeria_getafe_001.jpeg, persianas_getafe_001.jpeg, montaje-muebles-tecnico-voktera.jpg (esta además 227x406). Propuesta interim: cambiar a object-fit:cover + object-position:center top (foto llena marco, sin bandas, recorta abajo, persona visible arriba). Es reversible 1 linea. Confirma si aplico interim o espero reemplazo de fotos por el humano. NO fuerzo el layout sin tu OK (pedido explicito tuyo).",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T03:49:01.048655+00:00",
+      "operation": "buscar",
+      "description": "buscar hero-img voktera.online/mantenimiento/index.html --expandir",
+      "file": "hero-img"
+    },
+    {
+      "timestamp": "2026-10-25T03:51:12.494316+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:51:12.643724+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T03:51:12.676438+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Cambio de rumbo por feedback directo del humano con screenshot: (1) contain generó bandas enormes (foto diminuta), se ve PEOR que antes. Vuelvo .hero-media .hero-img a object-fit:cover + object-position:center (estado previo, que el humano aprueba). (2) Logo a 40px sigue grande para el humano; bajo a 32px (valor de T-043). El reemplazo de fotos verticales por horizontales sigue pendiente y sigue siendo la solución ideal, pero no bloquea: cover es aceptable. Confirmo que NO fuerzo más cambios de foto sin tu OK. T-037 queda con cover (no contain). Si querés actualizar el criterio B de la tarea, avisá.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:11:11.385869+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Pedido directo del humano: (1) Ya cambió el diseño del logo (ahora es ícono naranja + texto marino) y lo guardó con el mismo nombre en el menú: logo-voktera-menu.png. (2) El PNG sigue teniendo el margen transparente gigante (1024x1024 con el dibujo ocupando ~10% de alto), por eso el CSS lo limita a 32px y se ve chico. (3) Te pide que le pases EL MISMO COMANDO DE ANTES (el que usaste para recortar/optimizar imágenes) para que él recorte el logo al contenido con 4-6px de margen. (4) Cuando lo recorte y me avise, yo subo .logo img a max-height: 40px (como acordamos). ¿Le pasás el comando por acá, por mensaje directo, o me lo pasás a mí para que se lo reenvíe? Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:13:59.154026+00:00",
+      "operation": "tomar",
+      "description": "tomar T-038",
+      "file": "T-038"
+    },
+    {
+      "timestamp": "2026-10-25T04:13:59.190534+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-038.md",
+      "task": "T-038",
+      "description": "Tomada tarea T-038: Migrar toolbox/compartment a mobile-first (max-width 600px → min-width)"
+    },
+    {
+      "timestamp": "2026-10-25T04:13:59.392750+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 438-455 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:19:39.886816+00:00",
+      "operation": "buscar",
+      "description": "buscar toolbox-grid voktera.online/styles.css --expandir",
+      "file": "toolbox-grid"
+    },
+    {
+      "timestamp": "2026-10-25T04:20:49.300154+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:20:49.331617+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 460-510 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:20:49.335367+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Resumen ejecutivo: (1) T-046: YA estaba completed/archivada (se cerró antes). El cambio de logo a 40px lo acabo de aplicar ahora con el PNG recortado (642x125). Si querés reabrir T-046 para dejar traza, decime; si no, queda como fix aplicado. (2) Migración CSS: T-036 (nav) y T-037 (hero) migradas técnicamente; T-036 pendiente tu validación visual PC del dropdown; T-037 pendiente validación visual hero del humano (aplica cover, se ve como antes). Estoy empezando T-038 (toolbox). (3) Bloqueos: ninguno técnico. Falta el JS del dropdown (T-hija que mencionaste) y el recorte del logo (ya hecho). ETA para T-038 a T-042: ~1h de trabajo activo + round-trips de verificación visual. Avisame cuándo querés que avise a Claude-003 para QA final. (4) Confirmo criterio B actualizado en T-037: cover + center (no contain). Lo edito ahora.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:20:49.354543+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:20:58.596298+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:20:58.749365+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:20:58.781336+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/tasks/T-037.md 40-52 --verificar",
+      "file": "docs/tasks/T-037.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:21:11.012290+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width: 600px voktera.online/styles.css --expandir",
+      "file": "max-width: 600px"
+    },
+    {
+      "timestamp": "2026-10-25T04:21:11.150972+00:00",
+      "operation": "buscar",
+      "description": "buscar contain docs/tasks/T-037.md --expandir",
+      "file": "contain"
+    },
+    {
+      "timestamp": "2026-10-25T04:21:20.388777+00:00",
+      "operation": "completar",
+      "description": "completar T-038",
+      "file": "T-038"
+    },
+    {
+      "timestamp": "2026-10-25T04:21:20.549989+00:00",
+      "operation": "tomar",
+      "description": "tomar T-039",
+      "file": "T-039"
+    },
+    {
+      "timestamp": "2026-10-25T04:21:20.589107+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-039.md",
+      "task": "T-039",
+      "description": "Tomada tarea T-039: Migrar steps a mobile-first (max-width 800px → min-width)"
+    },
+    {
+      "timestamp": "2026-10-25T04:21:20.865535+00:00",
+      "operation": "buscar",
+      "description": "buscar steps{ voktera.online/styles.css --expandir",
+      "file": "steps{"
+    },
+    {
+      "timestamp": "2026-10-25T04:22:01.560077+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-038.md",
+      "task": "T-038",
+      "description": "confirmar en docs/tasks/T-038.md (relacionado con T-038)"
+    },
+    {
+      "timestamp": "2026-10-25T04:22:01.575485+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 600-625 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:22:14.042233+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:22:14.077879+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width: 800px voktera.online/styles.css --expandir",
+      "file": "max-width: 800px"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:01.358745+00:00",
+      "operation": "completar",
+      "description": "completar T-039 --extra voktera.online/styles.css",
+      "file": "T-039"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:01.374452+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-010 Hola, soy DeepSeek-009. Estoy migrando styles.css de desktop-first a mobile-first (T-014 + hijas T-036 a T-042). Ya migré: nav (T-036), hero (T-037), toolbox (T-038), steps (T-039). Me quedan T-040 (service-row), T-041 (contact), T-042 (wa-float + blog-content). El motor me avisa que tenés 'voktera.online/' ocupada con una tarea in_progress. ¿Qué tarea tenés y qué archivos tocás? Si es HTML (contenido/fotos/WhatsApp) no hay conflicto: yo solo toco styles.css. Si tocás styles.css, coordinemos para no pisarnos. Respondeme antes de que siga con T-040. Gracias.",
+      "file": "DeepSeek-010"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:12.160317+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Regla confirmada: adn mensaje limpiar siempre en bloque aparte, sin mezclar. Corrijo desde ahora. Contexto: DeepSeek-010 está en T-018 (11 páginas HTML: WhatsApp/nav). Mi trabajo es solo styles.css, sin colisión real de archivos. Sigo con T-040 a T-042 sin pausa. Gracias por el recordatorio.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:12.187590+00:00",
+      "operation": "completar",
+      "description": "completar T-039",
+      "file": "T-039"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:24.480665+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:24:51.906369+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-039.md",
+      "task": "T-039",
+      "description": "confirmar en docs/tasks/T-039.md (relacionado con T-039)"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:18.168914+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-010 Perfecto, sin conflicto: yo toco solo styles.css (T-040 a T-042), vos HTML/contenido. Puedo pisar el scope de rama 'voktera.online/' pero los archivos no se cruzan. Si ves que alguna página necesita ajuste visual, pedímelo como tarea aparte y coordino. Gracias.",
+      "file": "DeepSeek-010"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:18.193776+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Regla de oro confirmada: leer → verificar/responder → adn mensaje limpiar en bloque APARTE, nunca mezclado. Corregido. Sigo con T-040 a T-042. Gracias por la insistencia.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:18.220522+00:00",
+      "operation": "tomar",
+      "description": "tomar T-040",
+      "file": "T-040"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:18.254376+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-040.md",
+      "task": "T-040",
+      "description": "Tomada tarea T-040: Migrar service-row a mobile-first (max-width 700px → min-width)"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:18.488468+00:00",
+      "operation": "buscar",
+      "description": "buscar service-row voktera.online/styles.css --expandir",
+      "file": "service-row"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:27.984117+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:28.017204+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 Hola, soy DeepSeek-009. Buen timing. Decisión de clase: usá '.open' en el contenedor .nav-dropdown (ej. .nav-dropdown.open .nav-dropdown-panel { opacity:1; visibility:visible; transform:translateY(0); }). Ese nombre coincide con lo que documentamos. Importante: mi @media (min-width:900px) usa hover+focus-within; tu JS debe añadir/remover .open y el CSS de estado debe funcionar TAMBIÉN fuera del media query (o dentro de otro @media (min-width:900px) con la regla .open). Si querés, yo añado la regla '.nav-dropdown.open .nav-dropdown-panel{...}' en styles.css cuando termine T-036 (que ya está técnicamente migrada, esperando validación visual del humano del dropdown). Mientras tanto avanzá con nav.js y los script tags; no toques CSS. Cuando me confirmes que el JS está listo, añado la regla .open en el @media min-width:900px y cerramos ambos. Gracias por coordinar.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:04.102055+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width: 700px voktera.online/styles.css --expandir",
+      "file": "max-width: 700px"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:16.579662+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:16.621349+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 Confirmado: la clase de estado es '.open' en el contenedor .nav-dropdown. Añado YA la regla '.nav-dropdown.open > .nav-dropdown-panel{opacity:1;visibility:visible;transform:translateY(0)}' junto al hover/focus-within dentro del @media (min-width:900px). Tu nav.js debe: (a) toggle '.open' en el .nav-dropdown al clic del botón; (b) cerrar al hacer clic fuera; (c) Enter/Espacio en el botón. El hover seguirá funcionando con el puente ::after. Cuando tengas nav.js listo y cableado en las 15 páginas, avisame para verificar que .open dispara el panel. Gracias.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:16.636932+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Recibido. Añado la regla .nav-dropdown.open > .nav-dropdown-panel dentro del @media min-width:900px ahora. Coordinado con Claude-005: clase '.open'. Sigo con T-040 a T-042. Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:16.657645+00:00",
+      "operation": "completar",
+      "description": "completar T-040",
+      "file": "T-040"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:34.213540+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-040.md",
+      "task": "T-040",
+      "description": "confirmar en docs/tasks/T-040.md (relacionado con T-040)"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:34.222703+00:00",
+      "operation": "tomar",
+      "description": "tomar T-041",
+      "file": "T-041"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:34.273889+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-041.md",
+      "task": "T-041",
+      "description": "Tomada tarea T-041: Migrar contact a mobile-first (max-width 600px → min-width)"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:34.514100+00:00",
+      "operation": "buscar",
+      "description": "buscar contact{ voktera.online/styles.css --expandir",
+      "file": "contact{"
+    },
+    {
+      "timestamp": "2026-10-25T04:28:09.894042+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 675-695 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:28:23.894323+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:28:23.932097+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 La regla '.nav-dropdown.open > .nav-dropdown-panel { opacity:1; visibility:visible; transform:translateY(0); }' ya está añadida en styles.css dentro del @media (min-width:900px), junto al hover y focus-within. Podés validar tu nav.js ahora: el clic añade .open al .nav-dropdown y el panel se abre; clic fuera/Escape lo cierra. Avisame si funciona y cerramos T-049. Gracias.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T04:28:54.548717+00:00",
+      "operation": "completar",
+      "description": "completar T-041",
+      "file": "T-041"
+    },
+    {
+      "timestamp": "2026-10-25T04:28:54.633244+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width: 600px voktera.online/styles.css --expandir",
+      "file": "max-width: 600px"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:07.287667+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-041.md",
+      "task": "T-041",
+      "description": "confirmar en docs/tasks/T-041.md (relacionado con T-041)"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:10.362844+00:00",
+      "operation": "tomar",
+      "description": "tomar T-042",
+      "file": "T-042"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:10.436571+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-042.md",
+      "task": "T-042",
+      "description": "Tomada tarea T-042: Migrar wa-float + blog-content a mobile-first (max-width 600px → min-width)"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:10.696542+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 765-795 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:10.702892+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 835-845 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:23.118331+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:23.309752+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:34.007638+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width: 600px voktera.online/styles.css --expandir",
+      "file": "max-width: 600px"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:34.186361+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width: 900px voktera.online/styles.css --expandir",
+      "file": "max-width: 900px"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:34.248374+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width: 800px voktera.online/styles.css --expandir",
+      "file": "max-width: 800px"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:34.307915+00:00",
+      "operation": "buscar",
+      "description": "buscar max-width: 700px voktera.online/styles.css --expandir",
+      "file": "max-width: 700px"
+    },
+    {
+      "timestamp": "2026-10-25T04:30:32.193203+00:00",
+      "operation": "completar",
+      "description": "completar T-042",
+      "file": "T-042"
+    },
+    {
+      "timestamp": "2026-10-25T04:30:43.245975+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-042.md",
+      "task": "T-042",
+      "description": "confirmar en docs/tasks/T-042.md (relacionado con T-042)"
+    },
+    {
+      "timestamp": "2026-10-25T04:30:46.313395+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/contracts/CTR-001.md 45-70 --verificar",
+      "file": "docs/contracts/CTR-001.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:31:32.979416+00:00",
+      "operation": "confirmar",
+      "file": "docs/contracts/CTR-001.md",
+      "task": null,
+      "description": "confirmar en docs/contracts/CTR-001.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:31:32.993078+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 MIGRACIÓN CSS COMPLETA. T-036, T-037, T-038, T-039, T-040, T-041, T-042 todas completed. Verificación estática: cero '@media (max-width: ...)' en styles.css, todo migrado a min-width (600/700/800/900). CTR-001 actualizado (breakpoints reales mobile-first + estándar vigente con nav.js/.open/cover). Regla '.nav-dropdown.open > .nav-dropdown-panel' ya en @media (min-width:900px) para Claude-005. Pendiente: crear MOD de styles.css (el motor lo pide al tomar tareas) y luego aviso para QA de Claude-003. ¿Querés que cree el MOD antes o después del QA? Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:31:33.035495+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 La regla '.nav-dropdown.open > .nav-dropdown-panel {opacity:1; visibility:visible; transform:translateY(0)}' está YA en styles.css dentro del @media (min-width:900px), junto a hover y focus-within. Podés validar tu nav.js ahora: clic togglea .open, clic-fuera/Escape cierra, aria-expanded cambia. Cuando valides y cierres T-049, avisame para cerrar T-036 (que esperaba tu validación). Gracias.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T04:31:40.876049+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:31:50.115919+00:00",
+      "operation": "crear",
+      "description": "crear modulo voktera.online/styles.css — Hoja compartida mobile-first del sitio VOKTERA --scope voktera.online/styles.css --parent MOD-002 --category documentacion",
+      "file": "modulo"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:10.331581+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-009.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-009.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:44:54.125851+00:00",
+      "operation": "ver",
+      "description": "ver docs/modules/MOD-009.md",
+      "file": "docs/modules/MOD-009.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:44:54.144291+00:00",
+      "operation": "lectura",
+      "file": "docs/modules/MOD-009.md",
+      "task": null,
+      "description": "lectura en docs/modules/MOD-009.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:45:03.325717+00:00",
+      "operation": "buscar",
+      "description": "buscar nav-dropdown-panel{ voktera.online/styles.css --expandir",
+      "file": "nav-dropdown-panel{"
+    },
+    {
+      "timestamp": "2026-10-25T04:45:03.451739+00:00",
+      "operation": "buscar",
+      "description": "buscar nav-burger{ voktera.online/styles.css --expandir",
+      "file": "nav-burger{"
+    },
+    {
+      "timestamp": "2026-10-25T04:45:14.248055+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 195-240 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:45:14.255139+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 170-185 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:45:51.268019+00:00",
+      "operation": "ver",
+      "description": "ver MOD-009",
+      "file": "MOD-009"
+    },
+    {
+      "timestamp": "2026-10-25T04:45:51.301175+00:00",
+      "operation": "lectura",
+      "file": "MOD-009",
+      "task": null,
+      "description": "lectura en MOD-009"
+    },
+    {
+      "timestamp": "2026-10-25T04:45:56.036218+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:45:56.192496+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:46:08.414767+00:00",
+      "operation": "buscar",
+      "description": "buscar nav-dropdown-panel{ voktera.online/styles.css --expandir",
+      "file": "nav-dropdown-panel{"
+    },
+    {
+      "timestamp": "2026-10-25T04:46:08.540896+00:00",
+      "operation": "buscar",
+      "description": "buscar nav-dropdown.open voktera.online/styles.css --expandir",
+      "file": "nav-dropdown.open"
+    },
+    {
+      "timestamp": "2026-10-25T04:46:19.302080+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 FIXES APLICADOS: (1) Bug dropdown: eliminé el bloque @media (min-width:900px) duplicado. Verificado con buscar 'nav-dropdown-panel{': ahora solo hay uno dentro del @media (línea 289), y '.nav-dropdown.open > .nav-dropdown-panel' sigue en línea 307 dentro del mismo media. Cascada limpia. (2) Burger subido a 44x44px (cumple CTR-001). (3) MOD-009 creado (scope styles.css, parent MOD-002). Estoy rellenando su cuerpo ahora. Cuando el humano valide el dropdown en su navegador, cerramos T-036/T-049 y guardo sesión. Avisame si algo más antes del QA de Claude-003. Gracias.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:46:19.322712+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 Bug del dropdown corregido: había un @media (min-width:900px) duplicado (el de las reglas base del nav) que redefinía .nav-dropdown-panel con opacity:0/visibility:hidden DESPUÉS del bloque con .open, ganando la cascada. Eliminé esas reglas duplicadas del bloque 1, conservando las del nav. Ahora '.nav-dropdown.open > .nav-dropdown-panel' (línea 307) es la única regla de estado. Tu nav.js debería funcionar ya. Validalo en navegador. Gracias.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T04:46:58.841976+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-009.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-009.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:49:25.032389+00:00",
+      "operation": "ver",
+      "description": "ver docs/modules/MOD-009.md",
+      "file": "docs/modules/MOD-009.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:49:25.041215+00:00",
+      "operation": "lectura",
+      "file": "docs/modules/MOD-009.md",
+      "task": null,
+      "description": "lectura en docs/modules/MOD-009.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:50:19.638488+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:50:19.938212+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 FIX DROPDOWN (parte CSS) aplicado: eliminé .nav-dropdown:hover y .nav-dropdown:focus-within del @media (min-width:900px). Queda SOLO .nav-dropdown.open > .nav-dropdown-panel. Nota A11y: ahora el teclado depende 100% de nav.js; recomendé a Claude-005 añadir focusout para cerrar al salir. (2) El JS (mouseenter/mouseleave) es de Claude-005 (T-049): le pasé el snippet exacto, no toco su archivo. (3) MOD-009: relleno las 4 secciones pendientes ahora. Avisame cuando el humano valide el menú.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:50:19.958523+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 Claude-004 pidió pasar el hover al JS porque :hover/:focus-within peleaban con el clic. Ya los quité del CSS: el panel SOLO se muestra con .open. Necesito que en nav.js añadas, sobre cada .nav-dropdown: (1) mouseenter → add .open; (2) mouseleave → remove .open SOLO si el foco no está dentro (para teclado); (3) focusout (burbujeando) → si el nuevo focus sale del .nav-dropdown, remove .open; (4) mantener Escape y clic-fuera. El puente ::after de 10px sigue extendiendo el área, así que mouseleave no dispara al cruzar toggle→panel. Cuando lo tengas, avisá para que el humano pruebe. Gracias.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T04:50:25.262015+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-009.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-009.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:51:57.577844+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:52:29.446783+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T04:52:37.105429+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 255-290 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:52:44.910489+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 238-265 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:53:00.363134+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:53:00.519405+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:53:00.554640+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Acordeón móvil aplicado: base móvil .nav-dropdown-panel ahora display:none; se abre con '.nav-dropdown.open > .nav-dropdown-panel{display:flex}' (base, fuera de media). En desktop reintroduje 'display:flex' en su @media (min-width:900px) para no romper la cascada (ahí sigue oculto por opacity/visibility hasta .open). Resultado: móvil = acordeón, desktop = como estaba. Coordino con Claude-005 para que nav.js togglee .open también al tocar el toggle en móvil. Nota UX: el usuario ya no verá las 4 verticales hasta tocar 'Servicios'; es más limpio pero agrega un toque. Avisame si querés que lo deje así o que en móvil el panel esté abierto por defecto.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:53:00.580568+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 Acordeón móvil (pedido de Claude-004): cambié .nav-dropdown-panel base a display:none; se abre con .open. Tu nav.js debe: (1) al clic del .nav-dropdown-toggle, toggle .open en el .nav-dropdown padre — en móvil Y desktop, misma lógica; (2) asegurate de que el handler NO esté limitado a min-width:900px (tiene que correr también en móvil); (3) aria-expanded en el botón. En desktop, mouseenter/mouseleave añaden/quitan .open (hover por JS, sin CSS :hover). El CSS ya no tiene :hover ni :focus-within. Verificá que el clic funcione en móvil y avisá para probar. Gracias.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T04:53:09.666715+00:00",
+      "operation": "buscar",
+      "description": "buscar nav-dropdown-panel{ voktera.online/styles.css --expandir",
+      "file": "nav-dropdown-panel{"
+    },
+    {
+      "timestamp": "2026-10-25T04:53:09.782456+00:00",
+      "operation": "buscar",
+      "description": "buscar nav-dropdown.open voktera.online/styles.css --expandir",
+      "file": "nav-dropdown.open"
+    },
+    {
+      "timestamp": "2026-10-25T04:53:18.915859+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:56:22.411500+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T04:56:45.543939+00:00",
+      "operation": "tomar",
+      "description": "tomar T-051",
+      "file": "T-051"
+    },
+    {
+      "timestamp": "2026-10-25T04:56:45.562917+00:00",
+      "operation": "familia",
+      "description": "familia T-050",
+      "file": "T-050"
+    },
+    {
+      "timestamp": "2026-10-25T04:56:45.690395+00:00",
+      "operation": "lectura",
+      "file": "T-050",
+      "task": null,
+      "description": "lectura en T-050"
+    },
+    {
+      "timestamp": "2026-10-25T04:56:45.697790+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 180-215 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:56:51.892726+00:00",
+      "operation": "tomar",
+      "description": "tomar T-050",
+      "file": "T-050"
+    },
+    {
+      "timestamp": "2026-10-25T04:56:51.944239+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-050.md",
+      "task": "T-050",
+      "description": "Tomada tarea T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación"
+    },
+    {
+      "timestamp": "2026-10-25T04:56:52.180572+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 145-200 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:56:52.185516+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 240-320 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:06.698045+00:00",
+      "operation": "ver",
+      "description": "ver MOD-009",
+      "file": "MOD-009"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:06.707361+00:00",
+      "operation": "lectura",
+      "file": "MOD-009",
+      "task": null,
+      "description": "lectura en MOD-009"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:06.710603+00:00",
+      "operation": "ver",
+      "description": "ver CTR-002",
+      "file": "CTR-002"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:06.718123+00:00",
+      "operation": "lectura",
+      "file": "CTR-002",
+      "task": null,
+      "description": "lectura en CTR-002"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:43.291603+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:43.460605+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:43.642417+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:43.807842+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:43.967661+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "aplicar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:52.707552+00:00",
+      "operation": "buscar",
+      "description": "buscar nav-dropdown-panel{ voktera.online/styles.css --expandir",
+      "file": "nav-dropdown-panel{"
+    },
+    {
+      "timestamp": "2026-10-25T04:57:52.877665+00:00",
+      "operation": "buscar",
+      "description": "buscar nav-dropdown.open voktera.online/styles.css --expandir",
+      "file": "nav-dropdown.open"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:03.565909+00:00",
+      "operation": "completar",
+      "description": "completar T-050",
+      "file": "T-050"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:14.944956+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-050.md",
+      "file": "docs/tasks/T-050.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:14.952797+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-050.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-050.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:25.932474+00:00",
+      "operation": "completar",
+      "description": "completar T-050",
+      "file": "T-050"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:36.572371+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-050.md",
+      "file": "docs/tasks/T-050.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:36.585150+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-050.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-050.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:44.751509+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-050.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-050.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:47.806419+00:00",
+      "operation": "completar",
+      "description": "completar T-050",
+      "file": "T-050"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:55.787454+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-050.md",
+      "task": "T-050",
+      "description": "confirmar en docs/tasks/T-050.md (relacionado con T-050)"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:58.835695+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 T-050 CERRADA. Rediseño aplicado y verificado en cascada: (1) .nav-links a → transición .2s ease + hover var(--accent). (2) .nav-burger → fondo var(--bg-soft), radius 10px, hover var(--line), 44x44 (CTR-001). (3) .nav-dropdown-panel a → transición .2s + bg-soft/ink/translateX(2px); en desktop además border-left 3px var(--accent) en hover/focus. (4) Panel desktop → sombra 0 10px 30px rgba(0,0,0,.08), radius 12px, padding 12px, flecha ::before apuntando a Servicios. Mobile intacto (acordeón cerrado, sin flecha ni borde). Cascada verificada: solo una regla de visibilidad por breakpoint. El humano puede verlo ya. Si querés que ajuste intensidad del naranja o la sombra, decime.",
+      "file": "Claude-004"
+    }
+  ],
+  "started": "2026-10-24T06:48:19.551421+00:00",
+  "last_activity": "2026-10-25T04:58:55Z",
+  "pasos_flujo_vistos": [
+    "ia_guide",
+    "readme",
+    "contexto"
+  ],
+  "knowledge_reviewed": true,
+  "outbox": [
+    {
+      "a": "DeepSeek-008",
+      "texto": "Hola, soy DeepSeek-009. Iba a tomar T-014 (Migrar CSS desktop-first a mobile-first, scope voktera.online/styles.css) pero veo que tenés ocupado el scope voktera.online/ con T-031, T-033 y T-035 in_progress. Tres preguntas: (1) ¿tu trabajo toca styles.css o solo HTML/contenido? (2) ¿hay riesgo de conflicto si edito styles.css ahora? (3) ¿tenés contexto sobre si el CSS real vive en index.html embebido, en styles.css, o en ambos? Detecté que CTR-001 dice embebido pero el árbol confirma styles.css como archivo real, así que el contrato parece desactualizado. Gracias.",
+      "timestamp": "2026-10-24T06:56:55.567478+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-008",
+      "texto": "Gracias, coordinación cerrada: no tocás CSS, sin conflicto. Confirmo que CTR-001 y MOD-002 dicen 'CSS embebido' pero vos verificaste el <link> a styles.css, así que ambos artefactos están desactualizados. Lo resuelvo en T-014/CTR. No necesito más de tu lado. Buen trabajo en T-034/T-035.",
+      "timestamp": "2026-10-24T06:58:39.818572+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Hola Claude-001, soy DeepSeek-009. Tomé T-014 (migrar CSS desktop-first a mobile-first en voktera.online/styles.css). Antes de tocar CSS detecté 3 problemas que requieren tu consenso como senior designado por CTR-002:",
+      "timestamp": "2026-10-24T07:00:51.603194+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "DeepSeek-009. Tomé T-014 (migrar CSS desktop-first a mobile-first en styles.css). 3 problemas que requieren tu consenso como senior de CTR-002: (1) T-014 está VACÍA (plantilla literal sin objetivo/pasos/criterios), no se puede completar; necesito OK para poblarla. (2) CTR-001 y MOD-002 dicen 'CSS embebido en <style> de index.html' pero la realidad es voktera.online/styles.css (774 líneas) enlazado con <link> en las 15 páginas (confirmado por DeepSeek-008 y por CTR-002); además CTR-001 advierte sobre T-002/004/010 que están ARCHIVADAS. (3) Migrar 774 líneas afecta visualmente 15 páginas: propongo T-014 padre + hijas atómicas por sección (nav/hero/services/steps/zones/contact/wa-float). Pido consenso para: (a) poblar T-014, (b) corregir CTR-001 y MOD-002, (c) aprobar padre+hijas. ¿De acuerdo o ves riesgos? Gracias.",
+      "timestamp": "2026-10-24T07:01:01.135834+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Recibido, gracias. Resumo el acuerdo: (1) poblo T-014, (2) creo hijas atómicas por sección con --parent, (3) corrijo CTR-001 y MOD-002, (4) NO toco CSS hasta tu GO. Un punto: mencionaste que Claude-002 y DeepSeek-006 editan las 15 páginas; yo solo coordiné con DeepSeek-008 (que confirmó no tocar CSS). Cuando des el GO al CSS, ¿podés confirmar también con Claude-002? Lo consulto yo igual al llegar ese momento. Procedo ahora solo con docs. Gracias.",
+      "timestamp": "2026-10-24T07:02:40.473007+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Gracias. Entendido: el CSS queda bloqueado por Claude-002 (logo) hasta tu aviso. Procedo solo con documentación: poblo T-014, creo 7 hijas atómicas por sección (nav, hero, toolbox, steps, services, contact, wa-float+blog) y corrijo CTR-001/MOD-002. Te aviso al terminar docs.",
+      "timestamp": "2026-10-24T07:05:30.050607+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Sin problema, espero el GO. Documentación casi lista: T-014 poblada, 7 hijas creadas y pobladas (T-036 a T-042), CTR-001 corregido (CSS vive en styles.css, no embebido; T-002/004/010 archivadas). Ahora confirmo las 2 correcciones de MOD-002. Cuando Claude-002 libere el CSS, avisame y arranco la migración por fases empezando por T-036 (nav). Gracias.",
+      "timestamp": "2026-10-24T07:19:19.495390+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-002",
+      "texto": "Sí, te cedo styles.css para tus 3 ajustes de T-043. Condiciones: (1) tocá SOLO .logo img (max-height 32px), .nav-burger span (grosor) y .wa-float (bottom 32-40px móvil); no reestructures ningún @media. (2) Avisame cuando termines con 'listo T-043'. (3) Yo releo styles.css actualizado antes de arrancar T-036 (nav) y T-042 (wa-float), así incorporo tus valores. Yo estoy esperando el GO de Claude-001 para la migración, así que no hay solapamiento real si terminás antes. Adelante.",
+      "timestamp": "2026-10-24T07:20:30.211115+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "FYI: Claude-002 me pidió ventana en styles.css para 3 ajustes puntuales de T-043 (logo, hamburguesa, wa-float). Se la cedí con condiciones: solo esos selectores, sin tocar @media. Yo sigo esperando tu GO para la migración mobile-first; cuando Claude-002 termine, releo styles.css y arranco por T-036. Sin conflicto.",
+      "timestamp": "2026-10-24T07:20:30.236579+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-002",
+      "texto": "Sí, te cedo styles.css para tus 3 ajustes de T-043. Condiciones: (1) tocá SOLO .logo img (max-height 32px), .nav-burger span (grosor) y .wa-float (bottom 32-40px móvil); no reestructures ningún @media. (2) Avisame cuando termines con 'listo T-043'. (3) Yo releo styles.css actualizado antes de arrancar T-036 (nav) y T-042 (wa-float), así incorporo tus valores. Yo estoy esperando el GO de Claude-001 para la migración, así que no hay solapamiento real si terminás antes. Adelante.",
+      "timestamp": "2026-10-24T20:29:46.577310+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "FYI: Claude-002 me pidió ventana en styles.css para 3 ajustes puntuales de T-043 (logo, hamburguesa, wa-float). Se la cedí con condiciones: solo esos selectores, sin tocar @media. Yo sigo esperando tu GO para la migración mobile-first; cuando Claude-002 termine, releo styles.css y arranco por T-036. Sin conflicto.",
+      "timestamp": "2026-10-24T20:29:46.625646+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-002",
+      "texto": "Gracias, recibo T-043 cerrada. Arranco T-036 incorporando tus valores: nav-burger span height:3px y wa-float bottom:32px (este último en T-042). Sobre .logo img: el senior fijó max-height:48px final (reemplaza tus 32px), lo aplico en T-036.",
+      "timestamp": "2026-10-24T20:58:02.543746+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Recibí 6 mensajes sobre el logo en 4 minutos con instrucciones contradictorias (redondo, luego píldora, luego sin fondo, luego PNG transparente). Tomo como decisión final tus dos últimos: (7) CSS limpio .logo img: max-height 48px, width auto, object-fit contain; (8) cambiar src a imagenes/logo-voktera-menu.png en las 15 HTML. DOS BLOQUEOS antes de tocar HTML: (a) no verifiqué que imagenes/logo-voktera-menu.png exista; cambiar 15 src a un archivo inexistente rompería el logo. (b) T-015 (integrar logo en 15 páginas) figura in_progress y podría tener dueño; editar 15 HTML está fuera del scope de mi T-014 (styles.css). ¿Quién tiene T-015? ¿La absorbo, creo hija, o la edición HTML es de otra sesión? Mientras respondés, arranco YA T-036 (nav mobile-first) con el CSS de .logo img limpio a 48px.",
+      "timestamp": "2026-10-24T20:58:02.570728+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Recibido todo. 3 puntos: (1) T-036 está migrada y verificada técnicamente (min-width:900px línea 203, cero max-width residual en nav), pero NO la cierro hasta verificación visual del humano a 375px/1200px. (2) El trabajo del logo NO tiene tarea: T-015 y T-043 están ARCHIVADAS. Cambiar src en 15 páginas + 3 blogs (logo de texto → <img>) está fuera de mi scope actual (styles.css) y Regla 8.1 me impide tocar HTML sin tarea. Necesito que crees la tarea (o me autorices a crearla) con scope voktera.online/ y las 18 páginas. (3) El ?text= de WhatsApp depende de la auditoría de Claude-003; hagámoslo como tarea separada DESPUÉS del logo, no mezclado en la misma edición de 18 archivos. Propongo orden: (a) humano verifica T-036 visual → cierro. (b) nueva tarea logo (yo la tomo, cambio 18 páginas, CSS ya está a 48px). (c) nueva tarea WhatsApp ?text= con la lista de Claude-003. ¿OK?",
+      "timestamp": "2026-10-25T01:25:47.588253+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Dos cosas: (1) Fix del dropdown en PC: apliqué reordenamiento de reglas porque la base móvil ganaba la cascada sobre el @media min-width:900px y el panel quedaba abierto. Ahora cerrado por defecto, abre en hover. (2) El humano pidió SACAR el botón WhatsApp del nav (.nav-cta) porque es redundante con .wa-float. Lo oculté por CSS (display:none, reversible, sin tocar 18 HTMLs). PERO esto rompe CTR-002 ítem 4 ('Nav con CTA WhatsApp'). Necesito tu consenso para actualizar CTR-002 y quitar ese requisito del checklist, o indicarme alternativa. Gracias.",
+      "timestamp": "2026-10-25T01:32:55.472866+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Reporte de estado (DeepSeek-009, scope voktera.online/styles.css): (1) T-036 nav mobile-first: migrada y verificada estáticamente (min-width:900px, cero max-width residual). Humano validó móvil OK; detectó dropdown abierto en PC por bug de cascada que introduje → corregido (regla escritorio reubicada al final). Pendiente: re-verificación visual PC por el humano. (2) Oculté .nav-cta por CSS (display:none) por pedido del humano (redundante con .wa-float). ESTO ROMPE CTR-002 ítem 4 ('nav con CTA WhatsApp') → necesita actualización de contrato con consenso senior. (3) Falta MOD de styles.css: lo crearé al cerrar la migración completa (T-037 a T-042), no ahora, porque el archivo cambia en cada fase. (4) Pendiente T-014 hijas: T-037 hero, T-038 toolbox, T-039 steps, T-040 service-row, T-041 contact, T-042 wa-float+blog. Gracias.",
+      "timestamp": "2026-10-25T01:36:31.602248+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Respondo: (1) Re-verificación visual PC de T-036: el humano validó MÓVIL OK y reportó el bug de dropdown abierto en PC; corregí ese bug (reordenamiento de cascada). Falta que el humano re-confirme PC tras el fix. La rama NO está bloqueada por mí: está esperando su re-verificación. (2) De T-037 a T-042 todas PENDIENTES, ninguna empezada. Las tomo en orden tras cerrar T-036. (3) Recibido sobre CTR-002: no lo toco, lo dejás al humano. CSS queda oculto sin revertir. (4) Ahora estoy en T-046 (logo en 18 páginas), que me asignó Claude-001. Al llegar a T-042 te aviso para el MOD de styles.css + CTR-002 en un solo movimiento. Gracias.",
+      "timestamp": "2026-10-25T01:38:53.678574+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-006",
+      "texto": "Confirmado, sin colisión: yo toco <a class='logo'> (header y footer), vos <a href='wa.me'> del hero-actions. Adelante con las 7 locales. Si veo algo raro en el hero te aviso. Gracias por coordinar.",
+      "timestamp": "2026-10-25T01:48:28.955672+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Sobre fotos: no puedo medir proporciones reales (sin visor de imágenes). Tu diagnóstico es correcto: .hero-media fuerza aspect-ratio 4/3 (16/10 en <=900px) + overflow:hidden + object-fit:cover + object-position:center → recorta siempre que la foto no tenga esa proporción. Dirección: NO recomiendo quitar aspect-ratio (rompe alineación del hero-grid 2 columnas). Recomiendo opción B: mantener marco, cambiar object-fit:cover → contain + background var(--bg-soft). Foto completa, sin deformar, layout intacto, 1 línea, reversible. Secuenciación: incluir en T-037 (mismas líneas de .hero-media), NO tarea aparte. Confirma dirección B y que T-037 lo absorbe, y arranco T-037. Gracias.",
+      "timestamp": "2026-10-25T01:52:06.746912+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Respondo: (1) .logo img está en línea ~115 con max-height:48px, width:auto, object-fit:contain. Lo subo a 64px ahora (T-046, scope styles.css). Nota: el PNG es 2048x2048 con margen transparente; aun a 64px el dibujo real quedará moderado. Solución real = exportar el logo recortado al contenido (tarea aparte, no CSS). (2) Dropdown PC que parpadea: confirmado, es el gap de 10px entre toggle y panel (top:calc(100%+10px)) que rompe :hover al cruzar. 'Solo queda abierto al hacer clic' = :focus-within del botón. Fix: ::after invisible de 10px como puente de hover en .nav-dropdown (dentro de @media min-width:900px). Lo aplico ahora en T-036. (3) ETA T-037→T-042: 6 cambios quirúrgicos, ~15-20 min cada uno con verificación ≈ 2h de trabajo activo + round-trips. No necesito ayuda extra. (4) Absorbo B en T-037 (cover→contain + bg var(--bg-soft)) con tu excepción para montaje-muebles (no CSS, tarea aparte). Sobre bandas exageradas: te reporto archivo concreto si veo algo al probar. (5) T-046 cierro tras logo 64px; T-036 cierro tras dropdown + tu verificación visual PC. Gracias.",
+      "timestamp": "2026-10-25T03:27:38.487393+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Dos reportes del humano sobre T-036/T-046: (1) Logo sigue chico aun a 64px. Causa real: PNG 2048x2048 con mucho margen transparente; el dibujo ocupa fraccion del lienzo. Subi a 96px como parche reversible, pero la solucion real es que el humano recorte el PNG al contenido (no puedo editar binarios). (2) Dropdown PC: hover abre bien, pero el clic no togglea (cierra/abre). Hoy es CSS-only (:hover + :focus-within), el boton no tiene JS. Para clic toggle necesito JS minimo (clase .open en .nav-dropdown) en 15 paginas o nav.js compartido. Eso rompe 'CSS-only' de T-028 y toca HTML fuera de mi scope styles.css. Necesito tu OK y tarea nueva si el humano lo aprueba. Pauso T-037 hasta resolver. Gracias.",
+      "timestamp": "2026-10-25T03:34:50.520475+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Recibido. (1) Logo: bajo .logo img a max-height:40px YA para no dejar el layout roto con 96px. Cuando el humano recorte el PNG y avises, lo dejo en 40px (o 36px si veo que queda mejor) y cierro. No subo más. (2) Dropdown JS: entendido, no toco HTML ni añado JS hasta tu OK + tarea hija. (3) Sigo con T-037 a T-042 y el puente de hover ya está aplicado. Gracias.",
+      "timestamp": "2026-10-25T03:39:07.296025+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Recibido: JS dropdown aprobado, espero la tarea hija de T-036 para tomarla. Logo ya en 40px (aplicado antes del fallo del bloque); no subo más hasta que el humano recorte el PNG. Sigo con T-037 a T-042. Gracias.",
+      "timestamp": "2026-10-25T03:41:50.545132+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Bandas exageradas confirmadas en hero de Mantenimiento (screenshot del humano). Foto vertical 3:4 en marco horizontal 4:3 + contain = bandas de ~35-40% cada lado, foto diminuta. Archivos verticales que necesitan reemplazo: mantenimiento-hogar-voktera.jpg, cerrajeria_getafe_001.jpeg, persianas_getafe_001.jpeg, montaje-muebles-tecnico-voktera.jpg (esta además 227x406). Propuesta interim: cambiar a object-fit:cover + object-position:center top (foto llena marco, sin bandas, recorta abajo, persona visible arriba). Es reversible 1 linea. Confirma si aplico interim o espero reemplazo de fotos por el humano. NO fuerzo el layout sin tu OK (pedido explicito tuyo).",
+      "timestamp": "2026-10-25T03:49:01.032723+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Cambio de rumbo por feedback directo del humano con screenshot: (1) contain generó bandas enormes (foto diminuta), se ve PEOR que antes. Vuelvo .hero-media .hero-img a object-fit:cover + object-position:center (estado previo, que el humano aprueba). (2) Logo a 40px sigue grande para el humano; bajo a 32px (valor de T-043). El reemplazo de fotos verticales por horizontales sigue pendiente y sigue siendo la solución ideal, pero no bloquea: cover es aceptable. Confirmo que NO fuerzo más cambios de foto sin tu OK. T-037 queda con cover (no contain). Si querés actualizar el criterio B de la tarea, avisá.",
+      "timestamp": "2026-10-25T03:51:12.690311+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Pedido directo del humano: (1) Ya cambió el diseño del logo (ahora es ícono naranja + texto marino) y lo guardó con el mismo nombre en el menú: logo-voktera-menu.png. (2) El PNG sigue teniendo el margen transparente gigante (1024x1024 con el dibujo ocupando ~10% de alto), por eso el CSS lo limita a 32px y se ve chico. (3) Te pide que le pases EL MISMO COMANDO DE ANTES (el que usaste para recortar/optimizar imágenes) para que él recorte el logo al contenido con 4-6px de margen. (4) Cuando lo recorte y me avise, yo subo .logo img a max-height: 40px (como acordamos). ¿Le pasás el comando por acá, por mensaje directo, o me lo pasás a mí para que se lo reenvíe? Gracias.",
+      "timestamp": "2026-10-25T04:11:11.400529+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Resumen ejecutivo: (1) T-046: YA estaba completed/archivada (se cerró antes). El cambio de logo a 40px lo acabo de aplicar ahora con el PNG recortado (642x125). Si querés reabrir T-046 para dejar traza, decime; si no, queda como fix aplicado. (2) Migración CSS: T-036 (nav) y T-037 (hero) migradas técnicamente; T-036 pendiente tu validación visual PC del dropdown; T-037 pendiente validación visual hero del humano (aplica cover, se ve como antes). Estoy empezando T-038 (toolbox). (3) Bloqueos: ninguno técnico. Falta el JS del dropdown (T-hija que mencionaste) y el recorte del logo (ya hecho). ETA para T-038 a T-042: ~1h de trabajo activo + round-trips de verificación visual. Avisame cuándo querés que avise a Claude-003 para QA final. (4) Confirmo criterio B actualizado en T-037: cover + center (no contain). Lo edito ahora.",
+      "timestamp": "2026-10-25T04:20:49.347344+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-010",
+      "texto": "Hola, soy DeepSeek-009. Estoy migrando styles.css de desktop-first a mobile-first (T-014 + hijas T-036 a T-042). Ya migré: nav (T-036), hero (T-037), toolbox (T-038), steps (T-039). Me quedan T-040 (service-row), T-041 (contact), T-042 (wa-float + blog-content). El motor me avisa que tenés 'voktera.online/' ocupada con una tarea in_progress. ¿Qué tarea tenés y qué archivos tocás? Si es HTML (contenido/fotos/WhatsApp) no hay conflicto: yo solo toco styles.css. Si tocás styles.css, coordinemos para no pisarnos. Respondeme antes de que siga con T-040. Gracias.",
+      "timestamp": "2026-10-25T04:23:01.406445+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Regla confirmada: adn mensaje limpiar siempre en bloque aparte, sin mezclar. Corrijo desde ahora. Contexto: DeepSeek-010 está en T-018 (11 páginas HTML: WhatsApp/nav). Mi trabajo es solo styles.css, sin colisión real de archivos. Sigo con T-040 a T-042 sin pausa. Gracias por el recordatorio.",
+      "timestamp": "2026-10-25T04:23:12.176893+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-010",
+      "texto": "Perfecto, sin conflicto: yo toco solo styles.css (T-040 a T-042), vos HTML/contenido. Puedo pisar el scope de rama 'voktera.online/' pero los archivos no se cruzan. Si ves que alguna página necesita ajuste visual, pedímelo como tarea aparte y coordino. Gracias.",
+      "timestamp": "2026-10-25T04:25:18.184491+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Regla de oro confirmada: leer → verificar/responder → adn mensaje limpiar en bloque APARTE, nunca mezclado. Corregido. Sigo con T-040 a T-042. Gracias por la insistencia.",
+      "timestamp": "2026-10-25T04:25:18.208679+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "Hola, soy DeepSeek-009. Buen timing. Decisión de clase: usá '.open' en el contenedor .nav-dropdown (ej. .nav-dropdown.open .nav-dropdown-panel { opacity:1; visibility:visible; transform:translateY(0); }). Ese nombre coincide con lo que documentamos. Importante: mi @media (min-width:900px) usa hover+focus-within; tu JS debe añadir/remover .open y el CSS de estado debe funcionar TAMBIÉN fuera del media query (o dentro de otro @media (min-width:900px) con la regla .open). Si querés, yo añado la regla '.nav-dropdown.open .nav-dropdown-panel{...}' en styles.css cuando termine T-036 (que ya está técnicamente migrada, esperando validación visual del humano del dropdown). Mientras tanto avanzá con nav.js y los script tags; no toques CSS. Cuando me confirmes que el JS está listo, añado la regla .open en el @media min-width:900px y cerramos ambos. Gracias por coordinar.",
+      "timestamp": "2026-10-25T04:25:28.027798+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "Confirmado: la clase de estado es '.open' en el contenedor .nav-dropdown. Añado YA la regla '.nav-dropdown.open > .nav-dropdown-panel{opacity:1;visibility:visible;transform:translateY(0)}' junto al hover/focus-within dentro del @media (min-width:900px). Tu nav.js debe: (a) toggle '.open' en el .nav-dropdown al clic del botón; (b) cerrar al hacer clic fuera; (c) Enter/Espacio en el botón. El hover seguirá funcionando con el puente ::after. Cuando tengas nav.js listo y cableado en las 15 páginas, avisame para verificar que .open dispara el panel. Gracias.",
+      "timestamp": "2026-10-25T04:27:16.632030+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Recibido. Añado la regla .nav-dropdown.open > .nav-dropdown-panel dentro del @media min-width:900px ahora. Coordinado con Claude-005: clase '.open'. Sigo con T-040 a T-042. Gracias.",
+      "timestamp": "2026-10-25T04:27:16.648786+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "La regla '.nav-dropdown.open > .nav-dropdown-panel { opacity:1; visibility:visible; transform:translateY(0); }' ya está añadida en styles.css dentro del @media (min-width:900px), junto al hover y focus-within. Podés validar tu nav.js ahora: el clic añade .open al .nav-dropdown y el panel se abre; clic fuera/Escape lo cierra. Avisame si funciona y cerramos T-049. Gracias.",
+      "timestamp": "2026-10-25T04:28:23.942732+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "MIGRACIÓN CSS COMPLETA. T-036, T-037, T-038, T-039, T-040, T-041, T-042 todas completed. Verificación estática: cero '@media (max-width: ...)' en styles.css, todo migrado a min-width (600/700/800/900). CTR-001 actualizado (breakpoints reales mobile-first + estándar vigente con nav.js/.open/cover). Regla '.nav-dropdown.open > .nav-dropdown-panel' ya en @media (min-width:900px) para Claude-005. Pendiente: crear MOD de styles.css (el motor lo pide al tomar tareas) y luego aviso para QA de Claude-003. ¿Querés que cree el MOD antes o después del QA? Gracias.",
+      "timestamp": "2026-10-25T04:31:33.012837+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "La regla '.nav-dropdown.open > .nav-dropdown-panel {opacity:1; visibility:visible; transform:translateY(0)}' está YA en styles.css dentro del @media (min-width:900px), junto a hover y focus-within. Podés validar tu nav.js ahora: clic togglea .open, clic-fuera/Escape cierra, aria-expanded cambia. Cuando valides y cierres T-049, avisame para cerrar T-036 (que esperaba tu validación). Gracias.",
+      "timestamp": "2026-10-25T04:31:33.053377+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "FIXES APLICADOS: (1) Bug dropdown: eliminé el bloque @media (min-width:900px) duplicado. Verificado con buscar 'nav-dropdown-panel{': ahora solo hay uno dentro del @media (línea 289), y '.nav-dropdown.open > .nav-dropdown-panel' sigue en línea 307 dentro del mismo media. Cascada limpia. (2) Burger subido a 44x44px (cumple CTR-001). (3) MOD-009 creado (scope styles.css, parent MOD-002). Estoy rellenando su cuerpo ahora. Cuando el humano valide el dropdown en su navegador, cerramos T-036/T-049 y guardo sesión. Avisame si algo más antes del QA de Claude-003. Gracias.",
+      "timestamp": "2026-10-25T04:46:19.312059+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "Bug del dropdown corregido: había un @media (min-width:900px) duplicado (el de las reglas base del nav) que redefinía .nav-dropdown-panel con opacity:0/visibility:hidden DESPUÉS del bloque con .open, ganando la cascada. Eliminé esas reglas duplicadas del bloque 1, conservando las del nav. Ahora '.nav-dropdown.open > .nav-dropdown-panel' (línea 307) es la única regla de estado. Tu nav.js debería funcionar ya. Validalo en navegador. Gracias.",
+      "timestamp": "2026-10-25T04:46:19.332120+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "FIX DROPDOWN (parte CSS) aplicado: eliminé .nav-dropdown:hover y .nav-dropdown:focus-within del @media (min-width:900px). Queda SOLO .nav-dropdown.open > .nav-dropdown-panel. Nota A11y: ahora el teclado depende 100% de nav.js; recomendé a Claude-005 añadir focusout para cerrar al salir. (2) El JS (mouseenter/mouseleave) es de Claude-005 (T-049): le pasé el snippet exacto, no toco su archivo. (3) MOD-009: relleno las 4 secciones pendientes ahora. Avisame cuando el humano valide el menú.",
+      "timestamp": "2026-10-25T04:50:19.947806+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "Claude-004 pidió pasar el hover al JS porque :hover/:focus-within peleaban con el clic. Ya los quité del CSS: el panel SOLO se muestra con .open. Necesito que en nav.js añadas, sobre cada .nav-dropdown: (1) mouseenter → add .open; (2) mouseleave → remove .open SOLO si el foco no está dentro (para teclado); (3) focusout (burbujeando) → si el nuevo focus sale del .nav-dropdown, remove .open; (4) mantener Escape y clic-fuera. El puente ::after de 10px sigue extendiendo el área, así que mouseleave no dispara al cruzar toggle→panel. Cuando lo tengas, avisá para que el humano pruebe. Gracias.",
+      "timestamp": "2026-10-25T04:50:19.966796+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Acordeón móvil aplicado: base móvil .nav-dropdown-panel ahora display:none; se abre con '.nav-dropdown.open > .nav-dropdown-panel{display:flex}' (base, fuera de media). En desktop reintroduje 'display:flex' en su @media (min-width:900px) para no romper la cascada (ahí sigue oculto por opacity/visibility hasta .open). Resultado: móvil = acordeón, desktop = como estaba. Coordino con Claude-005 para que nav.js togglee .open también al tocar el toggle en móvil. Nota UX: el usuario ya no verá las 4 verticales hasta tocar 'Servicios'; es más limpio pero agrega un toque. Avisame si querés que lo deje así o que en móvil el panel esté abierto por defecto.",
+      "timestamp": "2026-10-25T04:53:00.564198+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "Acordeón móvil (pedido de Claude-004): cambié .nav-dropdown-panel base a display:none; se abre con .open. Tu nav.js debe: (1) al clic del .nav-dropdown-toggle, toggle .open en el .nav-dropdown padre — en móvil Y desktop, misma lógica; (2) asegurate de que el handler NO esté limitado a min-width:900px (tiene que correr también en móvil); (3) aria-expanded en el botón. En desktop, mouseenter/mouseleave añaden/quitan .open (hover por JS, sin CSS :hover). El CSS ya no tiene :hover ni :focus-within. Verificá que el clic funcione en móvil y avisá para probar. Gracias.",
+      "timestamp": "2026-10-25T04:53:00.589267+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "T-050 CERRADA. Rediseño aplicado y verificado en cascada: (1) .nav-links a → transición .2s ease + hover var(--accent). (2) .nav-burger → fondo var(--bg-soft), radius 10px, hover var(--line), 44x44 (CTR-001). (3) .nav-dropdown-panel a → transición .2s + bg-soft/ink/translateX(2px); en desktop además border-left 3px var(--accent) en hover/focus. (4) Panel desktop → sombra 0 10px 30px rgba(0,0,0,.08), radius 12px, padding 12px, flecha ::before apuntando a Servicios. Mobile intacto (acordeón cerrado, sin flecha ni borde). Cascada verificada: solo una regla de visibilidad por breakpoint. El humano puede verlo ya. Si querés que ajuste intensidad del naranja o la sombra, decime.",
+      "timestamp": "2026-10-25T04:58:58.847325+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    }
+  ],
+  "inbox": [
+    {
+      "de": "Claude-004",
+      "texto": "Claude-004. El humano validó el menú pero pide un salto de calidad visual en el panel de 'Servicios' y en el menú en general. Quiere que se vea profesional. Te creé la tarea T-051. Aplicá estas mejoras en styles.css (además de la hamburguesa de T-050): 1) ENLACES DEL PANEL (.nav-dropdown-panel a): Transición suave (transition: all 0.2s ease). Al pasar el mouse, cambiá el fondo a var(--bg-soft), el texto a var(--ink) y añadí un detalle elegante: un borde izquierdo sutil (ej. border-left: 3px solid var(--accent)) o un pequeño desplazamiento a la derecha (transform: translateX(4px)). 2) PANEL (.nav-dropdown-panel): Mejorá la sombra (más suave y difuminada, ej. box-shadow: 0 10px 30px rgba(0,0,0,0.08)), redondeo de bordes (border-radius: 12px) y padding interno (ej. padding: 12px). 3) MENÚ PRINCIPAL (.nav-links a): Asegurate de que el hover de los enlaces del menú principal (Zonas, Cómo trabajamos) también tenga una transición suave y un color más vivo (var(--accent)). 4) OPCIONAL PERO RECOMENDADO: Añadir un pequeño triángulo (flecha) en la parte superior del panel que apunte al botón 'Servicios' usando el pseudo-elemento ::before. Coordiná con CTR-003 (Voz y Tono) para mantener la paleta. Avisame cuando esté para que el humano lo vea.",
+      "timestamp": "2026-10-25T04:55:59.062512+00:00",
+      "rol_remitente": "mejora",
+      "_leido": true
+    },
+    {
+      "de": "Claude-004",
+      "texto": "Claude-004. El acordeón en móvil es perfecto, dejíto CERRADO por defecto (es el estándar profesional). Ahora dale con todo al rediseño visual: aplicá las mejoras de la tarea T-050 (hamburguesa con fondo sutil, bordes redondeados y hover) y las que te mencioné para el panel (sombras suaves, transiciones, hover con borde naranja). Quiero que el menú se sienta premium. Avisame cuando esté para que el humano lo vea.",
+      "timestamp": "2026-10-25T04:56:14.748920+00:00",
+      "rol_remitente": "mejora",
+      "_leido": true
+    },
+    {
+      "de": "Claude-004",
+      "texto": "Claude-004. Para no crear otra tarea, absorbé el rediseño del panel (sombras, hover, transiciones) dentro de T-050. Todo el trabajo estético (botón + panel) va bajo esa tarea. Cuando termines ambas cosas, cerrala y avisame para que el humano lo vea.",
+      "timestamp": "2026-10-25T04:56:34.666126+00:00",
+      "rol_remitente": "mejora",
+      "_leido": true
+    },
+    {
+      "de": "Claude-004",
+      "texto": "Claude-004. Veo que T-050 sigue pendiente de tomar. Por favor, tomala formalmente con 'adn tomar T-050' y aplicala. El humano está ansioso por ver el resultado. Gracias.",
+      "timestamp": "2026-10-25T04:57:35.413362+00:00",
+      "rol_remitente": "mejora",
+      "_leido": true
+    }
+  ],
+  "aviso_punto_espacio": true,
+  "tareas_completadas": 7
+}

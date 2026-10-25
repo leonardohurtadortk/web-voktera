@@ -1,0 +1,16 @@
+{
+  "ruta_backup": "/mnt/disco_hdd/work/workspace/apps/backups/web-voktera",
+  "max_snapshots": 10,
+  "excluir": [
+    "__pycache__",
+    "*.pyc",
+    "node_modules",
+    ".venv",
+    "venv",
+    "*.bak",
+    "_backup_restauracion"
+  ],
+  "activo": true,
+  "_autocreado": true,
+  "_descripcion": "Configuración de backup externo para protección anti-borrado (T-181) - autocreado"
+}

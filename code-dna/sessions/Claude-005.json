@@ -1,0 +1,658 @@
+{
+  "session_id": "Claude-005",
+  "status": "activa",
+  "ia_profile": "claude",
+  "max_chars": 30000,
+  "goal": "T-049: Implementar toggle JS para dropdown del nav en PC",
+  "decisions": [],
+  "hypotheses": [],
+  "open_questions": [],
+  "next_step": "[Definir siguiente paso]",
+  "artefactos_tocados": [
+    "T-049"
+  ],
+  "archivos_modificados": [
+    "voktera.online/nav.js",
+    "voktera.online/index.html",
+    "voktera.online/blog/index.html",
+    "voktera.online/blog/llave-rota.html",
+    "voktera.online/blog/precio-cerrajero.html",
+    "voktera.online/cerrajeria/index.html",
+    "voktera.online/persianas/index.html",
+    "voktera.online/muebles/index.html",
+    "voktera.online/mantenimiento/index.html",
+    "voktera.online/cerrajero-valdemoro/index.html",
+    "voktera.online/cerrajero-getafe/index.html",
+    "voktera.online/cerrajero-leganes/index.html",
+    "voktera.online/cerrajero-fuenlabrada/index.html",
+    "voktera.online/cerrajero-parla/index.html",
+    "voktera.online/cerrajero-pinto/index.html",
+    "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+    "docs/modules/MOD-010.md"
+  ],
+  "steps": [
+    {
+      "timestamp": "2026-10-25T04:11:05.274643+00:00",
+      "operation": "ver",
+      "description": "ver docs/templates/IA_GUIDE.md",
+      "file": "docs/templates/IA_GUIDE.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:11:05.280549+00:00",
+      "operation": "lectura",
+      "file": "docs/templates/IA_GUIDE.md",
+      "task": null,
+      "description": "lectura en docs/templates/IA_GUIDE.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:11:14.523776+00:00",
+      "operation": "continuar",
+      "description": "continuar 2",
+      "file": "2"
+    },
+    {
+      "timestamp": "2026-10-25T04:11:21.127445+00:00",
+      "operation": "ver",
+      "description": "ver README.md",
+      "file": "README.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:11:21.134483+00:00",
+      "operation": "lectura",
+      "file": "README.md",
+      "task": null,
+      "description": "lectura en README.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:11:41.467638+00:00",
+      "operation": "contexto",
+      "description": "contexto "
+    },
+    {
+      "timestamp": "2026-10-25T04:11:49.084963+00:00",
+      "operation": "arbol",
+      "description": "arbol --resumen"
+    },
+    {
+      "timestamp": "2026-10-25T04:11:55.279337+00:00",
+      "operation": "ayuda",
+      "description": "ayuda familia",
+      "file": "familia"
+    },
+    {
+      "timestamp": "2026-10-25T04:12:01.457694+00:00",
+      "operation": "backlog",
+      "description": "backlog "
+    },
+    {
+      "timestamp": "2026-10-25T04:16:47.479420+00:00",
+      "operation": "backlog",
+      "description": "backlog "
+    },
+    {
+      "timestamp": "2026-10-25T04:19:44.516542+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:19:55.987942+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:22:06.123659+00:00",
+      "operation": "familia",
+      "description": "familia T-049",
+      "file": "T-049"
+    },
+    {
+      "timestamp": "2026-10-25T04:22:06.257643+00:00",
+      "operation": "lectura",
+      "file": "T-049",
+      "task": null,
+      "description": "lectura en T-049"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:35.197649+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-049.md",
+      "file": "docs/tasks/T-049.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:35.215568+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-049.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-049.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:35.220447+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-036.md",
+      "file": "docs/tasks/T-036.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:35.238115+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-036.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-036.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:35.239660+00:00",
+      "operation": "ver",
+      "description": "ver docs/contracts/CTR-002.md",
+      "file": "docs/contracts/CTR-002.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:23:35.247820+00:00",
+      "operation": "lectura",
+      "file": "docs/contracts/CTR-002.md",
+      "task": null,
+      "description": "lectura en docs/contracts/CTR-002.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:24:43.495226+00:00",
+      "operation": "tomar",
+      "description": "tomar T-049",
+      "file": "T-049"
+    },
+    {
+      "timestamp": "2026-10-25T04:24:43.525451+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-049.md",
+      "task": "T-049",
+      "description": "Tomada tarea T-049: Implementar toggle JS para dropdown del nav en PC"
+    },
+    {
+      "timestamp": "2026-10-25T04:24:43.728738+00:00",
+      "operation": "sesion",
+      "description": "sesion ver DeepSeek-010",
+      "file": "ver"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:05.644002+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-009 Hola, soy Claude-005. Tomé T-049 (hija de T-036). Mi paso 3 requiere añadir en styles.css la regla '.nav-dropdown.open .nav-dropdown-panel { display:block }' para soportar el toggle JS por clic además del :hover. Veo que vos estás reescribiendo el bloque nav/burger/dropdown en T-036 (mobile-first). Para no pisarnos: avanzo pasos 1 (nav.js) y 2 (script en páginas) y dejo el CSS BLOQUEADO. Cuando termines T-036, avisame el nombre exacto de la clase de estado (¿.open? ¿.is-open? ¿aria-expanded?) que uses para el dropdown en desktop, así mi JS dispara la misma clase que tu CSS espera. Si ya tenés decidido ese nombre, pasámelo ahora y lo uso en nav.js de una.",
+      "file": "DeepSeek-009"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:05.668355+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-010 Hola, soy Claude-005. Tomé T-049 (nav.js toggle por clic/teclado). Mi paso 2 es añadir '<script src=../nav.js defer>' antes de </body> en las 15 páginas, que se solapan con tus 11 (home + 7 locales + 3 blogs). Pregunta: ¿preferís que espere a que cierres T-018 y agregue el script después, o te parece que puedo insertar el script (una sola línea, no toco contenido)? Si querés, te paso el bloque exacto y lo insertás vos como parte de T-018 — así no hay doble edición. Avisame qué preferís. No toco styles.css.",
+      "file": "DeepSeek-010"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:05.686816+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Reporte Claude-005. ✅ T-049 tomada. Antes de codear detecté 2 colisiones que no estaban en tu brief: (1) T-036/DeepSeek-009 está reescribiendo el bloque nav/burger/dropdown en styles.css — mi paso 3 (regla .nav-dropdown.open) choca de frente; ya le escribí para acordar la clase de estado. (2) T-018/DeepSeek-010 edita HTML de las 11 páginas que se solapan con mi paso 2 (script) — le propuse que él inserte el <script> como parte de T-018 o que me espere. PLAN: avanzo paso 1 (crear nav.js, sin colisión) ahora. Pasos 2-3 quedan en pausa hasta que DeepSeek-009 libere styles.css y DeepSeek-010 cierre o acepte la inserción. ETA nav.js: ~20-30 min si no hay sorpresas en la estructura del HTML. Sobre T-018 y T-032: T-018 ya está tomada por DeepSeek-010 (no la puedo asumir). T-032 (Cómо trabajamos) la evalúo cuando cierre T-049 si el humano lo pide. Confirmo lectura de la regla de oro (limpiar en bloque aparte).",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:05.708594+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/index.html --limite 120",
+      "file": "voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:05.724591+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/index.html",
+      "task": null,
+      "description": "lectura en voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:15.062690+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:25:23.275320+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/nav.js",
+      "task": null,
+      "description": "aplicar en voktera.online/nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T04:26:54.911779+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T04:27:49.941054+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-009 nav.js creado en voktera.online/nav.js. Confirmado: usa '.open' en .nav-dropdown, 'aria-expanded=true/false' en el toggle, cierra por clic-fuera y por Escape (con foco de vuelta al botón). Listo para que agregues la regla CSS '.nav-dropdown.open .nav-dropdown-panel { ... }' dentro de @media (min-width:900px). Cuando la tengas, avisame y valido el toggle completo en navegador antes de cerrar T-049/T-036.",
+      "file": "DeepSeek-009"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:49.965962+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-010 Gracias por cerrar T-018. Necesito clarificar antes de tocar HTML: Claude-004 me dijo textual 'DeepSeek-010 inserte el <script> en el HTML, no toques esos archivos'. Tu mensaje dice 'podés proceder con el script cuando quieras'. ¿Cuál es la decisión? (a) vos insertás los 15 <script src=...nav.js defer> como parte de T-018 (aunque cerró sin tocar HTML, quizás haga falta reabrir); o (b) yo los inserto (15 ediciones de una línea). Decime (a) o (b) y lo hago en consecuencia. No quiero duplicar ni pisar.",
+      "file": "DeepSeek-010"
+    },
+    {
+      "timestamp": "2026-10-25T04:27:49.987079+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Reporte: ✅ nav.js creado en voktera.online/nav.js con '.open' + 'aria-expanded' + click-fuera + Escape (alineado con DeepSeek-009, que confirmó la clase y va a agregar el CSS en @media min-width:900px). ⚠️ DISCREPANCIA: vos dijiste 'DeepSeek-010 inserta el <script>, no toques HTML'. DeepSeek-010 respondió 'T-018 cerrada con 0 ediciones, podés proceder con el script cuando quieras'. Le pregunté (a) o (b) para no duplicar. Cuando me confirmes, hago paso 2 (15 <script>) y avisás a Claude-003 para auditoría. Recordá: el CSS .open lo agrega DeepSeek-009, yo no toco styles.css.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:28:00.690185+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:19.846571+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/index.html 280-326",
+      "file": "voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:29:19.885639+00:00",
+      "operation": "scan",
+      "description": "scan voktera.online/ --limite 200",
+      "file": "voktera.online/"
+    },
+    {
+      "timestamp": "2026-10-25T04:30:58.625720+00:00",
+      "operation": "scan",
+      "description": "scan voktera.online/blog/",
+      "file": "voktera.online/blog/"
+    },
+    {
+      "timestamp": "2026-10-25T04:30:58.633557+00:00",
+      "operation": "scan",
+      "description": "scan voktera.online/cerrajeria/",
+      "file": "voktera.online/cerrajeria/"
+    },
+    {
+      "timestamp": "2026-10-25T04:30:58.640832+00:00",
+      "operation": "scan",
+      "description": "scan voktera.online/persianas/",
+      "file": "voktera.online/persianas/"
+    },
+    {
+      "timestamp": "2026-10-25T04:31:59.761802+00:00",
+      "operation": "ver",
+      "description": "ver MOD-001",
+      "file": "MOD-001"
+    },
+    {
+      "timestamp": "2026-10-25T04:31:59.789584+00:00",
+      "operation": "lectura",
+      "file": "MOD-001",
+      "task": null,
+      "description": "lectura en MOD-001"
+    },
+    {
+      "timestamp": "2026-10-25T04:31:59.793560+00:00",
+      "operation": "ver",
+      "description": "ver CTR-001",
+      "file": "CTR-001"
+    },
+    {
+      "timestamp": "2026-10-25T04:31:59.800886+00:00",
+      "operation": "lectura",
+      "file": "CTR-001",
+      "task": null,
+      "description": "lectura en CTR-001"
+    },
+    {
+      "timestamp": "2026-10-25T04:32:08.903739+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:32:25.757344+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:32:25.908340+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:32:26.049112+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/llave-rota.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/llave-rota.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:32:26.189435+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/precio-cerrajero.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/precio-cerrajero.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:32:59.740248+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajeria/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:32:59.904700+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/persianas/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/persianas/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:00.068080+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/muebles/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/muebles/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:00.223136+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/mantenimiento/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/mantenimiento/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:00.373878+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:00.524531+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-getafe/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:00.678548+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-leganes/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-leganes/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:00.832184+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-fuenlabrada/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:00.982295+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-parla/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-parla/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:01.130198+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-pinto/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:01.283149+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:14.921302+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:22.786476+00:00",
+      "operation": "buscar",
+      "description": "buscar nav.js",
+      "file": "nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:30.487113+00:00",
+      "operation": "buscar",
+      "description": "buscar ../nav.js --resumen",
+      "file": "../nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:30.570079+00:00",
+      "operation": "buscar",
+      "description": "buscar src=\"nav.js --resumen",
+      "file": "src=\"nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:43.118348+00:00",
+      "operation": "test",
+      "description": "test "
+    },
+    {
+      "timestamp": "2026-10-25T04:33:53.937768+00:00",
+      "operation": "familia",
+      "description": "familia --tema nav",
+      "file": "nav"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:54.089530+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 PASO 2 COMPLETO: 15/15 páginas con <script> insertado. Home: 'nav.js'. Subcarpetas (blog×3, 4 verticales, 7 locales): '../nav.js'. Verificado con 'adn buscar': 1 src=nav.js + 14 src=../nav.js. nav.js usa .open + aria-expanded, alineado con el CSS de DeepSeek-009. FALTA: validación visual humana en navegador (criterio de aceptación explícito de T-049). Cuando el humano confirme que el dropdown abre/cierra por clic, cierra al clic-fuera y funciona con Enter/Escape, completo T-049. ¿Le pedís al humano que valide? Después pasás a Claude-003 para auditoría.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T04:33:54.103455+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-009 PASO 2 COMPLETO: nav.js cableado en las 15 páginas (home + 4 verticales + 7 locales + 3 blog). Tu regla .open en styles.css + mi JS están alineados: clic togglea .open, clic-fuera/Escape cierra, aria-expanded cambia. Falta validación visual humana en navegador. Cuando el humano confirme, cierro T-049 y te aviso para que cierres T-036.",
+      "file": "DeepSeek-009"
+    },
+    {
+      "timestamp": "2026-10-25T04:34:04.744816+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:35:38.458424+00:00",
+      "operation": "crear",
+      "description": "crear modulo nav.js — Toggle accesible del dropdown de Servicios (clic + teclado) --scope voktera.online/nav.js",
+      "file": "modulo"
+    },
+    {
+      "timestamp": "2026-10-25T04:44:47.934910+00:00",
+      "operation": "crear",
+      "description": "crear modulo nav.js — Toggle accesible del dropdown de Servicios (clic + teclado) --scope voktera.online/nav.js --parent MOD-002",
+      "file": "modulo"
+    },
+    {
+      "timestamp": "2026-10-25T04:45:25.235239+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:47:13.086581+00:00",
+      "operation": "ver",
+      "description": "ver docs/modules/MOD-010.md",
+      "file": "docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:47:13.110976+00:00",
+      "operation": "lectura",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "lectura en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:48:48.178459+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:48:48.669558+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:48:49.135063+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:48:49.571703+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:48:49.921771+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-010.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-010.md"
+    },
+    {
+      "timestamp": "2026-10-25T04:49:40.169546+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:56:37.798352+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T04:57:57.505916+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:08.186569+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/nav.js",
+      "file": "voktera.online/nav.js"
+    },
+    {
+      "timestamp": "2026-10-25T04:58:08.195642+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/nav.js",
+      "task": null,
+      "description": "lectura en voktera.online/nav.js"
+    }
+  ],
+  "started": "2026-10-25T03:44:44.217556+00:00",
+  "last_activity": "2026-10-25T04:58:08Z",
+  "pasos_flujo_vistos": [
+    "ia_guide",
+    "readme",
+    "contexto"
+  ],
+  "inbox": [],
+  "knowledge_reviewed": true,
+  "outbox": [
+    {
+      "a": "DeepSeek-009",
+      "texto": "Hola, soy Claude-005. Tomé T-049 (hija de T-036). Mi paso 3 requiere añadir en styles.css la regla '.nav-dropdown.open .nav-dropdown-panel { display:block }' para soportar el toggle JS por clic además del :hover. Veo que vos estás reescribiendo el bloque nav/burger/dropdown en T-036 (mobile-first). Para no pisarnos: avanzo pasos 1 (nav.js) y 2 (script en páginas) y dejo el CSS BLOQUEADO. Cuando termines T-036, avisame el nombre exacto de la clase de estado (¿.open? ¿.is-open? ¿aria-expanded?) que uses para el dropdown en desktop, así mi JS dispara la misma clase que tu CSS espera. Si ya tenés decidido ese nombre, pasámelo ahora y lo uso en nav.js de una.",
+      "timestamp": "2026-10-25T04:25:05.661050+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-010",
+      "texto": "Hola, soy Claude-005. Tomé T-049 (nav.js toggle por clic/teclado). Mi paso 2 es añadir '<script src=../nav.js defer>' antes de </body> en las 15 páginas, que se solapan con tus 11 (home + 7 locales + 3 blogs). Pregunta: ¿preferís que espere a que cierres T-018 y agregue el script después, o te parece que puedo insertar el script (una sola línea, no toco contenido)? Si querés, te paso el bloque exacto y lo insertás vos como parte de T-018 — así no hay doble edición. Avisame qué preferís. No toco styles.css.",
+      "timestamp": "2026-10-25T04:25:05.682974+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Reporte Claude-005. ✅ T-049 tomada. Antes de codear detecté 2 colisiones que no estaban en tu brief: (1) T-036/DeepSeek-009 está reescribiendo el bloque nav/burger/dropdown en styles.css — mi paso 3 (regla .nav-dropdown.open) choca de frente; ya le escribí para acordar la clase de estado. (2) T-018/DeepSeek-010 edita HTML de las 11 páginas que se solapan con mi paso 2 (script) — le propuse que él inserte el <script> como parte de T-018 o que me espere. PLAN: avanzo paso 1 (crear nav.js, sin colisión) ahora. Pasos 2-3 quedan en pausa hasta que DeepSeek-009 libere styles.css y DeepSeek-010 cierre o acepte la inserción. ETA nav.js: ~20-30 min si no hay sorpresas en la estructura del HTML. Sobre T-018 y T-032: T-018 ya está tomada por DeepSeek-010 (no la puedo asumir). T-032 (Cómо trabajamos) la evalúo cuando cierre T-049 si el humano lo pide. Confirmo lectura de la regla de oro (limpiar en bloque aparte).",
+      "timestamp": "2026-10-25T04:25:05.702353+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-009",
+      "texto": "nav.js creado en voktera.online/nav.js. Confirmado: usa '.open' en .nav-dropdown, 'aria-expanded=true/false' en el toggle, cierra por clic-fuera y por Escape (con foco de vuelta al botón). Listo para que agregues la regla CSS '.nav-dropdown.open .nav-dropdown-panel { ... }' dentro de @media (min-width:900px). Cuando la tengas, avisame y valido el toggle completo en navegador antes de cerrar T-049/T-036.",
+      "timestamp": "2026-10-25T04:27:49.957233+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-010",
+      "texto": "Gracias por cerrar T-018. Necesito clarificar antes de tocar HTML: Claude-004 me dijo textual 'DeepSeek-010 inserte el <script> en el HTML, no toques esos archivos'. Tu mensaje dice 'podés proceder con el script cuando quieras'. ¿Cuál es la decisión? (a) vos insertás los 15 <script src=...nav.js defer> como parte de T-018 (aunque cerró sin tocar HTML, quizás haga falta reabrir); o (b) yo los inserto (15 ediciones de una línea). Decime (a) o (b) y lo hago en consecuencia. No quiero duplicar ni pisar.",
+      "timestamp": "2026-10-25T04:27:49.980217+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Reporte: ✅ nav.js creado en voktera.online/nav.js con '.open' + 'aria-expanded' + click-fuera + Escape (alineado con DeepSeek-009, que confirmó la clase y va a agregar el CSS en @media min-width:900px). ⚠️ DISCREPANCIA: vos dijiste 'DeepSeek-010 inserta el <script>, no toques HTML'. DeepSeek-010 respondió 'T-018 cerrada con 0 ediciones, podés proceder con el script cuando quieras'. Le pregunté (a) o (b) para no duplicar. Cuando me confirmes, hago paso 2 (15 <script>) y avisás a Claude-003 para auditoría. Recordá: el CSS .open lo agrega DeepSeek-009, yo no toco styles.css.",
+      "timestamp": "2026-10-25T04:27:50.002677+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "PASO 2 COMPLETO: 15/15 páginas con <script> insertado. Home: 'nav.js'. Subcarpetas (blog×3, 4 verticales, 7 locales): '../nav.js'. Verificado con 'adn buscar': 1 src=nav.js + 14 src=../nav.js. nav.js usa .open + aria-expanded, alineado con el CSS de DeepSeek-009. FALTA: validación visual humana en navegador (criterio de aceptación explícito de T-049). Cuando el humano confirme que el dropdown abre/cierra por clic, cierra al clic-fuera y funciona con Enter/Escape, completo T-049. ¿Le pedís al humano que valide? Después pasás a Claude-003 para auditoría.",
+      "timestamp": "2026-10-25T04:33:54.098601+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-009",
+      "texto": "PASO 2 COMPLETO: nav.js cableado en las 15 páginas (home + 4 verticales + 7 locales + 3 blog). Tu regla .open en styles.css + mi JS están alineados: clic togglea .open, clic-fuera/Escape cierra, aria-expanded cambia. Falta validación visual humana en navegador. Cuando el humano confirme, cierro T-049 y te aviso para que cierres T-036.",
+      "timestamp": "2026-10-25T04:33:54.111128+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    }
+  ],
+  "aviso_punto_espacio": true
+}

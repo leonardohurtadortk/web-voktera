@@ -1,0 +1,365 @@
+{
+  "tareas": [
+    {
+      "fecha": "2026-10-24 06:31",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "voktera.online/blog/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 06:34",
+      "task_id": null,
+      "descripcion": "T-024",
+      "archivos": [
+        "voktera.online/blog/llave-rota.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 06:34",
+      "task_id": null,
+      "descripcion": "T-025",
+      "archivos": [
+        "voktera.online/blog/precio-cerrajero.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 06:48",
+      "task_id": null,
+      "descripcion": "T-027",
+      "archivos": [
+        "docs/seo/articulo-3-persiana-atascada.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 06:48",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "voktera.online/styles.css"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 06:50",
+      "task_id": null,
+      "descripcion": "T-027",
+      "archivos": [
+        "docs/seo/articulo-4-montar-muebles.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 06:50",
+      "task_id": null,
+      "descripcion": "T-027",
+      "archivos": [
+        "docs/seo/articulo-5-cambiar-bombin.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:12",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "voktera.online/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:13",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "voktera.online/blog/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:13",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "voktera.online/blog/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:13",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "voktera.online/blog/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:13",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "voktera.online/blog/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:13",
+      "task_id": null,
+      "descripcion": "T-024",
+      "archivos": [
+        "voktera.online/blog/llave-rota.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:13",
+      "task_id": null,
+      "descripcion": "T-024",
+      "archivos": [
+        "voktera.online/blog/llave-rota.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:13",
+      "task_id": null,
+      "descripcion": "T-025",
+      "archivos": [
+        "voktera.online/blog/precio-cerrajero.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:13",
+      "task_id": null,
+      "descripcion": "T-025",
+      "archivos": [
+        "voktera.online/blog/precio-cerrajero.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:15",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "docs/modules/MOD-007.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:15",
+      "task_id": null,
+      "descripcion": "MOD-008",
+      "archivos": [
+        "docs/modules/MOD-008.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:16",
+      "task_id": null,
+      "descripcion": "MOD-008",
+      "archivos": [
+        "docs/modules/MOD-008.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:17",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "docs/modules/MOD-007.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:17",
+      "task_id": null,
+      "descripcion": "MOD-008",
+      "archivos": [
+        "docs/modules/MOD-008.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:19",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "docs/modules/MOD-007.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:19",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "docs/modules/MOD-007.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:20",
+      "task_id": null,
+      "descripcion": "T-023",
+      "archivos": [
+        "docs/modules/MOD-007.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:20",
+      "task_id": null,
+      "descripcion": "MOD-008",
+      "archivos": [
+        "docs/modules/MOD-008.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 07:20",
+      "task_id": null,
+      "descripcion": "MOD-008",
+      "archivos": [
+        "docs/modules/MOD-008.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:53",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-valdemoro/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:53",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-getafe/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:56",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-leganes/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:57",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-leganes/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:57",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-leganes/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:57",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-leganes/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:57",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-leganes/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:57",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-fuenlabrada/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:57",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-parla/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:58",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-pinto/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:58",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-24 08:59",
+      "task_id": null,
+      "descripcion": "T-031",
+      "archivos": [
+        "docs/modules/MOD-002.md"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 02:39",
+      "task_id": null,
+      "descripcion": "T-045",
+      "archivos": [
+        "voktera.online/cerrajero-valdemoro/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 02:39",
+      "task_id": null,
+      "descripcion": "T-045",
+      "archivos": [
+        "voktera.online/cerrajero-getafe/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 02:39",
+      "task_id": null,
+      "descripcion": "T-045",
+      "archivos": [
+        "voktera.online/cerrajero-leganes/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 02:39",
+      "task_id": null,
+      "descripcion": "T-045",
+      "archivos": [
+        "voktera.online/cerrajero-fuenlabrada/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 02:39",
+      "task_id": null,
+      "descripcion": "T-045",
+      "archivos": [
+        "voktera.online/cerrajero-parla/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 02:39",
+      "task_id": null,
+      "descripcion": "T-045",
+      "archivos": [
+        "voktera.online/cerrajero-pinto/index.html"
+      ]
+    },
+    {
+      "fecha": "2026-10-25 02:39",
+      "task_id": null,
+      "descripcion": "T-045",
+      "archivos": [
+        "voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+      ]
+    }
+  ],
+  "errores": []
+}

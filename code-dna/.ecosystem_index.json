@@ -1,0 +1,306 @@
+{
+  "apps": {
+    "apex": {
+      "nombre": "apex",
+      "tipo": "app",
+      "ruta": "apps/apex",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": true,
+      "tiene_docs": true,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "backups": {
+      "nombre": "backups",
+      "tipo": "app",
+      "ruta": "apps/backups",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": []
+    },
+    "bitacora": {
+      "nombre": "bitacora",
+      "tipo": "app",
+      "ruta": "apps/bitacora",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": []
+    },
+    "code-dna": {
+      "nombre": "code-dna",
+      "tipo": "app",
+      "ruta": "apps/code-dna",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": [
+        "daemon.py",
+        "adn"
+      ]
+    },
+    "crown-gleam": {
+      "nombre": "crown-gleam",
+      "tipo": "app",
+      "ruta": "apps/crown-gleam",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": []
+    },
+    "dev": {
+      "nombre": "dev",
+      "tipo": "app",
+      "ruta": "apps/dev",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "espectro": {
+      "nombre": "espectro",
+      "tipo": "app",
+      "ruta": "apps/espectro",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": [
+        "main.py"
+      ]
+    },
+    "forge": {
+      "nombre": "forge",
+      "tipo": "app",
+      "ruta": "apps/forge",
+      "gestionado_code_dna": false,
+      "tiene_readme": true,
+      "tiene_ia_guide": true,
+      "tiene_docs": true,
+      "archivos_clave": []
+    },
+    "influencer-ia": {
+      "nombre": "influencer-ia",
+      "tipo": "app",
+      "ruta": "apps/influencer-ia",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "nexus": {
+      "nombre": "nexus",
+      "tipo": "app",
+      "ruta": "apps/nexus",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": []
+    },
+    "orbit": {
+      "nombre": "orbit",
+      "tipo": "app",
+      "ruta": "apps/orbit",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": [
+        "app.py"
+      ]
+    },
+    "sistema_ventas_hostego": {
+      "nombre": "sistema_ventas_hostego",
+      "tipo": "app",
+      "ruta": "apps/sistema_ventas_hostego",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": []
+    },
+    "web-voktera": {
+      "nombre": "web-voktera",
+      "tipo": "app",
+      "ruta": "apps/web-voktera",
+      "gestionado_code_dna": true,
+      "tiene_readme": true,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": []
+    }
+  },
+  "projects": {
+    "apex": {
+      "nombre": "apex",
+      "tipo": "project",
+      "ruta": "projects/apex",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "causa": {
+      "nombre": "causa",
+      "tipo": "project",
+      "ruta": "projects/causa",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "cerveceria-la-esquina": {
+      "nombre": "cerveceria-la-esquina",
+      "tipo": "project",
+      "ruta": "projects/cerveceria-la-esquina",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "code-dna": {
+      "nombre": "code-dna",
+      "tipo": "project",
+      "ruta": "projects/code-dna",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "dev": {
+      "nombre": "dev",
+      "tipo": "project",
+      "ruta": "projects/dev",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "ecosistema": {
+      "nombre": "ecosistema",
+      "tipo": "project",
+      "ruta": "projects/ecosistema",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "influencer-ia": {
+      "nombre": "influencer-ia",
+      "tipo": "project",
+      "ruta": "projects/influencer-ia",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "orbit": {
+      "nombre": "orbit",
+      "tipo": "project",
+      "ruta": "projects/orbit",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "otakus": {
+      "nombre": "otakus",
+      "tipo": "project",
+      "ruta": "projects/otakus",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "sistema-de-vigilancia": {
+      "nombre": "sistema-de-vigilancia",
+      "tipo": "project",
+      "ruta": "projects/sistema-de-vigilancia",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "sistema_ventas_hostego": {
+      "nombre": "sistema_ventas_hostego",
+      "tipo": "project",
+      "ruta": "projects/sistema_ventas_hostego",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "studio": {
+      "nombre": "studio",
+      "tipo": "project",
+      "ruta": "projects/studio",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": false,
+      "archivos_clave": [
+        "adn"
+      ]
+    },
+    "voktera": {
+      "nombre": "voktera",
+      "tipo": "project",
+      "ruta": "projects/voktera",
+      "gestionado_code_dna": false,
+      "tiene_readme": false,
+      "tiene_ia_guide": false,
+      "tiene_docs": true,
+      "archivos_clave": [
+        "adn"
+      ]
+    }
+  },
+  "timestamp": null
+}

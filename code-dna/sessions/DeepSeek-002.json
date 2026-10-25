@@ -1,0 +1,1158 @@
+{
+  "session_id": "DeepSeek-002",
+  "status": "cerrada",
+  "ia_profile": "deepseek",
+  "max_chars": 40000,
+  "goal": "T-003: Fase 1: Crear robots.txt y sitemap.xml base",
+  "decisions": [],
+  "hypotheses": [],
+  "open_questions": [],
+  "next_step": "Siguiente tarea sugerida: 1. `adn tomar T-013` → Integración visual de menú y enlaces a verticales en Home (🌿 0 libres en voktera.online/index.html) (motivo: hoja)",
+  "artefactos_tocados": [
+    "MOD-002",
+    "MOD-003"
+  ],
+  "archivos_modificados": [
+    "docs/tasks/history/T-003.md",
+    "docs/tasks/history/T-009.md",
+    "docs/tasks/history/T-010.md",
+    "voktera.online/cerrajero-fuenlabrada/index.html",
+    "voktera.online/cerrajero-getafe/index.html",
+    "voktera.online/cerrajero-leganes/index.html",
+    "voktera.online/cerrajero-parla/index.html",
+    "voktera.online/cerrajero-pinto/index.html",
+    "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+    "voktera.online/cerrajero-valdemoro/index.html",
+    "voktera.online/robots.txt",
+    "voktera.online/sitemap.xml"
+  ],
+  "steps": [
+    {
+      "timestamp": "2026-10-23T23:27:46.040817+00:00",
+      "operation": "ver",
+      "description": "ver docs/templates/IA_GUIDE.md",
+      "file": "docs/templates/IA_GUIDE.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:27:46.045127+00:00",
+      "operation": "lectura",
+      "file": "docs/templates/IA_GUIDE.md",
+      "task": null,
+      "description": "lectura en docs/templates/IA_GUIDE.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:28:13.657216+00:00",
+      "operation": "ver",
+      "description": "ver README.md",
+      "file": "README.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:28:13.660764+00:00",
+      "operation": "lectura",
+      "file": "README.md",
+      "task": null,
+      "description": "lectura en README.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:28:29.030704+00:00",
+      "operation": "contexto",
+      "description": "contexto "
+    },
+    {
+      "timestamp": "2026-10-23T23:28:36.723359+00:00",
+      "operation": "arbol",
+      "description": "arbol --resumen"
+    },
+    {
+      "timestamp": "2026-10-23T23:28:44.409996+00:00",
+      "operation": "ayuda",
+      "description": "ayuda familia",
+      "file": "familia"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:22.666999+00:00",
+      "operation": "backlog",
+      "description": "backlog "
+    },
+    {
+      "timestamp": "2026-10-23T23:34:33.422342+00:00",
+      "operation": "familia",
+      "description": "familia T-009",
+      "file": "T-009"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:33.469538+00:00",
+      "operation": "lectura",
+      "file": "T-009",
+      "task": null,
+      "description": "lectura en T-009"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:48.817307+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Recibido. Asumo Fase 3 (T-009 y T-010). Verifico estado/ownership antes de tomar porque veo 3 DeepSeek más activas — si alguna ya las tomó, coordino. Mientras espero plantilla de Claude-002, redacto copy de las 7 zonas. Avíso cuando estén.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:48.856308+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-009.md",
+      "file": "docs/tasks/T-009.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:48.859321+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-009.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-009.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:48.860175+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-010.md",
+      "file": "docs/tasks/T-010.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:48.863575+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-010.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-010.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:05.825707+00:00",
+      "operation": "tomar",
+      "description": "tomar T-009",
+      "file": "T-009"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:05.845710+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-009.md",
+      "task": "T-009",
+      "description": "Tomada tarea T-009: Fase 3: Desarrollar Landing Local Piloto: Cerrajero Valdemoro"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:06.100632+00:00",
+      "operation": "tomar",
+      "description": "tomar T-010",
+      "file": "T-010"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:06.116632+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-010.md",
+      "task": "T-010",
+      "description": "Tomada tarea T-010: Fase 3: Desarrollar Landings Locales (Getafe, Leganés, Parla, Fuenlabrada, Pinto, Rivas)"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:06.322784+00:00",
+      "operation": "familia",
+      "description": "familia T-005 --expandir",
+      "file": "T-005"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:06.362116+00:00",
+      "operation": "lectura",
+      "file": "T-005",
+      "task": null,
+      "description": "lectura en T-005"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:27.702087+00:00",
+      "operation": "arbol",
+      "description": "arbol voktera.online/ --expandir",
+      "file": "voktera.online/"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:27.759564+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/ --limite 80",
+      "file": "voktera.online/"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:35.400519+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/index.html",
+      "file": "voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:35.451338+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/index.html",
+      "task": null,
+      "description": "lectura en voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-23T23:38:36.925688+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-001 Confirmado, no nos pisamos. Mi scope es T-009 (voktera.online/cerrajero-valdemoro/) y T-010 (carpetas nuevas getafe/, leganes/, parla/, fuenlabrada/, pinto/, rivas-vaciamadrid/). No toco voktera.online/index.html: es tuyo (T-001). Un aviso: detecté que el texto visible de index.html dice 'L-D 8:00-20:00' pero tu JSON-LD dice 'L-S 8:00-22:00'. T-002 apunta a L-S 8-22. Si vas a tocar horarios en el head, coordiná con T-002 para no dejar el visible desincronizado.",
+      "file": "DeepSeek-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:38:36.951438+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Estado Fase 3: T-009 y T-010 tomadas por mí (DeepSeek-002). BLOQUEO: T-005 (plantilla cerrajería) sigue in_progress de Claude-002, así que no puedo crear HTML todavía. Avanzo con el copy de las 7 zonas (listo abajo). DOS COSAS A CONFIRMAR: (1) Horario: JSON-LD dice L-S 8-22 pero el texto visible de index.html dice L-D 8-20; T-002 apunta a L-S 8-22. Dejé el horario fuera del copy único para no propagar el error; confirmame cuál va. (2) T-010 lista carpetas planas (getafe/, leganes/...) pero T-009 es cerrajero-valdemoro/. ¿Las landings de T-010 son 'cerrajero-<ciudad>' o landings generales de ciudad? Redacté con foco cerrajería; si van multi-servicio, adapto.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:41:31.296461+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Reporte Fase 3 (DeepSeek-002). ESTADO: T-009 y T-010 tomadas. Copy de las 7 zonas REDACTADO y listo (Valdemoro, Getafe, Leganés, Parla, Fuenlabrada, Pinto, Rivas-Vaciamadrid), con title/meta/H1/lead/body/JSON-LD areaServed por municipio, diferenciado con barrios reales de cada localidad para evitar contenido duplicado. BLOQUEO: T-005 (plantilla cerrajería) sigue in_progress de Claude-002; no puedo crear HTML hasta que la suelte. TRES PREGUNTAS QUE ME FRENAN: (1) HORARIO: JSON-LD de index.html dice L-S 8:00-22:00 pero el texto visible dice L-D 8:00-20:00. T-002 apunta a L-S 8-22. Dejé el horario fuera del copy para no propagar el error. ¿Cuál es el correcto? (2) NAMING T-010: T-009 es cerrajero-valdemoro/ (servicio+ciudad), pero T-010 lista carpetas planas (getafe/, leganes/...). ¿Las 6 de T-010 son cerrajero-<ciudad>/ o landings generales de ciudad? (3) Pinto y Rivas: ¿misma plantilla de cerrajería o matiz distinto (urbanizaciones/adosados)? Con esas respuestas + plantilla de Claude-002, creo los index.html y actualizo sitemap. ¿Guardo el copy en archivo del proyecto o lo dejo en el hilo? Espero tu OK.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:42:00.241511+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Recibido y entendido. (1) Horario L-S 8:00-22:00, domingo cerrado → lo pongo en el JSON-LD de las 7 landings. (2) URLs patrón T-009: creo /cerrajero-getafe/, /cerrajero-leganes/, /cerrajero-parla/, /cerrajero-fuenlabrada/, /cerrajero-pinto/, /cerrajero-rivas-vaciamadrid/. Todas enfocadas en cerrajería. (3) Pinto y Rivas misma plantilla, solo cambian barrios/zonas. Copy listo. Sigo bloqueado por T-005 (plantilla de Claude-002): en cuanto la suelte creo los index.html y actualizo sitemap. Avíso al terminar.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:42:00.256806+00:00",
+      "operation": "familia",
+      "description": "familia T-005 --expandir",
+      "file": "T-005"
+    },
+    {
+      "timestamp": "2026-10-23T23:42:00.292300+00:00",
+      "operation": "lectura",
+      "file": "T-005",
+      "task": null,
+      "description": "lectura en T-005"
+    },
+    {
+      "timestamp": "2026-10-23T23:42:10.970623+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-002 Hola, soy DeepSeek-002, Fase 3 (T-009 y T-010). Dependo de tu T-005 (plantilla landing cerrajería) para crear los 7 index.html locales. ¿Cuál es tu ETA aproximado para soltarla? Si me pasás la estructura/ruta exacta de la plantilla cuando esté, arranco en cuanto la liberes. Gracias.",
+      "file": "Claude-002"
+    },
+    {
+      "timestamp": "2026-10-23T23:42:20.116169+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Aviso: para no quedar bloqueado, consulté ETA directamente a Claude-002 sobre T-005 (te lo informo por la regla de reportes). Copy de las 7 zonas FINAL y validado con tus respuestas (L-S 8-22 Dom cerrado, URLs /cerrajero-<ciudad>/, foco cerrajería). OTRO HALLAZGO: mis pasos piden 'actualizar sitemap.xml', pero T-003 (crear robots.txt + sitemap.xml base) sigue PENDIENTE y libre. Es decir, el sitemap base no existe todavía. ¿Querés que tome también T-003 para crear el sitemap base y así poder añadir las 7 URLs, o espero a que otra sesión lo haga? Si autorizás, lo hago yo y dejo todo coherente.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:42:20.163155+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/sitemap.xml",
+      "file": "voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-23T23:43:36.537253+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-23T23:43:47.239551+00:00",
+      "operation": "tomar",
+      "description": "tomar T-003",
+      "file": "T-003"
+    },
+    {
+      "timestamp": "2026-10-23T23:43:47.253289+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-003.md",
+      "task": "T-003",
+      "description": "Tomada tarea T-003: Fase 1: Crear robots.txt y sitemap.xml base"
+    },
+    {
+      "timestamp": "2026-10-23T23:43:47.489974+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/robots.txt",
+      "file": "voktera.online/robots.txt"
+    },
+    {
+      "timestamp": "2026-10-23T23:43:59.656215+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/robots.txt",
+      "task": null,
+      "description": "aplicar en voktera.online/robots.txt"
+    },
+    {
+      "timestamp": "2026-10-23T23:44:18.122638+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/sitemap.xml",
+      "task": null,
+      "description": "aplicar en voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-23T23:44:28.741260+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/robots.txt",
+      "file": "voktera.online/robots.txt"
+    },
+    {
+      "timestamp": "2026-10-23T23:44:28.754318+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/robots.txt",
+      "task": null,
+      "description": "lectura en voktera.online/robots.txt"
+    },
+    {
+      "timestamp": "2026-10-23T23:44:28.756470+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/sitemap.xml",
+      "file": "voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-23T23:44:28.770237+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/sitemap.xml",
+      "task": null,
+      "description": "lectura en voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-23T23:55:58.044019+00:00",
+      "operation": "completar",
+      "description": "completar T-003",
+      "file": "T-003"
+    },
+    {
+      "timestamp": "2026-10-23T23:56:18.387030+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-003.md",
+      "task": "T-003",
+      "description": "confirmar en docs/tasks/T-003.md (relacionado con T-003)"
+    },
+    {
+      "timestamp": "2026-10-23T23:56:38.219995+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 T-003 COMPLETADA. Creé voktera.online/robots.txt (Allow all + Sitemap declarado) y voktera.online/sitemap.xml base (solo home). Decisión: añadiré cada URL de landing al sitemap SOLO cuando su index.html exista, para no meter 404s en el sitemap. Eso ocurrirá en pasos de T-009/T-010. Copy de las 7 zonas: FINAL y listo. Sigo bloqueado por T-005 (Claude-002, aún en progreso). NO tomé T-002 ni T-004 porque ambas tocan index.html, ocupado por DeepSeek-001 → evitaría colisión. ¿Algo más en lo que avance mientras espero T-005?",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:56:52.040604+00:00",
+      "operation": "familia",
+      "description": "familia T-005 --expandir",
+      "file": "T-005"
+    },
+    {
+      "timestamp": "2026-10-23T23:56:52.106332+00:00",
+      "operation": "lectura",
+      "file": "T-005",
+      "task": null,
+      "description": "lectura en T-005"
+    },
+    {
+      "timestamp": "2026-10-23T23:56:52.116527+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-23T23:56:59.762478+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-23T23:57:19.522184+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-002 Gracias, claro. Confirmo: espero tu plantilla T-005 antes de hardcodear clases. Me sirve mucho el dato del CSS COMPARTIDO en voktera.online/styles.css (mismo CSS para home y verticales, sin duplicar). Eso implica que mis 7 landings locales deben ENLAZAR ese styles.css, no llevar <style> inline como el index.html actual. Cuando liberes T-005 pasame: (a) ruta exacta de la plantilla, (b) ids de sección y clases utilitarias, (c) cómo referenciás el CSS (ruta relativa ../styles.css desde las subcarpetas). Yo avanzo solo con el copy (ya listo) y espero para el HTML. Avisame.",
+      "file": "Claude-002"
+    },
+    {
+      "timestamp": "2026-10-23T23:57:19.574163+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Reporte + HALLAZGO DE ARQUITECTURA. Claude-002 respondió: sin ETA firme, bloqueado esperando que DeepSeek-001 cierre T-001 y tu aval. Dato CLAVE que cambia T-009/T-010: la plantilla usará un voktera.online/styles.css COMPARTIDO (mismo CSS para home y las 5 verticales, sin duplicar estilos). Estructura homogénea: nav + hero + servicios (4-5 bullets) + FAQ (3 preguntas) + footer + JSON-LD Service+FAQPage. Implicación: mis 7 landings locales deberán enlazar ese styles.css compartido (ruta relativa ../styles.css), NO llevar <style> inline como el index.html actual. Esto también sugiere que el index.html actual quedaría con CSS inline y las nuevas con externo → posible inconsistencia a futuro que conviene decidir (¿migramos el index al CSS compartido?). Bloqueo en cadena: T-005 espera T-001 (DeepSeek-001) + tu aval. ¿Avanzo redactando el HTML de las landings con la estructura que describió Claude-002 (enlazando styles.css) para tenerlo listo, o espero la plantilla final? Mi única tarea activa es T-009/T-010; T-003 cerrada.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:58:41.430506+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-23T23:59:22.030570+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:01:07.542458+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/sitemap.xml",
+      "file": "voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-24T00:01:07.570034+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/sitemap.xml",
+      "task": null,
+      "description": "lectura en voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-24T00:02:18.544826+00:00",
+      "operation": "ayuda",
+      "description": "ayuda editar",
+      "file": "editar"
+    },
+    {
+      "timestamp": "2026-10-24T00:02:26.288658+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/sitemap.xml",
+      "task": null,
+      "description": "aplicar en voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-24T00:03:48.217911+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/cerrajero-valdemoro/index.html --limite 60",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:03:48.250151+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/cerrajero-valdemoro/index.html",
+      "task": null,
+      "description": "lectura en voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:04:05.095366+00:00",
+      "operation": "completar",
+      "description": "completar T-009",
+      "file": "T-009"
+    },
+    {
+      "timestamp": "2026-10-24T00:04:28.446828+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-009.md",
+      "task": "T-009",
+      "description": "confirmar en docs/tasks/T-009.md (relacionado con T-009)"
+    },
+    {
+      "timestamp": "2026-10-24T00:04:59.277644+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-getafe/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:04:59.290540+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 T-009 COMPLETADA y archivada. Piloto Valdemoro creado: voktera.online/cerrajero-valdemoro/index.html (295 líneas, enlaza ../styles.css, ids/clases de Claude-002, 3 JSON-LD: LocalBusiness con areaServed Valdemoro + Service + FAQPage, horario L-S 8-22 Dom cerrado) + URL añadida a sitemap.xml. Arranco T-010: las 6 restantes (getafe, leganes, parla, fuenlabrada, pinto, rivas-vaciamadrid). Mismo esqueleto, copy único por ciudad. Ojo: si Claude-002 cambia clases al liberar T-005, rehago las 6 rápido (son plantilla). Avíso al terminar.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:05:16.051054+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-leganes/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-leganes/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:05:55.527247+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-parla/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-parla/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:06:11.175669+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-fuenlabrada/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:06:27.834899+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-pinto/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:06:42.994614+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:07:46.498730+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/sitemap.xml",
+      "file": "voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-24T00:07:46.507562+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/sitemap.xml",
+      "task": null,
+      "description": "lectura en voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-24T00:07:55.676816+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/sitemap.xml",
+      "task": null,
+      "description": "aplicar en voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-24T00:07:55.694840+00:00",
+      "operation": "mensaje",
+      "description": "mensaje DeepSeek-004 Ok, sin conflicto. Mis 7 carpetas (cerrajero-valdemoro, cerrajero-getafe, cerrajero-leganes, cerrajero-parla, cerrajero-fuenlabrada, cerrajero-pinto, cerrajero-rivas-vaciamadrid) YA EXISTEN con su index.html. Podes enlazar los MODs de zona cuando quieras. El patrón de carpetas es cerrajero-<ciudad>/ (no <ciudad>/). Coordinamos.",
+      "file": "DeepSeek-004"
+    },
+    {
+      "timestamp": "2026-10-24T00:08:12.498871+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/sitemap.xml",
+      "file": "voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-24T00:08:12.509673+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/sitemap.xml",
+      "task": null,
+      "description": "lectura en voktera.online/sitemap.xml"
+    },
+    {
+      "timestamp": "2026-10-24T00:11:56.774858+00:00",
+      "operation": "completar",
+      "description": "completar T-010",
+      "file": "T-010"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:14.360844+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-010.md",
+      "task": "T-010",
+      "description": "confirmar en docs/tasks/T-010.md (relacionado con T-010)"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:25.031356+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 FASE 3 COMPLETA. T-009 y T-010 ambas cerradas. Resumen: 7 landings locales creadas — voktera.online/cerrajero-{valdemoro,getafe,leganes,parla,fuenlabrada,pinto,rivas-vaciamadrid}/index.html. Cada una enlaza ../styles.css (CSS compartido, sin inline), respeta ids/clases de Claude-002 (#top,#servicios,#zonas,#como-trabajamos; .wrap,.hero,.section,.services-list,.service-row,.steps,.zone-card,.contact…), y lleva 3 JSON-LD: LocalBusiness con areaServed propio + Service + FAQPage. Horario L-S 8-22 Dom cerrado en todas. Copy único por ciudad con barrios reales (sin duplicar). Sitemap.xml: 8 URLs (home + 7 landings), sin 404s. robots.txt: Allow + sitemap declarado. PENDIENTE A VIGILAR: si Claude-002 cambia clases al liberar T-005, actualizo las 7 rápido. No tomé T-002/T-004 (tocan index.html, de DeepSeek-001). ¿Siguiente paso? Estoy libre.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:25.045906+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-24T00:13:50.989234+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:14:09.500343+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-valdemoro/index.html 20-100",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:14:09.517213+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-getafe/index.html 20-100",
+      "file": "voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:14:09.531459+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/styles.css",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-24T00:14:20.308921+00:00",
+      "operation": "desbloquear",
+      "description": "desbloquear mejora QA de landings locales solicitado por senior Claude-001: verificar JSON-LD y enlace a ../styles.css en Valdemoro y Getafe",
+      "file": "mejora"
+    },
+    {
+      "timestamp": "2026-10-24T00:15:26.241544+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-valdemoro/index.html 1-110",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:15:26.269360+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-getafe/index.html 1-110",
+      "file": "voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:15:26.283811+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/styles.css",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-24T00:15:26.294697+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "lectura en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-24T00:16:08.719262+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 QA completado (Valdemoro + Getafe). ✅ JSON-LD: sintaxis válida en los 3 bloques (LocalBusiness/Service/FAQPage), areaServed y canonical correctos por ciudad. ✅ Enlace ../styles.css: correcto y el archivo YA EXISTE (513 líneas); contiene todas las clases que uso, sin huérfanas. ⚠️ 2 OBSERVACIONES DE DISEÑO (no rompen nada): (1) HERO DESBALANCEADO: .hero-grid es de 2 columnas y el index.html llena la 2ª con .toolbox (4 tarjetas). Mis landings no tienen ese bloque → la 2ª columna queda vacía y el texto se ve angosto. Opciones: añadir un bloque visual a las landings o crear una variante .hero-grid.single en styles.css. (2) ZONE-CARD.BASE: en el CSS .base es la card oscura destacada, y en index.html se usa para Valdemoro (base operativa). En mis landings la puse en la ciudad de cada landing y dejé Valdemoro como card normal. Es coherente localmente pero rompe la convención del home. ¿Qué preferís? ¿Ajusto alguna de las dos, o lo dejamos como está?",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:16:08.750890+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:16:21.067486+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:20:02.902777+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-24T00:22:09.733026+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajeria/index.html 1-120",
+      "file": "voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:12.734481+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajeria/index.html 120-200",
+      "file": "voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:12.770155+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajeria/index.html 340-370",
+      "file": "voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:23.829121+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 QA de voktera.online/cerrajeria/index.html (plantilla T-005 de Claude-002): ✅ JSON-LD OK: Service (con provider LocalBusiness @id #business + address + 7 areaServed) y FAQPage (3 preguntas) bien formados, sintaxis válida, sin comas colgantes. ✅ CSS: enlace correcto <link rel='stylesheet' href='../styles.css'> (ruta relativa, sin <style> inline). Extra: además de las fuentes Google. ✅ RESPONSIVE: meta viewport presente (línea 5, width=device-width initial-scale=1.0). Las media queries viven en styles.css compartido y ya las verifiqué: 720px (nav), 900px (hero-grid→1col), 800px (steps→1col), 700px (service-row→1col), 600px (contact padding). Funcionan. ⚠️ OBSERVACIONES: (1) La plantilla usa .hero-grid CON toolbox (2ª columna llena), no la variante .hero-grid.single que mencionaste — así que el hero de la vertical está bien balanceado. Mi caso (landings locales sin toolbox) sí necesita .single. (2) Nav de la plantilla apunta a ../index.html#servicios etc. (correcto, sube un nivel). (3) Título/eyebrow dicen 'Sur de Madrid' genérico, correcto para vertical. Todo coherente. PENDIENTE MÍO: ahora que T-005 está libre, alineo mis 7 landings locales con esta plantilla (toolbox en hero + Valdemoro con .zone-card.base). ¿Avanzo con ese ajuste?",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:23.845995+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:32.964436+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:50.278334+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-getafe/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:24:54.610208+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-leganes/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-leganes/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:25:20.696880+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-parla/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-parla/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:25:31.614074+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-fuenlabrada/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:25:39.356766+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-pinto/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:26:19.352064+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:26:35.147155+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:26:44.340951+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-getafe/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:26:52.047870+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-leganes/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-leganes/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:26:58.800461+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-parla/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-parla/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:16.506532+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-fuenlabrada/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:29.228222+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-pinto/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:40.086841+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:47.948418+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-rivas-vaciamadrid/index.html 140-200",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:57.167657+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 AJUSTE COMPLETO en las 7 landings locales. (A) TOOLBOX en el hero: añadido a las 7 (Valdemoro, Getafe, Leganés, Parla, Fuenlabrada, Pinto, Rivas-Vaciamadrid) con las 4 .compartment adaptadas a cerrajería (Aperturas/Bombines/Escudos/Mantenimiento). Verifiqué el cierre de divs: balanceado. Así las landings ya NO necesitan .hero-grid.single (la 2ª columna queda llena, igual que la plantilla T-005). (B) .zone-card.base: movido a Valdemoro en las 6 landings que lo tenían en la ciudad local; Valdemoro ya lo tenía correcto. Ahora las 7 respetan la convención 'base operativa = Valdemoro'. Todo alineado con la plantilla de Claude-002. ¿Siguiente paso?",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:57.210172+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:29:31.909171+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-24T00:29:41.076799+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-valdemoro/index.html 200-230",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:29:41.080771+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-pinto/index.html 200-230",
+      "file": "voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:29:41.084529+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-valdemoro/index.html 345-375",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:29:50.379491+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-valdemoro/index.html 99-115",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:29:50.382860+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-valdemoro/index.html 312-329",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:29:50.386169+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-pinto/index.html 312-329",
+      "file": "voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-24T00:30:07.076137+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 QA de enlaces internos OK en las 7 landings. Logo nav+footer → ../index.html#top (sube bien un nivel). Anclas locales #servicios/#zonas/#como-trabajamos → existen en cada landing. CTA WhatsApp (wa.me/34911266011, target _blank rel noopener) y tel: correctos. Footer WhatsApp+tel correctos. Sin enlaces rotos. ⚠️ ÚNICA DIFERENCIA con la plantilla de Claude-002: la plantilla usa nav a ../index.html#servicios (vuelve al home), mis landings usan anclas locales #servicios (se queda en la landing). Ambas válidas; la mía favorece conversión local. Si querés unificar con la plantilla, lo cambio en las 7 en un paso. Listo para espera activa.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:30:07.130159+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:37:06.720881+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-24T00:37:14.357582+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Entendido. Dejo anclas locales (#servicios). Procedo a guardar sesión con --handoff y cerrar. Gracias por la coordinación.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:44:04.615216+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --handoff",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:44:12.361884+00:00",
+      "operation": "ayuda",
+      "description": "ayuda sesion",
+      "file": "sesion"
+    },
+    {
+      "timestamp": "2026-10-24T00:45:06.159469+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:45:12.856281+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --force",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:46:24.179333+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:17.005751+00:00",
+      "operation": "ideas",
+      "description": "ideas "
+    },
+    {
+      "timestamp": "2026-10-24T00:47:17.022835+00:00",
+      "operation": "debate",
+      "description": "debate "
+    },
+    {
+      "timestamp": "2026-10-24T00:47:29.234726+00:00",
+      "operation": "familia",
+      "description": "familia MOD-003 --resumen",
+      "file": "MOD-003"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:29.341399+00:00",
+      "operation": "lectura",
+      "file": "MOD-003",
+      "task": null,
+      "description": "lectura en MOD-003"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:29.344411+00:00",
+      "operation": "meta",
+      "description": "meta T-009 absorbido_en MOD-003",
+      "file": "T-009"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:29.347280+00:00",
+      "operation": "meta",
+      "description": "meta T-010 absorbido_en MOD-003",
+      "file": "T-010"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:29.349644+00:00",
+      "operation": "meta",
+      "description": "meta T-003 absorbido_en MOD-002",
+      "file": "T-003"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:44.356445+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/history/T-009.md absorbido_en MOD-003",
+      "file": "docs/tasks/history/T-009.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:44.375211+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/history/T-010.md absorbido_en MOD-003",
+      "file": "docs/tasks/history/T-010.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:44.385749+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/history/T-003.md absorbido_en MOD-002",
+      "file": "docs/tasks/history/T-003.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:52.356681+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/history/T-009.md set absorbido_en=MOD-003",
+      "file": "docs/tasks/history/T-009.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:52.552116+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/history/T-010.md set absorbido_en=MOD-003",
+      "file": "docs/tasks/history/T-010.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:47:52.736324+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/history/T-003.md set absorbido_en=MOD-002",
+      "file": "docs/tasks/history/T-003.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:48:00.676553+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --force",
+      "file": "guardar"
+    }
+  ],
+  "started": "2026-10-23T23:27:07.910637+00:00",
+  "last_activity": "2026-10-24T00:47:29Z",
+  "pasos_flujo_vistos": [
+    "ia_guide",
+    "readme",
+    "contexto"
+  ],
+  "inbox": [
+    {
+      "de": "Claude-001",
+      "texto": "QA aprobado. Sobre la diferencia de enlaces: déjala así, usar anclas locales (#servicios) es mejor para conversión que devolver al usuario a la home. Procede a guardar sesión con 'adn sesion guardar --handoff' y cierra. Excelente trabajo en las 7 zonas y el QA.",
+      "timestamp": "2026-10-24T00:30:28.966319+00:00",
+      "rol_remitente": "mejora",
+      "_leido": true
+    },
+    {
+      "de": "Claude-001",
+      "texto": "Cabo suelto: al completar T-009 y T-010, quedaron con 'absorbido_en: none'. Por favor, actualízalas usando 'adn meta T-009 absorbido_en MOD-003' (y lo mismo para T-010 apuntando a MOD-003). Si T-003 también fue tuya, haz lo mismo apuntando a MOD-002. Luego guarda sesión con '--force' y cierra.",
+      "timestamp": "2026-10-24T00:46:30.658766+00:00",
+      "rol_remitente": "mejora"
+    }
+  ],
+  "knowledge_reviewed": true,
+  "outbox": [
+    {
+      "a": "Claude-001",
+      "texto": "Recibido. Asumo Fase 3 (T-009 y T-010). Verifico estado/ownership antes de tomar porque veo 3 DeepSeek más activas — si alguna ya las tomó, coordino. Mientras espero plantilla de Claude-002, redacto copy de las 7 zonas. Avíso cuando estén.",
+      "timestamp": "2026-10-23T23:34:48.849405+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-001",
+      "texto": "Confirmado, no nos pisamos. Mi scope es T-009 (voktera.online/cerrajero-valdemoro/) y T-010 (carpetas nuevas getafe/, leganes/, parla/, fuenlabrada/, pinto/, rivas-vaciamadrid/). No toco voktera.online/index.html: es tuyo (T-001). Un aviso: detecté que el texto visible de index.html dice 'L-D 8:00-20:00' pero tu JSON-LD dice 'L-S 8:00-22:00'. T-002 apunta a L-S 8-22. Si vas a tocar horarios en el head, coordiná con T-002 para no dejar el visible desincronizado.",
+      "timestamp": "2026-10-23T23:38:36.946061+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Estado Fase 3: T-009 y T-010 tomadas por mí (DeepSeek-002). BLOQUEO: T-005 (plantilla cerrajería) sigue in_progress de Claude-002, así que no puedo crear HTML todavía. Avanzo con el copy de las 7 zonas (listo abajo). DOS COSAS A CONFIRMAR: (1) Horario: JSON-LD dice L-S 8-22 pero el texto visible de index.html dice L-D 8-20; T-002 apunta a L-S 8-22. Dejé el horario fuera del copy único para no propagar el error; confirmame cuál va. (2) T-010 lista carpetas planas (getafe/, leganes/...) pero T-009 es cerrajero-valdemoro/. ¿Las landings de T-010 son 'cerrajero-<ciudad>' o landings generales de ciudad? Redacté con foco cerrajería; si van multi-servicio, adapto.",
+      "timestamp": "2026-10-23T23:38:36.969652+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Reporte Fase 3 (DeepSeek-002). ESTADO: T-009 y T-010 tomadas. Copy de las 7 zonas REDACTADO y listo (Valdemoro, Getafe, Leganés, Parla, Fuenlabrada, Pinto, Rivas-Vaciamadrid), con title/meta/H1/lead/body/JSON-LD areaServed por municipio, diferenciado con barrios reales de cada localidad para evitar contenido duplicado. BLOQUEO: T-005 (plantilla cerrajería) sigue in_progress de Claude-002; no puedo crear HTML hasta que la suelte. TRES PREGUNTAS QUE ME FRENAN: (1) HORARIO: JSON-LD de index.html dice L-S 8:00-22:00 pero el texto visible dice L-D 8:00-20:00. T-002 apunta a L-S 8-22. Dejé el horario fuera del copy para no propagar el error. ¿Cuál es el correcto? (2) NAMING T-010: T-009 es cerrajero-valdemoro/ (servicio+ciudad), pero T-010 lista carpetas planas (getafe/, leganes/...). ¿Las 6 de T-010 son cerrajero-<ciudad>/ o landings generales de ciudad? (3) Pinto y Rivas: ¿misma plantilla de cerrajería o matiz distinto (urbanizaciones/adosados)? Con esas respuestas + plantilla de Claude-002, creo los index.html y actualizo sitemap. ¿Guardo el copy en archivo del proyecto o lo dejo en el hilo? Espero tu OK.",
+      "timestamp": "2026-10-23T23:41:31.319860+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Recibido y entendido. (1) Horario L-S 8:00-22:00, domingo cerrado → lo pongo en el JSON-LD de las 7 landings. (2) URLs patrón T-009: creo /cerrajero-getafe/, /cerrajero-leganes/, /cerrajero-parla/, /cerrajero-fuenlabrada/, /cerrajero-pinto/, /cerrajero-rivas-vaciamadrid/. Todas enfocadas en cerrajería. (3) Pinto y Rivas misma plantilla, solo cambian barrios/zonas. Copy listo. Sigo bloqueado por T-005 (plantilla de Claude-002): en cuanto la suelte creo los index.html y actualizo sitemap. Avíso al terminar.",
+      "timestamp": "2026-10-23T23:42:00.253373+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-002",
+      "texto": "Hola, soy DeepSeek-002, Fase 3 (T-009 y T-010). Dependo de tu T-005 (plantilla landing cerrajería) para crear los 7 index.html locales. ¿Cuál es tu ETA aproximado para soltarla? Si me pasás la estructura/ruta exacta de la plantilla cuando esté, arranco en cuanto la liberes. Gracias.",
+      "timestamp": "2026-10-23T23:42:10.991748+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Aviso: para no quedar bloqueado, consulté ETA directamente a Claude-002 sobre T-005 (te lo informo por la regla de reportes). Copy de las 7 zonas FINAL y validado con tus respuestas (L-S 8-22 Dom cerrado, URLs /cerrajero-<ciudad>/, foco cerrajería). OTRO HALLAZGO: mis pasos piden 'actualizar sitemap.xml', pero T-003 (crear robots.txt + sitemap.xml base) sigue PENDIENTE y libre. Es decir, el sitemap base no existe todavía. ¿Querés que tome también T-003 para crear el sitemap base y así poder añadir las 7 URLs, o espero a que otra sesión lo haga? Si autorizás, lo hago yo y dejo todo coherente.",
+      "timestamp": "2026-10-23T23:42:20.157746+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "T-003 COMPLETADA. Creé voktera.online/robots.txt (Allow all + Sitemap declarado) y voktera.online/sitemap.xml base (solo home). Decisión: añadiré cada URL de landing al sitemap SOLO cuando su index.html exista, para no meter 404s en el sitemap. Eso ocurrirá en pasos de T-009/T-010. Copy de las 7 zonas: FINAL y listo. Sigo bloqueado por T-005 (Claude-002, aún en progreso). NO tomé T-002 ni T-004 porque ambas tocan index.html, ocupado por DeepSeek-001 → evitaría colisión. ¿Algo más en lo que avance mientras espero T-005?",
+      "timestamp": "2026-10-23T23:56:38.235944+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-002",
+      "texto": "Gracias, claro. Confirmo: espero tu plantilla T-005 antes de hardcodear clases. Me sirve mucho el dato del CSS COMPARTIDO en voktera.online/styles.css (mismo CSS para home y verticales, sin duplicar). Eso implica que mis 7 landings locales deben ENLAZAR ese styles.css, no llevar <style> inline como el index.html actual. Cuando liberes T-005 pasame: (a) ruta exacta de la plantilla, (b) ids de sección y clases utilitarias, (c) cómo referenciás el CSS (ruta relativa ../styles.css desde las subcarpetas). Yo avanzo solo con el copy (ya listo) y espero para el HTML. Avisame.",
+      "timestamp": "2026-10-23T23:57:19.564832+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Reporte + HALLAZGO DE ARQUITECTURA. Claude-002 respondió: sin ETA firme, bloqueado esperando que DeepSeek-001 cierre T-001 y tu aval. Dato CLAVE que cambia T-009/T-010: la plantilla usará un voktera.online/styles.css COMPARTIDO (mismo CSS para home y las 5 verticales, sin duplicar estilos). Estructura homogénea: nav + hero + servicios (4-5 bullets) + FAQ (3 preguntas) + footer + JSON-LD Service+FAQPage. Implicación: mis 7 landings locales deberán enlazar ese styles.css compartido (ruta relativa ../styles.css), NO llevar <style> inline como el index.html actual. Esto también sugiere que el index.html actual quedaría con CSS inline y las nuevas con externo → posible inconsistencia a futuro que conviene decidir (¿migramos el index al CSS compartido?). Bloqueo en cadena: T-005 espera T-001 (DeepSeek-001) + tu aval. ¿Avanzo redactando el HTML de las landings con la estructura que describió Claude-002 (enlazando styles.css) para tenerlo listo, o espero la plantilla final? Mi única tarea activa es T-009/T-010; T-003 cerrada.",
+      "timestamp": "2026-10-23T23:57:19.605429+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "T-009 COMPLETADA y archivada. Piloto Valdemoro creado: voktera.online/cerrajero-valdemoro/index.html (295 líneas, enlaza ../styles.css, ids/clases de Claude-002, 3 JSON-LD: LocalBusiness con areaServed Valdemoro + Service + FAQPage, horario L-S 8-22 Dom cerrado) + URL añadida a sitemap.xml. Arranco T-010: las 6 restantes (getafe, leganes, parla, fuenlabrada, pinto, rivas-vaciamadrid). Mismo esqueleto, copy único por ciudad. Ojo: si Claude-002 cambia clases al liberar T-005, rehago las 6 rápido (son plantilla). Avíso al terminar.",
+      "timestamp": "2026-10-24T00:04:59.303776+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "DeepSeek-004",
+      "texto": "Ok, sin conflicto. Mis 7 carpetas (cerrajero-valdemoro, cerrajero-getafe, cerrajero-leganes, cerrajero-parla, cerrajero-fuenlabrada, cerrajero-pinto, cerrajero-rivas-vaciamadrid) YA EXISTEN con su index.html. Podes enlazar los MODs de zona cuando quieras. El patrón de carpetas es cerrajero-<ciudad>/ (no <ciudad>/). Coordinamos.",
+      "timestamp": "2026-10-24T00:07:55.708133+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "FASE 3 COMPLETA. T-009 y T-010 ambas cerradas. Resumen: 7 landings locales creadas — voktera.online/cerrajero-{valdemoro,getafe,leganes,parla,fuenlabrada,pinto,rivas-vaciamadrid}/index.html. Cada una enlaza ../styles.css (CSS compartido, sin inline), respeta ids/clases de Claude-002 (#top,#servicios,#zonas,#como-trabajamos; .wrap,.hero,.section,.services-list,.service-row,.steps,.zone-card,.contact…), y lleva 3 JSON-LD: LocalBusiness con areaServed propio + Service + FAQPage. Horario L-S 8-22 Dom cerrado en todas. Copy único por ciudad con barrios reales (sin duplicar). Sitemap.xml: 8 URLs (home + 7 landings), sin 404s. robots.txt: Allow + sitemap declarado. PENDIENTE A VIGILAR: si Claude-002 cambia clases al liberar T-005, actualizo las 7 rápido. No tomé T-002/T-004 (tocan index.html, de DeepSeek-001). ¿Siguiente paso? Estoy libre.",
+      "timestamp": "2026-10-24T00:12:25.039781+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "QA completado (Valdemoro + Getafe). ✅ JSON-LD: sintaxis válida en los 3 bloques (LocalBusiness/Service/FAQPage), areaServed y canonical correctos por ciudad. ✅ Enlace ../styles.css: correcto y el archivo YA EXISTE (513 líneas); contiene todas las clases que uso, sin huérfanas. ⚠️ 2 OBSERVACIONES DE DISEÑO (no rompen nada): (1) HERO DESBALANCEADO: .hero-grid es de 2 columnas y el index.html llena la 2ª con .toolbox (4 tarjetas). Mis landings no tienen ese bloque → la 2ª columna queda vacía y el texto se ve angosto. Opciones: añadir un bloque visual a las landings o crear una variante .hero-grid.single en styles.css. (2) ZONE-CARD.BASE: en el CSS .base es la card oscura destacada, y en index.html se usa para Valdemoro (base operativa). En mis landings la puse en la ciudad de cada landing y dejé Valdemoro como card normal. Es coherente localmente pero rompe la convención del home. ¿Qué preferís? ¿Ajusto alguna de las dos, o lo dejamos como está?",
+      "timestamp": "2026-10-24T00:16:08.739625+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "mejora"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "QA de voktera.online/cerrajeria/index.html (plantilla T-005 de Claude-002): ✅ JSON-LD OK: Service (con provider LocalBusiness @id #business + address + 7 areaServed) y FAQPage (3 preguntas) bien formados, sintaxis válida, sin comas colgantes. ✅ CSS: enlace correcto <link rel='stylesheet' href='../styles.css'> (ruta relativa, sin <style> inline). Extra: además de las fuentes Google. ✅ RESPONSIVE: meta viewport presente (línea 5, width=device-width initial-scale=1.0). Las media queries viven en styles.css compartido y ya las verifiqué: 720px (nav), 900px (hero-grid→1col), 800px (steps→1col), 700px (service-row→1col), 600px (contact padding). Funcionan. ⚠️ OBSERVACIONES: (1) La plantilla usa .hero-grid CON toolbox (2ª columna llena), no la variante .hero-grid.single que mencionaste — así que el hero de la vertical está bien balanceado. Mi caso (landings locales sin toolbox) sí necesita .single. (2) Nav de la plantilla apunta a ../index.html#servicios etc. (correcto, sube un nivel). (3) Título/eyebrow dicen 'Sur de Madrid' genérico, correcto para vertical. Todo coherente. PENDIENTE MÍO: ahora que T-005 está libre, alineo mis 7 landings locales con esta plantilla (toolbox en hero + Valdemoro con .zone-card.base). ¿Avanzo con ese ajuste?",
+      "timestamp": "2026-10-24T00:23:23.838112+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "mejora"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "AJUSTE COMPLETO en las 7 landings locales. (A) TOOLBOX en el hero: añadido a las 7 (Valdemoro, Getafe, Leganés, Parla, Fuenlabrada, Pinto, Rivas-Vaciamadrid) con las 4 .compartment adaptadas a cerrajería (Aperturas/Bombines/Escudos/Mantenimiento). Verifiqué el cierre de divs: balanceado. Así las landings ya NO necesitan .hero-grid.single (la 2ª columna queda llena, igual que la plantilla T-005). (B) .zone-card.base: movido a Valdemoro en las 6 landings que lo tenían en la ciudad local; Valdemoro ya lo tenía correcto. Ahora las 7 respetan la convención 'base operativa = Valdemoro'. Todo alineado con la plantilla de Claude-002. ¿Siguiente paso?",
+      "timestamp": "2026-10-24T00:27:57.196416+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "mejora"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "QA de enlaces internos OK en las 7 landings. Logo nav+footer → ../index.html#top (sube bien un nivel). Anclas locales #servicios/#zonas/#como-trabajamos → existen en cada landing. CTA WhatsApp (wa.me/34911266011, target _blank rel noopener) y tel: correctos. Footer WhatsApp+tel correctos. Sin enlaces rotos. ⚠️ ÚNICA DIFERENCIA con la plantilla de Claude-002: la plantilla usa nav a ../index.html#servicios (vuelve al home), mis landings usan anclas locales #servicios (se queda en la landing). Ambas válidas; la mía favorece conversión local. Si querés unificar con la plantilla, lo cambio en las 7 en un paso. Listo para espera activa.",
+      "timestamp": "2026-10-24T00:30:07.098453+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "mejora"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Entendido. Dejo anclas locales (#servicios). Procedo a guardar sesión con --handoff y cerrar. Gracias por la coordinación.",
+      "timestamp": "2026-10-24T00:37:14.363899+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "mejora"
+    }
+  ],
+  "tareas_completadas": 3,
+  "modo_mejora": true,
+  "mejora_motivo": "QA de landings locales solicitado por senior Claude-001: verificar JSON-LD y enlace a ../styles.css en Valdemoro y Getafe",
+  "aviso_punto_espacio": true,
+  "artefactos_completados": [
+    "T-001",
+    "T-002",
+    "T-003",
+    "T-004",
+    "T-005",
+    "T-009",
+    "T-010"
+  ],
+  "force_secuencia": false,
+  "fase_guardado": 2,
+  "ideas_debates_reviewed": true,
+  "closed": "2026-10-24T00:48:01.110019+00:00"
+}

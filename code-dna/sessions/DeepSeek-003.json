@@ -1,0 +1,679 @@
+{
+  "session_id": "DeepSeek-003",
+  "status": "cerrada",
+  "ia_profile": "deepseek",
+  "max_chars": 40000,
+  "goal": "T-011: Fase 4: Diseñar flujo de captación de reseñas post-servicio (WhatsApp)",
+  "decisions": [
+    {
+      "decision": "DEC-001: Política de inactividad en GBP por 30 días y Plan de Limpieza de servicios",
+      "reason": "Inferido desde artefacto DEC-001 (status: open)"
+    }
+  ],
+  "hypotheses": [],
+  "open_questions": [],
+  "next_step": "No hay tareas libres relacionadas con el contexto reciente de tu sesión. Revisa el backlog con adn backlog",
+  "artefactos_tocados": [
+    "DEC-001",
+    "FLW-001",
+    "NOTE-002"
+  ],
+  "archivos_modificados": [
+    "docs/decisions/DEC-001.md",
+    "docs/flows/FLW-001.md",
+    "docs/notes/NOTE-002.md"
+  ],
+  "steps": [
+    {
+      "timestamp": "2026-10-23T23:27:30.707654+00:00",
+      "operation": "ver",
+      "description": "ver docs/templates/IA_GUIDE.md",
+      "file": "docs/templates/IA_GUIDE.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:27:30.709612+00:00",
+      "operation": "lectura",
+      "file": "docs/templates/IA_GUIDE.md",
+      "task": null,
+      "description": "lectura en docs/templates/IA_GUIDE.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:27:38.366189+00:00",
+      "operation": "ver",
+      "description": "ver README.md",
+      "file": "README.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:27:38.371042+00:00",
+      "operation": "lectura",
+      "file": "README.md",
+      "task": null,
+      "description": "lectura en README.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:28:18.218270+00:00",
+      "operation": "contexto",
+      "description": "contexto "
+    },
+    {
+      "timestamp": "2026-10-23T23:28:25.959788+00:00",
+      "operation": "arbol",
+      "description": "arbol --resumen"
+    },
+    {
+      "timestamp": "2026-10-23T23:28:47.520785+00:00",
+      "operation": "ayuda",
+      "description": "ayuda familia",
+      "file": "familia"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:25.789575+00:00",
+      "operation": "backlog",
+      "description": "backlog "
+    },
+    {
+      "timestamp": "2026-10-23T23:34:38.036926+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Recibido. Asumo rol Estratega FASE 4 (Operaciones y GBP). Plan: 1) auditar ficha GBP (T-012), 2) redactar FLW de captación de reseñas vía WhatsApp (T-011). Sin tocar código. Empiezo por T-012 en cuanto la revise. Aviso cuando tenga el diagnóstico de la ficha.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:45.733819+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:53.417181+00:00",
+      "operation": "tomar",
+      "description": "tomar T-012",
+      "file": "T-012"
+    },
+    {
+      "timestamp": "2026-10-23T23:34:53.438961+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-012.md",
+      "task": "T-012",
+      "description": "Tomada tarea T-012: Fase 4: Auditar servicios autogenerados por ML y enlaces en Ficha GBP"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:40.021427+00:00",
+      "operation": "familia",
+      "description": "familia T-012",
+      "file": "T-012"
+    },
+    {
+      "timestamp": "2026-10-23T23:35:40.056262+00:00",
+      "operation": "lectura",
+      "file": "T-012",
+      "task": null,
+      "description": "lectura en T-012"
+    },
+    {
+      "timestamp": "2026-10-23T23:38:41.529248+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-012.md",
+      "file": "docs/tasks/T-012.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:38:41.532426+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-012.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-012.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:41:55.622704+00:00",
+      "operation": "arbol",
+      "description": "arbol voktera.online --expandir",
+      "file": "voktera.online"
+    },
+    {
+      "timestamp": "2026-10-23T23:43:39.650946+00:00",
+      "operation": "ver",
+      "description": "ver voktera.online/index.html",
+      "file": "voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-23T23:43:39.663825+00:00",
+      "operation": "lectura",
+      "file": "voktera.online/index.html",
+      "task": null,
+      "description": "lectura en voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-23T23:44:10.428166+00:00",
+      "operation": "ver",
+      "description": "ver docs/tasks/T-011.md",
+      "file": "docs/tasks/T-011.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:44:10.434140+00:00",
+      "operation": "lectura",
+      "file": "docs/tasks/T-011.md",
+      "task": null,
+      "description": "lectura en docs/tasks/T-011.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:44:24.184808+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 DIAGNÓSTICO PRELIMINAR T-012 (auditoría GBP) — pendiente de datos reales del panel. FUENTE DE VERDAD = voktera.online/index.html: marca VOKTERA; web https://voktera.online/; tel +34 911 26 60 11; cita = WhatsApp wa.me/34911266011; 4 verticales (cerrajería, persianas, muebles, mantenimiento); 7 zonas (Valdemoro base + Getafe, Leganés, Fuenlabrada, Parla, Pinto, Rivas); negocio de área de servicio (sin dirección física). ACCIONES EN GBP que propongo: (1) Servicios: borrar todo servicio autogenerado por ML que no encaje en las 4 verticales; crear 4 servicios padre con las descripciones de la web. (2) Web: confirmar que el link apunta a https://voktera.online/ sin acortador. (3) Cita/Booking: apuntar a https://wa.me/34911266011. (4) Verificar teléfono = 911266011 y modo SAB (dirección oculta). BLOQUEO 1: el horario de la web es inconsistente (JSON-LD L-S 08-22; hero 8-20 todos los días; contacto L-D 8-20) y T-002 lo tiene pendiente. GBP NO se puede alinear hasta fijar el horario canónico. ¿Cuál es el definitivo? BLOQUEO 2: no tengo acceso al panel. Necesito que me pegues: a) lista actual de Servicios en GBP (para saber qué borrar), b) a dónde apunta hoy el botón de cita, c) Place ID o enlace 'escribir reseña' (lo usaré en T-011). Con eso cierro T-012 con diagnóstico accionable y paso a T-011. ¿Creo una NOTE con el checklist de auditoría o lo dejo solo en el mensaje?",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:44:31.835766+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-23T23:56:01.155824+00:00",
+      "operation": "tomar",
+      "description": "tomar T-011",
+      "file": "T-011"
+    },
+    {
+      "timestamp": "2026-10-23T23:56:01.177318+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-011.md",
+      "task": "T-011",
+      "description": "Tomada tarea T-011: Fase 4: Diseñar flujo de captación de reseñas post-servicio (WhatsApp)"
+    },
+    {
+      "timestamp": "2026-10-23T23:56:22.943936+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Recibido el CAMBIO DE PLAN. Entendido: NO tocar GBP por 30 días (riesgo re-suspensión). Reencuadro T-012 como 'documentar lista actual de servicios + Plan de Limpieza Futura (qué borrar, qué dejar, qué añadir)' en una NOTE; luego la cierro y paso a T-011. Análisis rápido de la lista (14 ítems): hay redundancia clara en 'urgente' (Apertura urgente a domicilio / Servicio cerrajería de urgencia / Apertura inmediata sin daños / Apertura urgente / Intervención urgente = 5 variantes del mismo servicio) y faltan por completo persianas, muebles y mantenimiento. Lo documento con detalle en la NOTE y te paso el resumen. En paralelo arranco T-011 con el enlace de reseña que me diste.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-23T23:57:02.815762+00:00",
+      "operation": "ayuda",
+      "description": "ayuda crear",
+      "file": "crear"
+    },
+    {
+      "timestamp": "2026-10-23T23:57:07.350698+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-23T23:57:24.197998+00:00",
+      "operation": "crear",
+      "description": "crear nota GBP VOKTERA: auditoría de servicios y plan de limpieza futura (30 días)",
+      "file": "nota"
+    },
+    {
+      "timestamp": "2026-10-23T23:57:24.215678+00:00",
+      "operation": "crear",
+      "description": "crear flujo Captación de reseñas GBP vía WhatsApp post-servicio",
+      "file": "flujo"
+    },
+    {
+      "timestamp": "2026-10-23T23:58:49.539158+00:00",
+      "operation": "confirmar",
+      "file": "docs/notes/NOTE-002.md",
+      "task": null,
+      "description": "confirmar en docs/notes/NOTE-002.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:58:49.704800+00:00",
+      "operation": "confirmar",
+      "file": "docs/flows/FLW-001.md",
+      "task": null,
+      "description": "confirmar en docs/flows/FLW-001.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:58:58.833957+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-23T23:59:01.871389+00:00",
+      "operation": "ver",
+      "description": "ver docs/notes/NOTE-002.md",
+      "file": "docs/notes/NOTE-002.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:59:01.874676+00:00",
+      "operation": "lectura",
+      "file": "docs/notes/NOTE-002.md",
+      "task": null,
+      "description": "lectura en docs/notes/NOTE-002.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:59:01.875767+00:00",
+      "operation": "ver",
+      "description": "ver docs/flows/FLW-001.md",
+      "file": "docs/flows/FLW-001.md"
+    },
+    {
+      "timestamp": "2026-10-23T23:59:01.879347+00:00",
+      "operation": "lectura",
+      "file": "docs/flows/FLW-001.md",
+      "task": null,
+      "description": "lectura en docs/flows/FLW-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:01:14.082297+00:00",
+      "operation": "confirmar",
+      "file": "docs/notes/NOTE-002.md",
+      "task": null,
+      "description": "confirmar en docs/notes/NOTE-002.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:02:09.353155+00:00",
+      "operation": "confirmar",
+      "file": "docs/flows/FLW-001.md",
+      "task": null,
+      "description": "confirmar en docs/flows/FLW-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:03:52.835576+00:00",
+      "operation": "ver",
+      "description": "ver docs/flows/FLW-001.md",
+      "file": "docs/flows/FLW-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:03:52.837761+00:00",
+      "operation": "lectura",
+      "file": "docs/flows/FLW-001.md",
+      "task": null,
+      "description": "lectura en docs/flows/FLW-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:04:54.614827+00:00",
+      "operation": "confirmar",
+      "file": "docs/flows/FLW-001.md",
+      "task": null,
+      "description": "confirmar en docs/flows/FLW-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:05:03.854102+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-012.md absorbido_en=NOTE-002",
+      "file": "docs/tasks/T-012.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:05:03.857599+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-011.md absorbido_en=FLW-001",
+      "file": "docs/tasks/T-011.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:05:58.580903+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-012.md set absorbido_en=NOTE-002",
+      "file": "docs/tasks/T-012.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:05:58.805567+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-011.md set absorbido_en=FLW-001",
+      "file": "docs/tasks/T-011.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:06:08.017306+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 STATUS T-011 y T-012 — listas. T-012: documentada como NOTE-002 (lista actual de 13 servicios, diagnóstico de redundancia de 'urgente' y faltantes de verticales, + Plan de Limpieza Futura con borrar/dejar/añadir, todo a ejecutar a partir del 2026-11-23). T-011: FLW-001 creado con 2 plantillas WhatsApp (A planificados, B urgentes), enlace https://g.page/r/Cc3-AfvQ6rk6EBM/review, reglas de envío y condiciones de salida. Ambas con absorbido_en apuntando a NOTE-002 y FLW-001. Procedo a completar T-012 y T-011.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:02.863710+00:00",
+      "operation": "completar",
+      "description": "completar T-012",
+      "file": "T-012"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:02.892620+00:00",
+      "operation": "completar",
+      "description": "completar T-011",
+      "file": "T-011"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:11.008731+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-011.md",
+      "task": "T-011",
+      "description": "confirmar en docs/tasks/T-011.md (relacionado con T-011)"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:11.024090+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 T-011 completándose (plan confirmado). T-012 rebotó: el motor no permite absorbido_en=NOTE, solo MOD/DEC/FLW/CTR. NOTE-002 contiene una decisión operativa ('no tocar GBP 30 días + plan de limpieza'), así que propongo promover su contenido a una DEC-001 y apuntar T-012 a esa DEC. ¿OK para crear DEC-001? Alternativa: dejar T-012 con absorbido_en=none justificado. Recomiendo DEC por trazabilidad del plan de limpieza.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:17.417130+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:12:20.454388+00:00",
+      "operation": "ideas",
+      "description": "ideas "
+    },
+    {
+      "timestamp": "2026-10-24T00:12:20.462872+00:00",
+      "operation": "debate",
+      "description": "debate "
+    },
+    {
+      "timestamp": "2026-10-24T00:13:46.327102+00:00",
+      "operation": "familia",
+      "description": "familia FLW-001",
+      "file": "FLW-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:13:46.409701+00:00",
+      "operation": "lectura",
+      "file": "FLW-001",
+      "task": null,
+      "description": "lectura en FLW-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:13:46.416825+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-24T00:15:30.880834+00:00",
+      "operation": "crear",
+      "description": "crear decision Política de inactividad en GBP por 30 días y Plan de Limpieza de servicios",
+      "file": "decision"
+    },
+    {
+      "timestamp": "2026-10-24T00:16:59.154451+00:00",
+      "operation": "confirmar",
+      "file": "docs/decisions/DEC-001.md",
+      "task": null,
+      "description": "confirmar en docs/decisions/DEC-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:20:05.953707+00:00",
+      "operation": "ver",
+      "description": "ver docs/decisions/DEC-001.md",
+      "file": "docs/decisions/DEC-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:20:05.956591+00:00",
+      "operation": "lectura",
+      "file": "docs/decisions/DEC-001.md",
+      "task": null,
+      "description": "lectura en docs/decisions/DEC-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:22:13.120573+00:00",
+      "operation": "confirmar",
+      "file": "docs/decisions/DEC-001.md",
+      "task": null,
+      "description": "confirmar en docs/decisions/DEC-001.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:17.346905+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-012.md set absorbido_en=DEC-001",
+      "file": "docs/tasks/T-012.md"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:17.493669+00:00",
+      "operation": "completar",
+      "description": "completar T-012",
+      "file": "T-012"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:45.597094+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-012.md",
+      "task": "T-012",
+      "description": "confirmar en docs/tasks/T-012.md (relacionado con T-012)"
+    },
+    {
+      "timestamp": "2026-10-24T00:23:53.360093+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 T-012 y T-011 CERRADAS formalmente. T-012 → absorbida en DEC-001 (Política de inactividad GBP 30 días + Plan de Limpieza). T-011 → absorbida en FLW-001 (Captación reseñas WhatsApp). Resumen entregables: DEC-001 con contexto/decisión/alternativas/consecuencias; NOTE-002 con lista de 13 servicios, diagnóstico y plan borrar/dejar/añadir; FLW-001 con plantillas A/B y reglas de envío. Sin tareas libres. ¿Próxima orden o cierro sesión?",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:24:01.080408+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:24:59.186038+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-24T00:25:06.827861+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Recibido. Guardo sesión con --handoff y cierro. Entregables: DEC-001 (política GBP 30 días + plan de limpieza), NOTE-002 (auditoría 13 servicios), FLW-001 (captación reseñas WhatsApp). T-011 y T-012 cerradas. Gracias.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:25:12.940067+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --handoff",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:26:28.530005+00:00",
+      "operation": "ayuda",
+      "description": "ayuda sesion",
+      "file": "sesion"
+    },
+    {
+      "timestamp": "2026-10-24T00:26:55.118677+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:03.357911+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:07.917011+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --force",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:19.585285+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:27:24.144175+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --force",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:30:19.405294+00:00",
+      "operation": "ideas",
+      "description": "ideas "
+    },
+    {
+      "timestamp": "2026-10-24T00:30:19.412013+00:00",
+      "operation": "debate",
+      "description": "debate "
+    },
+    {
+      "timestamp": "2026-10-24T00:30:23.959811+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --force",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:33:20.357133+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Bloqueo al guardar: el commit falló porque /mnt/disco_hdd/work/workspace/apps/web-voktera NO es un repositorio git. Las tareas y artefactos YA están escritos en disco (DEC-001, NOTE-002, FLW-001, T-011/T-012 archivadas); solo falta el commit de trazabilidad. El motor recomendó 'adn git init' al iniciar sesión. Propongo: 1) humano ejecuta 'adn git init', 2) reintento 'adn sesion guardar --force'. ¿OK o preferís otro camino?",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:36:59.166170+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-24T00:37:09.773093+00:00",
+      "operation": "git",
+      "description": "git init",
+      "file": "init"
+    },
+    {
+      "timestamp": "2026-10-24T00:37:25.708163+00:00",
+      "operation": "git",
+      "description": "git init --si-o-si",
+      "file": "init"
+    },
+    {
+      "timestamp": "2026-10-24T00:44:15.416659+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --force",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:44:26.608316+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-001 Sesión guardada y cerrada OK. Commit b7ec82b189e2. Sin transitorios con absorbido_en:none. Los 'conflictos' en T-011/T-012 son esperados (tú las creaste, yo las completé/absorbí). Entregables finales: DEC-001, NOTE-002, FLW-001. Gracias, buen trabajo en equipo.",
+      "file": "Claude-001"
+    },
+    {
+      "timestamp": "2026-10-24T00:44:29.730445+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-24T00:44:42.480832+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --force",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-24T00:45:19.876787+00:00",
+      "operation": "sesion",
+      "description": "sesion cerrar --force",
+      "file": "cerrar"
+    }
+  ],
+  "started": "2026-10-23T23:27:10.961062+00:00",
+  "last_activity": "2026-10-24T00:23:45Z",
+  "pasos_flujo_vistos": [
+    "ia_guide",
+    "readme",
+    "contexto"
+  ],
+  "inbox": [],
+  "outbox": [
+    {
+      "a": "Claude-001",
+      "texto": "Recibido. Asumo rol Estratega FASE 4 (Operaciones y GBP). Plan: 1) auditar ficha GBP (T-012), 2) redactar FLW de captación de reseñas vía WhatsApp (T-011). Sin tocar código. Empiezo por T-012 en cuanto la revise. Aviso cuando tenga el diagnóstico de la ficha.",
+      "timestamp": "2026-10-23T23:34:38.069818+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "DIAGNÓSTICO PRELIMINAR T-012 (auditoría GBP) — pendiente de datos reales del panel. FUENTE DE VERDAD = voktera.online/index.html: marca VOKTERA; web https://voktera.online/; tel +34 911 26 60 11; cita = WhatsApp wa.me/34911266011; 4 verticales (cerrajería, persianas, muebles, mantenimiento); 7 zonas (Valdemoro base + Getafe, Leganés, Fuenlabrada, Parla, Pinto, Rivas); negocio de área de servicio (sin dirección física). ACCIONES EN GBP que propongo: (1) Servicios: borrar todo servicio autogenerado por ML que no encaje en las 4 verticales; crear 4 servicios padre con las descripciones de la web. (2) Web: confirmar que el link apunta a https://voktera.online/ sin acortador. (3) Cita/Booking: apuntar a https://wa.me/34911266011. (4) Verificar teléfono = 911266011 y modo SAB (dirección oculta). BLOQUEO 1: el horario de la web es inconsistente (JSON-LD L-S 08-22; hero 8-20 todos los días; contacto L-D 8-20) y T-002 lo tiene pendiente. GBP NO se puede alinear hasta fijar el horario canónico. ¿Cuál es el definitivo? BLOQUEO 2: no tengo acceso al panel. Necesito que me pegues: a) lista actual de Servicios en GBP (para saber qué borrar), b) a dónde apunta hoy el botón de cita, c) Place ID o enlace 'escribir reseña' (lo usaré en T-011). Con eso cierro T-012 con diagnóstico accionable y paso a T-011. ¿Creo una NOTE con el checklist de auditoría o lo dejo solo en el mensaje?",
+      "timestamp": "2026-10-23T23:44:24.198740+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Recibido el CAMBIO DE PLAN. Entendido: NO tocar GBP por 30 días (riesgo re-suspensión). Reencuadro T-012 como 'documentar lista actual de servicios + Plan de Limpieza Futura (qué borrar, qué dejar, qué añadir)' en una NOTE; luego la cierro y paso a T-011. Análisis rápido de la lista (14 ítems): hay redundancia clara en 'urgente' (Apertura urgente a domicilio / Servicio cerrajería de urgencia / Apertura inmediata sin daños / Apertura urgente / Intervención urgente = 5 variantes del mismo servicio) y faltan por completo persianas, muebles y mantenimiento. Lo documento con detalle en la NOTE y te paso el resumen. En paralelo arranco T-011 con el enlace de reseña que me diste.",
+      "timestamp": "2026-10-23T23:56:22.956365+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "STATUS T-011 y T-012 — listas. T-012: documentada como NOTE-002 (lista actual de 13 servicios, diagnóstico de redundancia de 'urgente' y faltantes de verticales, + Plan de Limpieza Futura con borrar/dejar/añadir, todo a ejecutar a partir del 2026-11-23). T-011: FLW-001 creado con 2 plantillas WhatsApp (A planificados, B urgentes), enlace https://g.page/r/Cc3-AfvQ6rk6EBM/review, reglas de envío y condiciones de salida. Ambas con absorbido_en apuntando a NOTE-002 y FLW-001. Procedo a completar T-012 y T-011.",
+      "timestamp": "2026-10-24T00:06:08.038322+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "T-011 completándose (plan confirmado). T-012 rebotó: el motor no permite absorbido_en=NOTE, solo MOD/DEC/FLW/CTR. NOTE-002 contiene una decisión operativa ('no tocar GBP 30 días + plan de limpieza'), así que propongo promover su contenido a una DEC-001 y apuntar T-012 a esa DEC. ¿OK para crear DEC-001? Alternativa: dejar T-012 con absorbido_en=none justificado. Recomiendo DEC por trazabilidad del plan de limpieza.",
+      "timestamp": "2026-10-24T00:12:11.034244+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "T-012 y T-011 CERRADAS formalmente. T-012 → absorbida en DEC-001 (Política de inactividad GBP 30 días + Plan de Limpieza). T-011 → absorbida en FLW-001 (Captación reseñas WhatsApp). Resumen entregables: DEC-001 con contexto/decisión/alternativas/consecuencias; NOTE-002 con lista de 13 servicios, diagnóstico y plan borrar/dejar/añadir; FLW-001 con plantillas A/B y reglas de envío. Sin tareas libres. ¿Próxima orden o cierro sesión?",
+      "timestamp": "2026-10-24T00:23:53.368545+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Recibido. Guardo sesión con --handoff y cierro. Entregables: DEC-001 (política GBP 30 días + plan de limpieza), NOTE-002 (auditoría 13 servicios), FLW-001 (captación reseñas WhatsApp). T-011 y T-012 cerradas. Gracias.",
+      "timestamp": "2026-10-24T00:25:06.843304+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Bloqueo al guardar: el commit falló porque /mnt/disco_hdd/work/workspace/apps/web-voktera NO es un repositorio git. Las tareas y artefactos YA están escritos en disco (DEC-001, NOTE-002, FLW-001, T-011/T-012 archivadas); solo falta el commit de trazabilidad. El motor recomendó 'adn git init' al iniciar sesión. Propongo: 1) humano ejecuta 'adn git init', 2) reintento 'adn sesion guardar --force'. ¿OK o preferís otro camino?",
+      "timestamp": "2026-10-24T00:33:20.363707+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-001",
+      "texto": "Sesión guardada y cerrada OK. Commit b7ec82b189e2. Sin transitorios con absorbido_en:none. Los 'conflictos' en T-011/T-012 son esperados (tú las creaste, yo las completé/absorbí). Entregables finales: DEC-001, NOTE-002, FLW-001. Gracias, buen trabajo en equipo.",
+      "timestamp": "2026-10-24T00:44:26.634097+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    }
+  ],
+  "knowledge_reviewed": true,
+  "tareas_completadas": 2,
+  "ideas_debates_reviewed": true,
+  "artefactos_completados": [
+    "T-002",
+    "T-011",
+    "T-012"
+  ],
+  "force_secuencia": true,
+  "fase_guardado": 2,
+  "closed": "2026-10-24T00:44:15.908730+00:00"
+}

@@ -1,0 +1,46 @@
+---
+doc_id: README
+target_tool: code-dna
+prompt_instructions: 'Documento de identidad del proyecto; leer primero.'
+status: generated
+---
+
+# [IA: Pregúntame el nombre del proyecto]
+
+[IA: Pregúntame el propósito principal de este proyecto en 1-2 frases]
+
+## Descripción
+
+[IA: Pregúntame una descripción breve del proyecto]
+
+## Stack Tecnológico
+
+- Lenguaje principal: [IA: Pregúntame qué lenguaje usa este proyecto]
+- Entry point probable: [IA: Pregúntame cuál es el archivo de entrada]
+- Dependencias: [IA: Pregúntame cómo se gestionan las dependencias]
+- [IA: Pregúntame qué frameworks y dependencias principales usa este proyecto]
+
+## Estado Actual
+
+[IA: Pregúntame en qué fase está este proyecto: exploración, desarrollo activo, mantenimiento, etc.]
+
+## Estructura del Proyecto
+
+<!-- CODE_DNA:START estructura -->
+<!-- CODE_DNA:END estructura -->
+
+## Documentación
+
+- IA_GUIDE.md → Punto de entrada obligatorio para cualquier IA.
+- docs/ARCHITECTURE.md → Arquitectura y componentes.
+- docs/CHANGELOG.md → Cambios realizados.
+- docs/SESSIONS.md → Resumen de sesiones importantes.
+
+## Progreso
+
+- Progreso: 0.0% (0/0 tareas)
+- Métricas: [IA: Pregúntame cuántos archivos indexados tiene este proyecto]
+
+---
+
+Proyecto gestionado con Code DNA.

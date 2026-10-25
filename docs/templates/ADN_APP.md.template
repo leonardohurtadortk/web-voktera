@@ -1,0 +1,30 @@
+---
+doc_id: ADN_APP
+target_tool: code-dna
+prompt_instructions: 'Documento de identidad de la subapp; leer al trabajar en esta carpeta.'
+status: generated
+---
+
+# {app_name}
+
+[IA: Pregúntame el propósito principal de esta subapp en 1-2 frases]
+
+## Stack Tecnológico
+- Lenguaje principal: [IA: Pregúntame qué lenguaje usa esta subapp]
+- Entry point probable: [IA: Pregúntame cuál es el archivo de entrada]
+- Dependencias: [IA: Pregúntame cómo se gestionan las dependencias]
+- [IA: Pregúntame qué frameworks y dependencias principales usa]
+
+## Estado Actual
+[IA: Pregúntame en qué fase está esta subapp: exploración, desarrollo activo, mantenimiento, etc.]
+
+## Dependencias
+[IA: Pregúntame si esta subapp depende de otras apps o servicios]
+
+## Artefactos Relevantes
+<!-- CODE_DNA:START artefactos -->
+<!-- CODE_DNA:END artefactos -->
+*Sección autogenerada por Code DNA. Los artefactos con scope apuntando a esta carpeta aparecerán aquí.*
+
+---
+Proyecto gestionado con Code DNA.
