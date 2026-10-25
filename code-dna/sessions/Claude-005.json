@@ -3,13 +3,16 @@
   "status": "activa",
   "ia_profile": "claude",
   "max_chars": 30000,
-  "goal": "T-049: Implementar toggle JS para dropdown del nav en PC",
+  "goal": "T-053: Crear favicon e integrarlo en las 15 páginas",
   "decisions": [],
   "hypotheses": [],
   "open_questions": [],
   "next_step": "[Definir siguiente paso]",
   "artefactos_tocados": [
-    "T-049"
+    "T-049",
+    "T-051",
+    "T-052",
+    "T-053"
   ],
   "archivos_modificados": [
     "voktera.online/nav.js",
@@ -29,7 +32,13 @@
     "voktera.online/cerrajero-pinto/index.html",
     "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
     "docs/modules/MOD-010.md",
-    "docs/tasks/T-049.md"
+    "docs/tasks/T-049.md",
+    "docs/tasks/T-051.md",
+    "docs/tasks/T-052.md",
+    "voktera.online/styles.css",
+    "docs/tasks/T-053.md",
+    "docs/contracts/CTR-002.md",
+    "docs/modules/MOD-009.md"
   ],
   "steps": [
     {
@@ -706,16 +715,830 @@
       "timestamp": "2026-10-25T05:28:11.616722+00:00",
       "operation": "debate",
       "description": "debate "
+    },
+    {
+      "timestamp": "2026-10-25T06:32:10.001232+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --handoff",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-25T06:32:43.083429+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T06:32:49.207809+00:00",
+      "operation": "backlog",
+      "description": "backlog "
+    },
+    {
+      "timestamp": "2026-10-25T06:32:55.427016+00:00",
+      "operation": "familia",
+      "description": "familia T-049",
+      "file": "T-049"
+    },
+    {
+      "timestamp": "2026-10-25T06:32:55.481500+00:00",
+      "operation": "buscar",
+      "description": "buscar T-051",
+      "file": "T-051"
+    },
+    {
+      "timestamp": "2026-10-25T06:33:04.704443+00:00",
+      "operation": "backlog",
+      "description": "backlog "
+    },
+    {
+      "timestamp": "2026-10-25T06:43:42.524942+00:00",
+      "operation": "programador",
+      "description": "programador "
+    },
+    {
+      "timestamp": "2026-10-25T06:44:03.782759+00:00",
+      "operation": "crear",
+      "description": "crear tarea Quitar texto WhatsApp del nav y corregir parpadeo del enlace Blog en las 15 páginas --parent T-014 --scope voktera.online/ --scope voktera.online/styles.css",
+      "file": "tarea"
+    },
+    {
+      "timestamp": "2026-10-25T06:44:03.926569+00:00",
+      "operation": "crear",
+      "description": "crear tarea Insertar Google Analytics (gtag.js) en el <head> de las 15 páginas --scope voktera.online/",
+      "file": "tarea"
+    },
+    {
+      "timestamp": "2026-10-25T06:44:45.721072+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-051.md",
+      "task": "T-051",
+      "description": "confirmar en docs/tasks/T-051.md (relacionado con T-051)"
+    },
+    {
+      "timestamp": "2026-10-25T06:44:45.994680+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-052.md",
+      "task": "T-052",
+      "description": "confirmar en docs/tasks/T-052.md (relacionado con T-052)"
+    },
+    {
+      "timestamp": "2026-10-25T06:44:55.172619+00:00",
+      "operation": "tomar",
+      "description": "tomar T-051",
+      "file": "T-051"
+    },
+    {
+      "timestamp": "2026-10-25T06:44:55.188882+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-051.md",
+      "task": "T-051",
+      "description": "Tomada tarea T-051: Quitar texto WhatsApp del nav y corregir parpadeo del enlace Blog en las 15 páginas"
+    },
+    {
+      "timestamp": "2026-10-25T06:44:55.386365+00:00",
+      "operation": "ver",
+      "description": "ver MOD-009",
+      "file": "MOD-009"
+    },
+    {
+      "timestamp": "2026-10-25T06:44:55.392707+00:00",
+      "operation": "lectura",
+      "file": "MOD-009",
+      "task": null,
+      "description": "lectura en MOD-009"
+    },
+    {
+      "timestamp": "2026-10-25T06:50:50.993979+00:00",
+      "operation": "buscar",
+      "description": "buscar .nav-cta --expandir",
+      "file": ".nav-cta"
+    },
+    {
+      "timestamp": "2026-10-25T06:50:51.144384+00:00",
+      "operation": "buscar",
+      "description": "buscar .nav-links a --expandir",
+      "file": ".nav-links a"
+    },
+    {
+      "timestamp": "2026-10-25T06:51:06.929646+00:00",
+      "operation": "continuar",
+      "description": "continuar 2",
+      "file": "2"
+    },
+    {
+      "timestamp": "2026-10-25T06:51:33.354004+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 170-250",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T06:51:49.380172+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T06:53:24.313328+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/index.html 88-92",
+      "file": "voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:53:24.327694+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/blog/index.html 81-85",
+      "file": "voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:53:24.341897+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajeria/index.html 117-121",
+      "file": "voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:53:24.356169+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-valdemoro/index.html 122-127",
+      "file": "voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:53:44.472680+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T06:54:32.318751+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 150-180",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T06:54:32.324261+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/blog/llave-rota.html 124-128",
+      "file": "voktera.online/blog/llave-rota.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:54:32.330809+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/blog/precio-cerrajero.html 124-128",
+      "file": "voktera.online/blog/precio-cerrajero.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:54:32.336625+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/persianas/index.html 117-121",
+      "file": "voktera.online/persianas/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:54:32.342900+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/muebles/index.html 117-121",
+      "file": "voktera.online/muebles/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:54:32.349363+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/mantenimiento/index.html 117-121",
+      "file": "voktera.online/mantenimiento/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:54:32.355169+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-getafe/index.html 120-124",
+      "file": "voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:04.170663+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/styles.css 172-177 --verificar",
+      "file": "voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:14.858521+00:00",
+      "operation": "reemplazar",
+      "file": "voktera.online/styles.css",
+      "task": null,
+      "description": "reemplazar en voktera.online/styles.css"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:31.695823+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:48.208676+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:48.381399+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/blog/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:48.559248+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/blog/llave-rota.html",
+      "task": null,
+      "description": "borrar en voktera.online/blog/llave-rota.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:48.742504+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/blog/precio-cerrajero.html",
+      "task": null,
+      "description": "borrar en voktera.online/blog/precio-cerrajero.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:48.914585+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/cerrajeria/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:49.091140+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/persianas/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/persianas/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:49.256181+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/muebles/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/muebles/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:56:49.432658+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/mantenimiento/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/mantenimiento/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:57:11.425100+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:57:11.581328+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/cerrajero-getafe/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:57:11.737170+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/cerrajero-leganes/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/cerrajero-leganes/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:57:11.889058+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/cerrajero-fuenlabrada/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:57:12.041026+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/cerrajero-parla/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/cerrajero-parla/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:57:12.189586+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/cerrajero-pinto/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:57:12.336759+00:00",
+      "operation": "borrar",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "task": null,
+      "description": "borrar en voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:58:01.655690+00:00",
+      "operation": "buscar",
+      "description": "buscar class=\\ nav-cta\\ --resumen",
+      "file": "class=\\"
+    },
+    {
+      "timestamp": "2026-10-25T06:58:22.951964+00:00",
+      "operation": "buscar",
+      "description": "buscar nav-cta --resumen",
+      "file": "nav-cta"
+    },
+    {
+      "timestamp": "2026-10-25T06:58:30.675484+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/cerrajero-getafe/index.html 118-124",
+      "file": "voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T06:58:36.777913+00:00",
+      "operation": "completar",
+      "description": "completar T-051",
+      "file": "T-051"
+    },
+    {
+      "timestamp": "2026-10-25T06:58:37.065216+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 T-051 COMPLETADA. (1) Eliminado el <a class='nav-cta'>WhatsApp</a> de las 15 páginas (8 multilínea + 7 single-line); el nav queda limpio, solo .wa-float mantiene WhatsApp. (2) Parpadeo del 'Blog': añadidas reglas .nav-links>a:visited y :active en styles.css (color estable var(--ink-soft), transition:none) tras el bloque :hover. Nota: el CSS de .nav-cta (líneas 179-181 y 241) queda huérfano pero inofensivo; lo marco para limpieza futura en MOD-009. Ahora voy con T-052 (GTag en 15 páginas) y luego T-053 (favicon). ETA combinado ~20-30 min si no hay bloqueos. ¿Tenés confirmación del humano de que el texto WhatsApp desapareció del menú en producción/recarga con caché limpia?",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T06:59:32.610611+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-051.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-051.md"
+    },
+    {
+      "timestamp": "2026-10-25T06:59:32.620190+00:00",
+      "operation": "ver",
+      "description": "ver T-051",
+      "file": "T-051"
+    },
+    {
+      "timestamp": "2026-10-25T06:59:32.627925+00:00",
+      "operation": "lectura",
+      "file": "T-051",
+      "task": null,
+      "description": "lectura en T-051"
+    },
+    {
+      "timestamp": "2026-10-25T06:59:58.627709+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-051.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-051.md"
+    },
+    {
+      "timestamp": "2026-10-25T06:59:58.659179+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-051.md set absorbido_en=MOD-009",
+      "file": "docs/tasks/T-051.md"
+    },
+    {
+      "timestamp": "2026-10-25T06:59:58.826281+00:00",
+      "operation": "completar",
+      "description": "completar T-051",
+      "file": "T-051"
+    },
+    {
+      "timestamp": "2026-10-25T06:59:58.975934+00:00",
+      "operation": "tomar",
+      "description": "tomar T-052",
+      "file": "T-052"
+    },
+    {
+      "timestamp": "2026-10-25T06:59:58.992480+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-052.md",
+      "task": "T-052",
+      "description": "Tomada tarea T-052: Insertar Google Analytics (gtag.js) en el <head> de las 15 páginas"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:07.202731+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-051.md",
+      "task": "T-051",
+      "description": "confirmar en docs/tasks/T-051.md (relacionado con T-051)"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:19.572829+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:27.196613+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/index.html 70-75",
+      "file": "voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:27.202611+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/blog/index.html 60-65",
+      "file": "voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:31.790048+00:00",
+      "operation": "lineas",
+      "description": "lineas voktera.online/index.html 60-70",
+      "file": "voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:41.148470+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:41.306641+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:41.460645+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/llave-rota.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/llave-rota.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:41.619387+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/precio-cerrajero.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/precio-cerrajero.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:49.458284+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajeria/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:49.616821+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/persianas/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/persianas/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:49.778207+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/muebles/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/muebles/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:49.935476+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/mantenimiento/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/mantenimiento/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:50.089172+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:50.248604+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-getafe/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:50.401194+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-leganes/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-leganes/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:50.549393+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-fuenlabrada/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:50.696059+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-parla/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-parla/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:50.847261+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-pinto/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:50.994921+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:00:58.617022+00:00",
+      "operation": "buscar",
+      "description": "buscar G-4NT56D8Y7Q --resumen",
+      "file": "G-4NT56D8Y7Q"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:05.087170+00:00",
+      "operation": "ver",
+      "description": "ver T-052",
+      "file": "T-052"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:05.114586+00:00",
+      "operation": "lectura",
+      "file": "T-052",
+      "task": null,
+      "description": "lectura en T-052"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:22.579385+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-052.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-052.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:22.928340+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-052.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-052.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:22.933997+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-052.md set absorbido_en=MOD-002",
+      "file": "docs/tasks/T-052.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:23.074221+00:00",
+      "operation": "completar",
+      "description": "completar T-052",
+      "file": "T-052"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:35.812510+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-052.md",
+      "task": "T-052",
+      "description": "confirmar en docs/tasks/T-052.md (relacionado con T-052)"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:43.394430+00:00",
+      "operation": "tomar",
+      "description": "tomar T-053",
+      "file": "T-053"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:43.452384+00:00",
+      "operation": "tomar",
+      "file": "docs/tasks/T-053.md",
+      "task": "T-053",
+      "description": "Tomada tarea T-053: Crear favicon e integrarlo en las 15 páginas"
+    },
+    {
+      "timestamp": "2026-10-25T07:01:43.709977+00:00",
+      "operation": "scan",
+      "description": "scan voktera.online/imagenes/",
+      "file": "voktera.online/imagenes/"
+    },
+    {
+      "timestamp": "2026-10-25T07:02:59.581615+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:02:59.730686+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:02:59.879573+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/llave-rota.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/llave-rota.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:00.029557+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/blog/precio-cerrajero.html",
+      "task": null,
+      "description": "aplicar en voktera.online/blog/precio-cerrajero.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:18.533529+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajeria/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajeria/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:18.699699+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/persianas/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/persianas/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:18.870238+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/muebles/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/muebles/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:19.030330+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/mantenimiento/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/mantenimiento/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:19.198460+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-valdemoro/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-valdemoro/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:19.363874+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-getafe/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-getafe/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:19.553054+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-leganes/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-leganes/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:19.734958+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-fuenlabrada/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-fuenlabrada/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:19.892196+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-parla/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-parla/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:20.049037+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-pinto/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-pinto/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:20.206099+00:00",
+      "operation": "aplicar",
+      "file": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
+      "task": null,
+      "description": "aplicar en voktera.online/cerrajero-rivas-vaciamadrid/index.html"
+    },
+    {
+      "timestamp": "2026-10-25T07:03:27.854293+00:00",
+      "operation": "buscar",
+      "description": "buscar favicon-32.png --resumen",
+      "file": "favicon-32.png"
+    },
+    {
+      "timestamp": "2026-10-25T07:06:27.795607+00:00",
+      "operation": "ver",
+      "description": "ver T-053",
+      "file": "T-053"
+    },
+    {
+      "timestamp": "2026-10-25T07:06:27.802552+00:00",
+      "operation": "lectura",
+      "file": "T-053",
+      "task": null,
+      "description": "lectura en T-053"
+    },
+    {
+      "timestamp": "2026-10-25T07:06:37.267569+00:00",
+      "operation": "meta",
+      "description": "meta docs/tasks/T-053.md set absorbido_en=MOD-002",
+      "file": "docs/tasks/T-053.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:06:37.429777+00:00",
+      "operation": "completar",
+      "description": "completar T-053",
+      "file": "T-053"
+    },
+    {
+      "timestamp": "2026-10-25T07:06:44.078717+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-053.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-053.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:06:44.495315+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-053.md",
+      "task": null,
+      "description": "confirmar en docs/tasks/T-053.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:06:44.818246+00:00",
+      "operation": "confirmar",
+      "file": "docs/tasks/T-053.md",
+      "task": "T-053",
+      "description": "confirmar en docs/tasks/T-053.md (relacionado con T-053)"
+    },
+    {
+      "timestamp": "2026-10-25T07:06:50.901478+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T07:07:19.633755+00:00",
+      "operation": "confirmar",
+      "file": "docs/contracts/CTR-002.md",
+      "task": null,
+      "description": "confirmar en docs/contracts/CTR-002.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:07:51.433660+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-009.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-009.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:07:59.034044+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/modules/MOD-002.md 28-40 --verificar",
+      "file": "docs/modules/MOD-002.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:08:05.198302+00:00",
+      "operation": "buscar",
+      "description": "buscar Estilos en docs/modules/MOD-002.md --expandir",
+      "file": "Estilos en"
+    },
+    {
+      "timestamp": "2026-10-25T07:08:11.338585+00:00",
+      "operation": "desbloquear",
+      "description": "desbloquear mejora Actualizar MOD-002 con GTag, favicons y eliminación de nav-cta tras completar T-051/T-052/T-053",
+      "file": "mejora"
+    },
+    {
+      "timestamp": "2026-10-25T07:08:15.924723+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/modules/MOD-002.md 36-40 --verificar",
+      "file": "docs/modules/MOD-002.md"
     }
   ],
   "started": "2026-10-25T03:44:44.217556+00:00",
-  "last_activity": "2026-10-25T05:08:33Z",
+  "last_activity": "2026-10-25T07:07:51Z",
   "pasos_flujo_vistos": [
     "ia_guide",
     "readme",
     "contexto"
   ],
-  "inbox": [],
+  "inbox": [
+    {
+      "de": "Claude-004",
+      "texto": "Claude-005. El backlog muestra 0 tareas en progreso, asumo que terminaste T-051, T-052 y T-053. Por favor, confirmame que guardaste sesión y liberaste el scope de voktera.online para que el humano pueda hacer el git push sin problemas.",
+      "timestamp": "2026-10-25T07:07:41.710567+00:00",
+      "rol_remitente": "programador"
+    }
+  ],
   "knowledge_reviewed": true,
   "outbox": [
     {
@@ -817,9 +1640,22 @@
       "scope": null,
       "tarea": null,
       "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "T-051 COMPLETADA. (1) Eliminado el <a class='nav-cta'>WhatsApp</a> de las 15 páginas (8 multilínea + 7 single-line); el nav queda limpio, solo .wa-float mantiene WhatsApp. (2) Parpadeo del 'Blog': añadidas reglas .nav-links>a:visited y :active en styles.css (color estable var(--ink-soft), transition:none) tras el bloque :hover. Nota: el CSS de .nav-cta (líneas 179-181 y 241) queda huérfano pero inofensivo; lo marco para limpieza futura en MOD-009. Ahora voy con T-052 (GTag en 15 páginas) y luego T-053 (favicon). ETA combinado ~20-30 min si no hay bloqueos. ¿Tenés confirmación del humano de que el texto WhatsApp desapareció del menú en producción/recarga con caché limpia?",
+      "timestamp": "2026-10-25T06:58:37.105439+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
     }
   ],
   "aviso_punto_espacio": true,
-  "tareas_completadas": 1,
-  "ideas_debates_reviewed": true
+  "tareas_completadas": 4,
+  "ideas_debates_reviewed": true,
+  "rol_orientado": true,
+  "modo_mejora": true,
+  "mejora_motivo": "Actualizar MOD-002 con GTag, favicons y eliminación de nav-cta tras completar T-051/T-052/T-053"
 }

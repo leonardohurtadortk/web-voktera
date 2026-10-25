@@ -1,8 +1,8 @@
 {
   "project_root": "/mnt/disco_hdd/work/workspace/apps/web-voktera",
-  "total_files": 130,
-  "total_loc": 21492,
-  "max_mtime": 1792905706.5450003,
+  "total_files": 137,
+  "total_loc": 23037,
+  "max_mtime": 1792912039.4929223,
   "completo": true,
   "files": {
     "human_backlog.md": {
@@ -18,7 +18,16 @@
       "path": "README.md",
       "language": "markdown",
       "framework": null,
-      "lines": 86,
+      "lines": 82,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "wrangler.toml": {
+      "path": "wrangler.toml",
+      "language": "toml",
+      "framework": null,
+      "lines": 5,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -36,7 +45,7 @@
       "path": "docs/.knowledge_index.json",
       "language": "json",
       "framework": null,
-      "lines": 4524,
+      "lines": 5096,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -203,6 +212,15 @@
       "symbols": [],
       "imported_by": []
     },
+    "docs/changelog/CHANGELOG-2026-10-25-7.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-25-7.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 61,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
     "docs/changelog/CHANGELOG-2026-10-25.md": {
       "path": "docs/changelog/CHANGELOG-2026-10-25.md",
       "language": "markdown",
@@ -225,7 +243,7 @@
       "path": "docs/contracts/CTR-002.md",
       "language": "markdown",
       "framework": null,
-      "lines": 82,
+      "lines": 87,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -279,7 +297,7 @@
       "path": "docs/modules/MOD-002.md",
       "language": "markdown",
       "framework": null,
-      "lines": 72,
+      "lines": 74,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -342,7 +360,7 @@
       "path": "docs/modules/MOD-009.md",
       "language": "markdown",
       "framework": null,
-      "lines": 79,
+      "lines": 80,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -514,6 +532,15 @@
       "language": "markdown",
       "framework": null,
       "lines": 115,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-25-7.md": {
+      "path": "docs/sessions/SESSION-2026-10-25-7.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 477,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -855,7 +882,7 @@
       "path": "docs/tasks/history/T-037.md",
       "language": "markdown",
       "framework": null,
-      "lines": 76,
+      "lines": 72,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -864,7 +891,7 @@
       "path": "docs/tasks/history/T-038.md",
       "language": "markdown",
       "framework": null,
-      "lines": 75,
+      "lines": 72,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -873,7 +900,7 @@
       "path": "docs/tasks/history/T-039.md",
       "language": "markdown",
       "framework": null,
-      "lines": 75,
+      "lines": 72,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -882,7 +909,7 @@
       "path": "docs/tasks/history/T-040.md",
       "language": "markdown",
       "framework": null,
-      "lines": 75,
+      "lines": 72,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -891,7 +918,7 @@
       "path": "docs/tasks/history/T-041.md",
       "language": "markdown",
       "framework": null,
-      "lines": 75,
+      "lines": 72,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -900,7 +927,7 @@
       "path": "docs/tasks/history/T-042.md",
       "language": "markdown",
       "framework": null,
-      "lines": 75,
+      "lines": 72,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -936,7 +963,7 @@
       "path": "docs/tasks/history/T-046.md",
       "language": "markdown",
       "framework": null,
-      "lines": 78,
+      "lines": 75,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -972,7 +999,43 @@
       "path": "docs/tasks/history/T-050.md",
       "language": "markdown",
       "framework": null,
-      "lines": 79,
+      "lines": 76,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-051.md": {
+      "path": "docs/tasks/history/T-051.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 81,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-052.md": {
+      "path": "docs/tasks/history/T-052.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 75,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-053.md": {
+      "path": "docs/tasks/history/T-053.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 81,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/tasks/history/T-054.md": {
+      "path": "docs/tasks/history/T-054.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 71,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -1008,48 +1071,48 @@
       "path": "voktera.online/index.html",
       "language": "html",
       "framework": null,
-      "lines": 327,
+      "lines": 335,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 75,
+          "line_start": 86,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 97,
+          "line_start": 105,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 135,
+          "line_start": 143,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "como-trabajamos",
           "type": "id",
-          "line_start": 213,
+          "line_start": 221,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 240,
+          "line_start": 248,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 283,
+          "line_start": 291,
           "line_end": null,
           "docstring": null
         }
@@ -1158,7 +1221,7 @@
       "path": "voktera.online/styles.css",
       "language": "css",
       "framework": null,
-      "lines": 892,
+      "lines": 901,
       "imports": [],
       "symbols": [
         {
@@ -1276,376 +1339,369 @@
         {
           "name": ".nav-cta",
           "type": "selector",
-          "line_start": 179,
+          "line_start": 188,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-toggle",
           "type": "selector",
-          "line_start": 183,
+          "line_start": 192,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-burger",
           "type": "selector",
-          "line_start": 184,
+          "line_start": 193,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-burger",
           "type": "selector",
-          "line_start": 213,
+          "line_start": 222,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-links",
           "type": "selector",
-          "line_start": 214,
+          "line_start": 223,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown",
           "type": "selector",
-          "line_start": 227,
+          "line_start": 236,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-toggle",
           "type": "selector",
-          "line_start": 233,
+          "line_start": 242,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-cta",
           "type": "selector",
-          "line_start": 241,
+          "line_start": 250,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown",
           "type": "selector",
-          "line_start": 245,
+          "line_start": 254,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-toggle",
           "type": "selector",
-          "line_start": 248,
+          "line_start": 257,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-panel",
           "type": "selector",
-          "line_start": 278,
+          "line_start": 287,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-panel",
           "type": "selector",
-          "line_start": 300,
+          "line_start": 309,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown",
           "type": "selector",
-          "line_start": 324,
+          "line_start": 333,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-panel",
           "type": "selector",
-          "line_start": 334,
+          "line_start": 343,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-panel",
           "type": "selector",
-          "line_start": 369,
+          "line_start": 378,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".nav-dropdown-panel",
           "type": "selector",
-          "line_start": 384,
+          "line_start": 393,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero",
           "type": "selector",
-          "line_start": 388,
+          "line_start": 397,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero-grid",
           "type": "selector",
-          "line_start": 394,
+          "line_start": 403,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero-grid",
           "type": "selector",
-          "line_start": 402,
+          "line_start": 411,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".single",
           "type": "selector",
-          "line_start": 404,
+          "line_start": 413,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".eyebrow",
           "type": "selector",
-          "line_start": 409,
+          "line_start": 418,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".dot",
           "type": "selector",
-          "line_start": 420,
+          "line_start": 429,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".accent",
           "type": "selector",
-          "line_start": 440,
+          "line_start": 449,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".lead",
           "type": "selector",
-          "line_start": 442,
+          "line_start": 451,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero-actions",
           "type": "selector",
-          "line_start": 449,
+          "line_start": 458,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".btn",
           "type": "selector",
-          "line_start": 455,
+          "line_start": 464,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".btn-primary",
           "type": "selector",
-          "line_start": 468,
+          "line_start": 477,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".btn-ghost",
           "type": "selector",
-          "line_start": 476,
+          "line_start": 485,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".hero-meta",
           "type": "selector",
-          "line_start": 487,
+          "line_start": 496,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".toolbox",
           "type": "selector",
-          "line_start": 501,
+          "line_start": 510,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".toolbox-label",
           "type": "selector",
-          "line_start": 508,
+          "line_start": 517,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".toolbox-grid",
           "type": "selector",
-          "line_start": 518,
+          "line_start": 527,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".compartment",
           "type": "selector",
-          "line_start": 523,
+          "line_start": 532,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".compartment",
           "type": "selector",
-          "line_start": 541,
+          "line_start": 550,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".toolbox-grid",
-          "type": "selector",
-          "line_start": 547,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".icon",
           "type": "selector",
           "line_start": 556,
           "line_end": null,
           "docstring": null
         },
         {
+          "name": ".icon",
+          "type": "selector",
+          "line_start": 565,
+          "line_end": null,
+          "docstring": null
+        },
+        {
           "name": ".compartment",
-          "type": "selector",
-          "line_start": 583,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".dot",
-          "type": "selector",
-          "line_start": 584,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".section",
-          "type": "selector",
-          "line_start": 588,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".section-head",
           "type": "selector",
           "line_start": 592,
           "line_end": null,
           "docstring": null
         },
         {
+          "name": ".dot",
+          "type": "selector",
+          "line_start": 593,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".section",
+          "type": "selector",
+          "line_start": 597,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".section-head",
+          "type": "selector",
+          "line_start": 601,
+          "line_end": null,
+          "docstring": null
+        },
+        {
           "name": ".section-eyebrow",
           "type": "selector",
-          "line_start": 595,
+          "line_start": 604,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".section-title",
           "type": "selector",
-          "line_start": 603,
+          "line_start": 612,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".section-sub",
           "type": "selector",
-          "line_start": 610,
+          "line_start": 619,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".zones-grid",
           "type": "selector",
-          "line_start": 617,
+          "line_start": 626,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".zone-card",
           "type": "selector",
-          "line_start": 622,
+          "line_start": 631,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".zone-tag",
           "type": "selector",
-          "line_start": 633,
+          "line_start": 642,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".base",
           "type": "selector",
-          "line_start": 647,
+          "line_start": 656,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".zone-tag",
           "type": "selector",
-          "line_start": 651,
+          "line_start": 660,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".steps",
-          "type": "selector",
-          "line_start": 656,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".steps",
-          "type": "selector",
-          "line_start": 663,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".step",
           "type": "selector",
           "line_start": 665,
           "line_end": null,
           "docstring": null
         },
         {
+          "name": ".steps",
+          "type": "selector",
+          "line_start": 672,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".step",
+          "type": "selector",
+          "line_start": 674,
+          "line_end": null,
+          "docstring": null
+        },
+        {
           "name": ".step-line",
           "type": "selector",
-          "line_start": 669,
+          "line_start": 678,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".services-list",
-          "type": "selector",
-          "line_start": 689,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".service-row",
           "type": "selector",
           "line_start": 698,
           "line_end": null,
@@ -1654,105 +1710,105 @@
         {
           "name": ".service-row",
           "type": "selector",
-          "line_start": 708,
+          "line_start": 707,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": ".service-row",
+          "type": "selector",
+          "line_start": 717,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".name",
           "type": "selector",
-          "line_start": 710,
+          "line_start": 719,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".items",
           "type": "selector",
-          "line_start": 715,
+          "line_start": 724,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".contact",
           "type": "selector",
-          "line_start": 726,
+          "line_start": 735,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".contact",
           "type": "selector",
-          "line_start": 737,
+          "line_start": 746,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".contact-inner",
           "type": "selector",
-          "line_start": 748,
+          "line_start": 757,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".contact-actions",
           "type": "selector",
-          "line_start": 761,
+          "line_start": 770,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".btn-primary",
           "type": "selector",
-          "line_start": 768,
+          "line_start": 777,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".btn-ghost",
           "type": "selector",
-          "line_start": 772,
+          "line_start": 781,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".contact-hours",
           "type": "selector",
-          "line_start": 780,
+          "line_start": 789,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".footer-inner",
           "type": "selector",
-          "line_start": 793,
+          "line_start": 802,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".logo",
           "type": "selector",
-          "line_start": 802,
+          "line_start": 811,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".footer-links",
           "type": "selector",
-          "line_start": 803,
+          "line_start": 812,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".wa-float",
           "type": "selector",
-          "line_start": 814,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": ".wa-float",
-          "type": "selector",
-          "line_start": 835,
+          "line_start": 823,
           "line_end": null,
           "docstring": null
         },
@@ -1764,65 +1820,72 @@
           "docstring": null
         },
         {
+          "name": ".wa-float",
+          "type": "selector",
+          "line_start": 853,
+          "line_end": null,
+          "docstring": null
+        },
+        {
           "name": ".blog-index",
           "type": "selector",
-          "line_start": 848,
+          "line_start": 857,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".blog-card-desc",
           "type": "selector",
-          "line_start": 849,
+          "line_start": 858,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".blog-content",
           "type": "selector",
-          "line_start": 850,
+          "line_start": 859,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".faq",
           "type": "selector",
-          "line_start": 875,
+          "line_start": 884,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".faq-item",
           "type": "selector",
-          "line_start": 879,
+          "line_start": 888,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".blog-cta",
           "type": "selector",
-          "line_start": 885,
+          "line_start": 894,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".footer-blog",
           "type": "selector",
-          "line_start": 886,
+          "line_start": 895,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".blog-content",
           "type": "selector",
-          "line_start": 888,
+          "line_start": 897,
           "line_end": null,
           "docstring": null
         },
         {
           "name": ".blog-content",
           "type": "selector",
-          "line_start": 891,
+          "line_start": 900,
           "line_end": null,
           "docstring": null
         }
@@ -1833,27 +1896,27 @@
       "path": "voktera.online/blog/index.html",
       "language": "html",
       "framework": null,
-      "lines": 158,
+      "lines": 166,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 69,
+          "line_start": 80,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 90,
+          "line_start": 98,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 116,
+          "line_start": 124,
           "line_end": null,
           "docstring": null
         }
@@ -1864,20 +1927,20 @@
       "path": "voktera.online/blog/llave-rota.html",
       "language": "html",
       "framework": null,
-      "lines": 254,
+      "lines": 262,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 112,
+          "line_start": 123,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 133,
+          "line_start": 141,
           "line_end": null,
           "docstring": null
         }
@@ -1888,20 +1951,20 @@
       "path": "voktera.online/blog/precio-cerrajero.html",
       "language": "html",
       "framework": null,
-      "lines": 261,
+      "lines": 269,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 112,
+          "line_start": 123,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 133,
+          "line_start": 141,
           "line_end": null,
           "docstring": null
         }
@@ -1912,55 +1975,55 @@
       "path": "voktera.online/cerrajeria/index.html",
       "language": "html",
       "framework": null,
-      "lines": 343,
+      "lines": 351,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 104,
+          "line_start": 115,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 126,
+          "line_start": 134,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 163,
+          "line_start": 171,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "como-trabajamos",
           "type": "id",
-          "line_start": 206,
+          "line_start": 214,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "faq",
           "type": "id",
-          "line_start": 233,
+          "line_start": 241,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 257,
+          "line_start": 265,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 300,
+          "line_start": 308,
           "line_end": null,
           "docstring": null
         }
@@ -1971,55 +2034,55 @@
       "path": "voktera.online/cerrajero-fuenlabrada/index.html",
       "language": "html",
       "framework": null,
-      "lines": 340,
+      "lines": 350,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 107,
+          "line_start": 118,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 127,
+          "line_start": 137,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 186,
+          "line_start": 196,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "como-trabajamos",
           "type": "id",
-          "line_start": 214,
+          "line_start": 224,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "faq",
           "type": "id",
-          "line_start": 240,
+          "line_start": 250,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 263,
+          "line_start": 273,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 303,
+          "line_start": 313,
           "line_end": null,
           "docstring": null
         }
@@ -2030,55 +2093,55 @@
       "path": "voktera.online/cerrajero-getafe/index.html",
       "language": "html",
       "framework": null,
-      "lines": 340,
+      "lines": 350,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 107,
+          "line_start": 118,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 127,
+          "line_start": 137,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 186,
+          "line_start": 196,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "como-trabajamos",
           "type": "id",
-          "line_start": 214,
+          "line_start": 224,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "faq",
           "type": "id",
-          "line_start": 240,
+          "line_start": 250,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 263,
+          "line_start": 273,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 303,
+          "line_start": 313,
           "line_end": null,
           "docstring": null
         }
@@ -2089,55 +2152,55 @@
       "path": "voktera.online/cerrajero-leganes/index.html",
       "language": "html",
       "framework": null,
-      "lines": 340,
+      "lines": 350,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 107,
+          "line_start": 118,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 127,
+          "line_start": 137,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 186,
+          "line_start": 196,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "como-trabajamos",
           "type": "id",
-          "line_start": 214,
+          "line_start": 224,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "faq",
           "type": "id",
-          "line_start": 240,
+          "line_start": 250,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 263,
+          "line_start": 273,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 303,
+          "line_start": 313,
           "line_end": null,
           "docstring": null
         }
@@ -2148,55 +2211,55 @@
       "path": "voktera.online/cerrajero-parla/index.html",
       "language": "html",
       "framework": null,
-      "lines": 340,
+      "lines": 350,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 107,
+          "line_start": 118,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 127,
+          "line_start": 137,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 186,
+          "line_start": 196,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "como-trabajamos",
           "type": "id",
-          "line_start": 214,
+          "line_start": 224,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "faq",
           "type": "id",
-          "line_start": 240,
+          "line_start": 250,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 263,
+          "line_start": 273,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 303,
+          "line_start": 313,
           "line_end": null,
           "docstring": null
         }
@@ -2207,55 +2270,55 @@
       "path": "voktera.online/cerrajero-pinto/index.html",
       "language": "html",
       "framework": null,
-      "lines": 340,
+      "lines": 350,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 107,
+          "line_start": 118,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 127,
+          "line_start": 137,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 186,
+          "line_start": 196,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "como-trabajamos",
           "type": "id",
-          "line_start": 214,
+          "line_start": 224,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "faq",
           "type": "id",
-          "line_start": 240,
+          "line_start": 250,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 263,
+          "line_start": 273,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 303,
+          "line_start": 313,
           "line_end": null,
           "docstring": null
         }
@@ -2266,27 +2329,145 @@
       "path": "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
       "language": "html",
       "framework": null,
-      "lines": 340,
+      "lines": 350,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 107,
+          "line_start": 118,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 127,
+          "line_start": 137,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 186,
+          "line_start": 196,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 224,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 250,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 273,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 313,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/cerrajero-valdemoro/index.html": {
+      "path": "voktera.online/cerrajero-valdemoro/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 353,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 121,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 140,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 199,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "como-trabajamos",
+          "type": "id",
+          "line_start": 227,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "faq",
+          "type": "id",
+          "line_start": 253,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "zonas",
+          "type": "id",
+          "line_start": 276,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "contacto",
+          "type": "id",
+          "line_start": 316,
+          "line_end": null,
+          "docstring": null
+        }
+      ],
+      "imported_by": []
+    },
+    "voktera.online/mantenimiento/index.html": {
+      "path": "voktera.online/mantenimiento/index.html",
+      "language": "html",
+      "framework": null,
+      "lines": 351,
+      "imports": [],
+      "symbols": [
+        {
+          "name": "nav-toggle",
+          "type": "id",
+          "line_start": 115,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "top",
+          "type": "id",
+          "line_start": 134,
+          "line_end": null,
+          "docstring": null
+        },
+        {
+          "name": "servicios",
+          "type": "id",
+          "line_start": 171,
           "line_end": null,
           "docstring": null
         },
@@ -2300,139 +2481,21 @@
         {
           "name": "faq",
           "type": "id",
-          "line_start": 240,
+          "line_start": 241,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 263,
+          "line_start": 265,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 303,
-          "line_end": null,
-          "docstring": null
-        }
-      ],
-      "imported_by": []
-    },
-    "voktera.online/cerrajero-valdemoro/index.html": {
-      "path": "voktera.online/cerrajero-valdemoro/index.html",
-      "language": "html",
-      "framework": null,
-      "lines": 343,
-      "imports": [],
-      "symbols": [
-        {
-          "name": "nav-toggle",
-          "type": "id",
-          "line_start": 110,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "top",
-          "type": "id",
-          "line_start": 130,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "servicios",
-          "type": "id",
-          "line_start": 189,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "como-trabajamos",
-          "type": "id",
-          "line_start": 217,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "faq",
-          "type": "id",
-          "line_start": 243,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "zonas",
-          "type": "id",
-          "line_start": 266,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "contacto",
-          "type": "id",
-          "line_start": 306,
-          "line_end": null,
-          "docstring": null
-        }
-      ],
-      "imported_by": []
-    },
-    "voktera.online/mantenimiento/index.html": {
-      "path": "voktera.online/mantenimiento/index.html",
-      "language": "html",
-      "framework": null,
-      "lines": 343,
-      "imports": [],
-      "symbols": [
-        {
-          "name": "nav-toggle",
-          "type": "id",
-          "line_start": 104,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "top",
-          "type": "id",
-          "line_start": 126,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "servicios",
-          "type": "id",
-          "line_start": 163,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "como-trabajamos",
-          "type": "id",
-          "line_start": 206,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "faq",
-          "type": "id",
-          "line_start": 233,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "zonas",
-          "type": "id",
-          "line_start": 257,
-          "line_end": null,
-          "docstring": null
-        },
-        {
-          "name": "contacto",
-          "type": "id",
-          "line_start": 300,
+          "line_start": 308,
           "line_end": null,
           "docstring": null
         }
@@ -2443,55 +2506,55 @@
       "path": "voktera.online/muebles/index.html",
       "language": "html",
       "framework": null,
-      "lines": 343,
+      "lines": 351,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 104,
+          "line_start": 115,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 126,
+          "line_start": 134,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 163,
+          "line_start": 171,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "como-trabajamos",
           "type": "id",
-          "line_start": 206,
+          "line_start": 214,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "faq",
           "type": "id",
-          "line_start": 233,
+          "line_start": 241,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 257,
+          "line_start": 265,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 300,
+          "line_start": 308,
           "line_end": null,
           "docstring": null
         }
@@ -2502,55 +2565,55 @@
       "path": "voktera.online/persianas/index.html",
       "language": "html",
       "framework": null,
-      "lines": 343,
+      "lines": 351,
       "imports": [],
       "symbols": [
         {
           "name": "nav-toggle",
           "type": "id",
-          "line_start": 104,
+          "line_start": 115,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "top",
           "type": "id",
-          "line_start": 126,
+          "line_start": 134,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "servicios",
           "type": "id",
-          "line_start": 163,
+          "line_start": 171,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "como-trabajamos",
           "type": "id",
-          "line_start": 206,
+          "line_start": 214,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "faq",
           "type": "id",
-          "line_start": 233,
+          "line_start": 241,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "zonas",
           "type": "id",
-          "line_start": 257,
+          "line_start": 265,
           "line_end": null,
           "docstring": null
         },
         {
           "name": "contacto",
           "type": "id",
-          "line_start": 300,
+          "line_start": 308,
           "line_end": null,
           "docstring": null
         }

@@ -5,24 +5,24 @@ prompt_instructions: 'Documento de identidad del proyecto; leer primero.'
 status: generated
 ---
 
-# [IA: Pregúntame el nombre del proyecto]
+# VOKTERA
 
-[IA: Pregúntame el propósito principal de este proyecto en 1-2 frases]
+Sitio web oficial de servicios del hogar en el Sur de Madrid (cerrajería, persianas, montaje de muebles, mantenimiento), enfocado en SEO local y conversión directa vía WhatsApp.
 
 ## Descripción
 
-[IA: Pregúntame una descripción breve del proyecto]
+Sitio estático de 15 páginas (home, 4 verticales, 7 locales, 3 blogs) diseñado con un enfoque mobile-first y un estándar visual premium. Incluye optimización SEO técnica (JSON-LD, canonical, sitemap, Open Graph) y está desplegado en producción.
 
 ## Stack Tecnológico
 
-- Lenguaje principal: [IA: Pregúntame qué lenguaje usa este proyecto]
-- Entry point probable: [IA: Pregúntame cuál es el archivo de entrada]
-- Dependencias: [IA: Pregúntame cómo se gestionan las dependencias]
-- [IA: Pregúntame qué frameworks y dependencias principales usa este proyecto]
+- Lenguaje principal: HTML5, CSS3, JavaScript (Vanilla)
+- Entry point probable: `voktera.online/index.html`
+- Dependencias: Ninguna (JS sin dependencias externas)
+- Despliegue: Cloudflare Workers/Pages (vía `wrangler.toml`)
 
 ## Estado Actual
 
-[IA: Pregúntame en qué fase está este proyecto: exploración, desarrollo activo, mantenimiento, etc.]
+En producción (`https://voktera.online`). Fase de mantenimiento activo y monitoreo SEO (Google Search Console, Bing Webmaster Tools y Google Analytics configurados).
 
 ## Estructura del Proyecto
 
@@ -76,10 +76,6 @@ Usa 'adn ecosistema <archivo.md>' para leer un documento de la raiz del ecosiste
 - docs/CHANGELOG.md → Cambios realizados.
 - docs/SESSIONS.md → Resumen de sesiones importantes.
 
-## Progreso
-
-- Progreso: 0.0% (0/0 tareas)
-- Métricas: [IA: Pregúntame cuántos archivos indexados tiene este proyecto]
 
 ---
 
