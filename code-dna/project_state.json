@@ -1,43 +1,31 @@
 {
-  "timestamp": "2026-10-25T06:58:11Z",
+  "timestamp": "2026-10-25T07:12:46Z",
   "git": {
     "branch": "main",
-    "commit_hash": "e7afedce7fc22d9f75c4f95e3e1eb98077bbb02e",
+    "commit_hash": "e36595cff01ec5fcae54a5e64f9588bb431e2b9f",
     "is_dirty": true,
     "changed_files": [
-      "README.md",
       "code-dna/.active_session",
       "code-dna/.project_index_cache.json",
-      "code-dna/arbol.json",
       "code-dna/logs/messages.log",
       "code-dna/project_state.json",
       "code-dna/scope_index.json",
       "code-dna/sessions/Claude-003.json",
       "code-dna/sessions/Claude-004.json",
       "code-dna/sessions/Claude-005.json",
-      "code-dna/sessions/Claude-005_read_artifacts.json",
-      "code-dna/sessions/DeepSeek-009.json",
       "docs/.knowledge_index.json",
-      "docs/tasks/history/T-037.md",
-      "docs/tasks/history/T-038.md",
-      "docs/tasks/history/T-039.md",
-      "docs/tasks/history/T-040.md",
-      "docs/tasks/history/T-041.md"
+      "docs/modules/MOD-002.md"
     ],
     "untracked_files": [
-      "code-dna/.meta_T-037.md.lock",
-      "code-dna/.meta_T-038.md.lock",
-      "code-dna/.meta_T-039.md.lock",
-      "code-dna/.meta_T-040.md.lock",
-      "code-dna/.meta_T-041.md.lock",
-      "code-dna/.meta_T-054.md.lock",
-      "code-dna/sessions/DeepSeek-009.md",
-      "docs/changelog/CHANGELOG-2026-10-25-7.md",
-      "docs/sessions/SESSION-2026-10-25-7.md",
-      "docs/tasks/T-051.md",
-      "docs/tasks/T-052.md",
-      "docs/tasks/T-053.md",
-      "docs/tasks/history/T-054.md"
+      "code-dna/sessions/Claude-003.md",
+      "code-dna/sessions/Claude-004.md",
+      "code-dna/sessions/Claude-005.md",
+      "docs/changelog/CHANGELOG-2026-10-25-10.md",
+      "docs/changelog/CHANGELOG-2026-10-25-8.md",
+      "docs/changelog/CHANGELOG-2026-10-25-9.md",
+      "docs/sessions/SESSION-2026-10-25-10.md",
+      "docs/sessions/SESSION-2026-10-25-8.md",
+      "docs/sessions/SESSION-2026-10-25-9.md"
     ]
   },
   "backlog_active": {},
@@ -48,7 +36,7 @@
     "failed": 0
   },
   "snapshot_invalidation_ref": {
-    "commit_hash": "e7afedce7fc22d9f75c4f95e3e1eb98077bbb02e",
+    "commit_hash": "e36595cff01ec5fcae54a5e64f9588bb431e2b9f",
     "dirty_flag": true
   }
 }

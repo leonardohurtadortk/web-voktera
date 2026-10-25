@@ -278,8 +278,7 @@
       "category": "mejora",
       "parent": "",
       "epic_task": "",
-      "archived": true,
-      "absorbido_en": "MOD-002"
+      "archived": true
     },
     {
       "id": "T-047",
@@ -306,6 +305,42 @@
       "archived": true
     },
     {
+      "id": "T-051",
+      "type": "task",
+      "title": "Quitar texto WhatsApp del nav y corregir parpadeo del enlace Blog en las 15 páginas",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-051.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-052",
+      "type": "task",
+      "title": "Insertar Google Analytics (gtag.js) en el <head> de las 15 páginas",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-052.md",
+      "category": "mejora",
+      "parent": "",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-053",
+      "type": "task",
+      "title": "Crear favicon e integrarlo en las 15 páginas",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-053.md",
+      "category": "mejora",
+      "parent": "",
+      "epic_task": "",
+      "archived": true
+    },
+    {
       "id": "MOD-002",
       "type": "module",
       "title": "voktera.online — Sitio estático one-page de servicios del hogar en Sur de Madrid (SEO local)",
@@ -318,399 +353,13 @@
       "archived": false
     },
     {
-      "id": "T-051",
-      "type": "task",
-      "title": "Quitar texto WhatsApp del nav y corregir parpadeo del enlace Blog en las 15 páginas",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-051.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "T-052",
-      "type": "task",
-      "title": "Insertar Google Analytics (gtag.js) en el <head> de las 15 páginas",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-052.md",
-      "category": "mejora",
-      "parent": "",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "T-053",
-      "type": "task",
-      "title": "Crear favicon e integrarlo en las 15 páginas",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-053.md",
-      "category": "mejora",
-      "parent": "",
-      "epic_task": "",
-      "archived": false
-    },
-    {
       "id": "CTR-002",
       "type": "contract",
       "title": "Estándar de página nueva voktera.online (checklist obligatorio)",
       "summary": "Checklist OBLIGATORIO para cualquier página nueva de `voktera.online` (vertical de servicio o localidad). Garantiza que toda página nueva nazca con la misma navegación, el mismo botón flotante de What",
       "status": "active",
       "source": "contracts/CTR-002.md",
-      "category": "arquitectura",
-      "parent": "",
-      "epic_task": "",
-      "archived": false,
-      "updated_by": "Claude-005",
-      "updated_at": "2026-10-25T07:07:19Z"
-    }
-  ],
-  "docs/tasks/T-051.md": [
-    {
-      "id": "T-051",
-      "type": "task",
-      "title": "Quitar texto WhatsApp del nav y corregir parpadeo del enlace Blog en las 15 páginas",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-051.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    }
-  ],
-  "voktera.online/styles.css": [
-    {
-      "id": "T-014",
-      "type": "task",
-      "title": "Migrar CSS de Desktop-First a Mobile-First (deuda técnica CTR-001)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-014.md",
-      "category": "mejora",
-      "parent": "",
-      "epic_task": "",
-      "archived": true
-    },
-    {
-      "id": "T-021",
-      "type": "task",
-      "title": "T-021: Mover .wa-float inline de home a styles.css compartido",
-      "summary": "Centralizar el estilo del botón flotante de WhatsApp en `styles.css` (clase `.wa-float`) y eliminar el `style=` inline duplicado de las 12 páginas que lo usan, para que el patrón viva en un solo lugar",
-      "status": "completed",
-      "source": "tasks/history/T-021.md",
-      "category": "mejora",
-      "parent": "T-018",
-      "epic_task": "",
-      "archived": true
-    },
-    {
-      "id": "T-036",
-      "type": "task",
-      "title": "Migrar nav/burger/dropdown a mobile-first (max-width 900px → min-width)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-036.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": true
-    },
-    {
-      "id": "T-037",
-      "type": "task",
-      "title": "Migrar hero-grid/hero-media/hero-gallery a mobile-first (max-width 900px → min-width)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-037.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": true
-    },
-    {
-      "id": "T-038",
-      "type": "task",
-      "title": "Migrar toolbox/compartment a mobile-first (max-width 600px → min-width)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-038.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": true
-    },
-    {
-      "id": "T-039",
-      "type": "task",
-      "title": "Migrar steps a mobile-first (max-width 800px → min-width)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-039.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": true
-    },
-    {
-      "id": "T-040",
-      "type": "task",
-      "title": "Migrar service-row a mobile-first (max-width 700px → min-width)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-040.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": true
-    },
-    {
-      "id": "T-041",
-      "type": "task",
-      "title": "Migrar contact a mobile-first (max-width 600px → min-width)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-041.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": true
-    },
-    {
-      "id": "T-042",
-      "type": "task",
-      "title": "Migrar wa-float + blog-content a mobile-first (max-width 600px → min-width)",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-042.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": true,
-      "absorbido_en": "MOD-009"
-    },
-    {
-      "id": "T-043",
-      "type": "task",
-      "title": "Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-043.md",
-      "category": "mejora",
-      "parent": "",
-      "epic_task": "",
-      "archived": true
-    },
-    {
-      "id": "T-050",
-      "type": "task",
-      "title": "Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-050.md",
-      "category": "mejora",
-      "parent": "",
-      "epic_task": "",
-      "archived": true,
-      "absorbido_en": "MOD-009"
-    },
-    {
-      "id": "SESSION-2026-10-24-5",
-      "type": "session",
-      "title": "T-026: Reescritura de contenido local en las 7 landings",
-      "summary": "**Goal**: T-026: Reescritura de contenido local en las 7 landings **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - T-014",
-      "status": "closed",
-      "source": "sessions/SESSION-2026-10-24-5.md",
       "category": "",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "SESSION-2026-10-24-7",
-      "type": "session",
-      "title": "T-025: Redactar Artículo 2 del Blog: Cuánto cuesta un cerrajero urgente",
-      "summary": "**Goal**: T-025: Redactar Artículo 2 del Blog: Cuánto cuesta un cerrajero urgente **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 -",
-      "status": "closed",
-      "source": "sessions/SESSION-2026-10-24-7.md",
-      "category": "",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "SESSION-2026-10-24-8",
-      "type": "session",
-      "title": "T-031: Estandarizar el toolbox de 'Lo que resolvemos' en las 7 locales con tarjetas interactivas a WhatsApp",
-      "summary": "**Goal**: T-031: Estandarizar el toolbox de 'Lo que resolvemos' en las 7 locales con tarjetas interactivas a WhatsApp **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocado",
-      "status": "closed",
-      "source": "sessions/SESSION-2026-10-24-8.md",
-      "category": "",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "SESSION-2026-10-25-2",
-      "type": "session",
-      "title": "T-045: Añadir ?text= al botón Hero de las 7 locales",
-      "summary": "**Goal**: T-045: Añadir ?text= al botón Hero de las 7 locales **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-007 -",
-      "status": "closed",
-      "source": "sessions/SESSION-2026-10-25-2.md",
-      "category": "",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "SESSION-2026-10-25-7",
-      "type": "session",
-      "title": "T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
-      "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD",
-      "status": "closed",
-      "source": "sessions/SESSION-2026-10-25-7.md",
-      "category": "",
-      "parent": "T-032",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "SESSION-2026-10-25",
-      "type": "session",
-      "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
-      "summary": "**Goal**: T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - CTR-003 ",
-      "status": "closed",
-      "source": "sessions/SESSION-2026-10-25.md",
-      "category": "",
-      "parent": "T-018",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "CHANGELOG-2026-10-24-5",
-      "type": "changelog",
-      "title": "T-026: Reescritura de contenido local en las 7 landings",
-      "summary": "**Goal**: T-026: Reescritura de contenido local en las 7 landings **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - T-014 - T-028 **Archivos modif",
-      "status": "closed",
-      "source": "changelog/CHANGELOG-2026-10-24-5.md",
-      "category": "",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "CHANGELOG-2026-10-24-7",
-      "type": "changelog",
-      "title": "T-025: Redactar Artículo 2 del Blog: Cuánto cuesta un cerrajero urgente",
-      "summary": "**Goal**: T-025: Redactar Artículo 2 del Blog: Cuánto cuesta un cerrajero urgente **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-007 - T-02",
-      "status": "closed",
-      "source": "changelog/CHANGELOG-2026-10-24-7.md",
-      "category": "",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "CHANGELOG-2026-10-24-8",
-      "type": "changelog",
-      "title": "T-031: Estandarizar el toolbox de 'Lo que resolvemos' en las 7 locales con tarjetas interactivas a WhatsApp",
-      "summary": "**Goal**: T-031: Estandarizar el toolbox de 'Lo que resolvemos' en las 7 locales con tarjetas interactivas a WhatsApp **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 ",
-      "status": "closed",
-      "source": "changelog/CHANGELOG-2026-10-24-8.md",
-      "category": "",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "CHANGELOG-2026-10-25-2",
-      "type": "changelog",
-      "title": "T-045: Añadir ?text= al botón Hero de las 7 locales",
-      "summary": "**Goal**: T-045: Añadir ?text= al botón Hero de las 7 locales **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-007 - T-046 **Archivos modific",
-      "status": "closed",
-      "source": "changelog/CHANGELOG-2026-10-25-2.md",
-      "category": "",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "CHANGELOG-2026-10-25-7",
-      "type": "changelog",
-      "title": "T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
-      "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
-      "status": "closed",
-      "source": "changelog/CHANGELOG-2026-10-25-7.md",
-      "category": "",
-      "parent": "T-032",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "CHANGELOG-2026-10-25",
-      "type": "changelog",
-      "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
-      "summary": "**Goal**: T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - CTR-003 - MOD-001 - MOD-002 - MOD",
-      "status": "closed",
-      "source": "changelog/CHANGELOG-2026-10-25.md",
-      "category": "",
-      "parent": "T-018",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "T-051",
-      "type": "task",
-      "title": "Quitar texto WhatsApp del nav y corregir parpadeo del enlace Blog en las 15 páginas",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-051.md",
-      "category": "mejora",
-      "parent": "T-014",
-      "epic_task": "",
-      "archived": false
-    },
-    {
-      "id": "MOD-009",
-      "type": "module",
-      "title": "voktera.online/styles.css — Hoja compartida mobile-first del sitio VOKTERA",
-      "summary": "- `adn familia <ruta>` → ver conocimiento vinculado a la ruta. - `adn arbol <ruta>` → ver jerarquía del módulo. - `adn crear modulo \"...\" --scope <ruta>` → crear MOD. - Si el módulo cuelga de una carp",
-      "status": "active",
-      "source": "modules/MOD-009.md",
-      "category": "documentacion",
-      "parent": "MOD-002",
-      "epic_task": "",
-      "archived": false,
-      "updated_by": "Claude-005",
-      "updated_at": "2026-10-25T07:07:51Z"
-    }
-  ],
-  "docs/tasks/T-052.md": [
-    {
-      "id": "T-052",
-      "type": "task",
-      "title": "Insertar Google Analytics (gtag.js) en el <head> de las 15 páginas",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-052.md",
-      "category": "mejora",
-      "parent": "",
-      "epic_task": "",
-      "archived": false
-    }
-  ],
-  "docs/tasks/T-053.md": [
-    {
-      "id": "T-053",
-      "type": "task",
-      "title": "Crear favicon e integrarlo en las 15 páginas",
-      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
-      "status": "completed",
-      "source": "tasks/history/T-053.md",
-      "category": "mejora",
       "parent": "",
       "epic_task": "",
       "archived": false
@@ -888,6 +537,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -966,6 +627,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -1392,6 +1065,332 @@
       "archived": false
     }
   ],
+  "voktera.online/styles.css": [
+    {
+      "id": "T-014",
+      "type": "task",
+      "title": "Migrar CSS de Desktop-First a Mobile-First (deuda técnica CTR-001)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-014.md",
+      "category": "mejora",
+      "parent": "",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-021",
+      "type": "task",
+      "title": "T-021: Mover .wa-float inline de home a styles.css compartido",
+      "summary": "Centralizar el estilo del botón flotante de WhatsApp en `styles.css` (clase `.wa-float`) y eliminar el `style=` inline duplicado de las 12 páginas que lo usan, para que el patrón viva en un solo lugar",
+      "status": "completed",
+      "source": "tasks/history/T-021.md",
+      "category": "mejora",
+      "parent": "T-018",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-036",
+      "type": "task",
+      "title": "Migrar nav/burger/dropdown a mobile-first (max-width 900px → min-width)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-036.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-037",
+      "type": "task",
+      "title": "Migrar hero-grid/hero-media/hero-gallery a mobile-first (max-width 900px → min-width)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-037.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-038",
+      "type": "task",
+      "title": "Migrar toolbox/compartment a mobile-first (max-width 600px → min-width)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-038.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-039",
+      "type": "task",
+      "title": "Migrar steps a mobile-first (max-width 800px → min-width)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-039.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-040",
+      "type": "task",
+      "title": "Migrar service-row a mobile-first (max-width 700px → min-width)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-040.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-041",
+      "type": "task",
+      "title": "Migrar contact a mobile-first (max-width 600px → min-width)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-041.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-042",
+      "type": "task",
+      "title": "Migrar wa-float + blog-content a mobile-first (max-width 600px → min-width)",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-042.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-043",
+      "type": "task",
+      "title": "Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-043.md",
+      "category": "mejora",
+      "parent": "",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-050",
+      "type": "task",
+      "title": "Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-050.md",
+      "category": "mejora",
+      "parent": "",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "T-051",
+      "type": "task",
+      "title": "Quitar texto WhatsApp del nav y corregir parpadeo del enlace Blog en las 15 páginas",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-051.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    },
+    {
+      "id": "MOD-009",
+      "type": "module",
+      "title": "voktera.online/styles.css — Hoja compartida mobile-first del sitio VOKTERA",
+      "summary": "- `adn familia <ruta>` → ver conocimiento vinculado a la ruta. - `adn arbol <ruta>` → ver jerarquía del módulo. - `adn crear modulo \"...\" --scope <ruta>` → crear MOD. - Si el módulo cuelga de una carp",
+      "status": "active",
+      "source": "modules/MOD-009.md",
+      "category": "",
+      "parent": "MOD-002",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-24-5",
+      "type": "session",
+      "title": "T-026: Reescritura de contenido local en las 7 landings",
+      "summary": "**Goal**: T-026: Reescritura de contenido local en las 7 landings **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - T-014",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-24-5.md",
+      "category": "",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-24-7",
+      "type": "session",
+      "title": "T-025: Redactar Artículo 2 del Blog: Cuánto cuesta un cerrajero urgente",
+      "summary": "**Goal**: T-025: Redactar Artículo 2 del Blog: Cuánto cuesta un cerrajero urgente **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-24-7.md",
+      "category": "",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-24-8",
+      "type": "session",
+      "title": "T-031: Estandarizar el toolbox de 'Lo que resolvemos' en las 7 locales con tarjetas interactivas a WhatsApp",
+      "summary": "**Goal**: T-031: Estandarizar el toolbox de 'Lo que resolvemos' en las 7 locales con tarjetas interactivas a WhatsApp **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocado",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-24-8.md",
+      "category": "",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25-2",
+      "type": "session",
+      "title": "T-045: Añadir ?text= al botón Hero de las 7 locales",
+      "summary": "**Goal**: T-045: Añadir ?text= al botón Hero de las 7 locales **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-007 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-2.md",
+      "category": "",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25-7",
+      "type": "session",
+      "title": "T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
+      "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25",
+      "type": "session",
+      "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
+      "summary": "**Goal**: T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - CTR-003 ",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25.md",
+      "category": "",
+      "parent": "T-018",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-24-5",
+      "type": "changelog",
+      "title": "T-026: Reescritura de contenido local en las 7 landings",
+      "summary": "**Goal**: T-026: Reescritura de contenido local en las 7 landings **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - T-014 - T-028 **Archivos modif",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-24-5.md",
+      "category": "",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-24-7",
+      "type": "changelog",
+      "title": "T-025: Redactar Artículo 2 del Blog: Cuánto cuesta un cerrajero urgente",
+      "summary": "**Goal**: T-025: Redactar Artículo 2 del Blog: Cuánto cuesta un cerrajero urgente **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-007 - T-02",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-24-7.md",
+      "category": "",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-24-8",
+      "type": "changelog",
+      "title": "T-031: Estandarizar el toolbox de 'Lo que resolvemos' en las 7 locales con tarjetas interactivas a WhatsApp",
+      "summary": "**Goal**: T-031: Estandarizar el toolbox de 'Lo que resolvemos' en las 7 locales con tarjetas interactivas a WhatsApp **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 ",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-24-8.md",
+      "category": "",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-2",
+      "type": "changelog",
+      "title": "T-045: Añadir ?text= al botón Hero de las 7 locales",
+      "summary": "**Goal**: T-045: Añadir ?text= al botón Hero de las 7 locales **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-007 - T-046 **Archivos modific",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-2.md",
+      "category": "",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-7",
+      "type": "changelog",
+      "title": "T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
+      "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25",
+      "type": "changelog",
+      "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
+      "summary": "**Goal**: T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - CTR-003 - MOD-001 - MOD-002 - MOD",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25.md",
+      "category": "",
+      "parent": "T-018",
+      "epic_task": "",
+      "archived": false
+    }
+  ],
   "docs/tasks/T-015.md": [
     {
       "id": "T-015",
@@ -1766,6 +1765,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -1832,6 +1843,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -1938,6 +1961,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -2004,6 +2039,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -2110,6 +2157,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -2176,6 +2235,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -2268,6 +2339,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -2334,6 +2417,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -2426,6 +2521,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -2492,6 +2599,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -2584,6 +2703,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -2650,6 +2781,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -2742,6 +2885,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -2808,6 +2963,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -2900,6 +3067,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -2966,6 +3145,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -3058,6 +3249,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -3124,6 +3327,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -3375,8 +3590,7 @@
       "category": "mejora",
       "parent": "T-014",
       "epic_task": "",
-      "archived": true,
-      "absorbido_en": "MOD-009"
+      "archived": true
     }
   ],
   "docs/tasks/T-043.md": [
@@ -3518,8 +3732,7 @@
       "category": "mejora",
       "parent": "",
       "epic_task": "",
-      "archived": true,
-      "absorbido_en": "MOD-002"
+      "archived": true
     }
   ],
   "docs/tasks/T-047.md": [
@@ -3589,8 +3802,49 @@
       "category": "mejora",
       "parent": "",
       "epic_task": "",
-      "archived": true,
-      "absorbido_en": "MOD-009"
+      "archived": true
+    }
+  ],
+  "docs/tasks/T-051.md": [
+    {
+      "id": "T-051",
+      "type": "task",
+      "title": "Quitar texto WhatsApp del nav y corregir parpadeo del enlace Blog en las 15 páginas",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-051.md",
+      "category": "mejora",
+      "parent": "T-014",
+      "epic_task": "",
+      "archived": true
+    }
+  ],
+  "docs/tasks/T-052.md": [
+    {
+      "id": "T-052",
+      "type": "task",
+      "title": "Insertar Google Analytics (gtag.js) en el <head> de las 15 páginas",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-052.md",
+      "category": "mejora",
+      "parent": "",
+      "epic_task": "",
+      "archived": true
+    }
+  ],
+  "docs/tasks/T-053.md": [
+    {
+      "id": "T-053",
+      "type": "task",
+      "title": "Crear favicon e integrarlo en las 15 páginas",
+      "summary": "- Una tarea = UN único objetivo claro y verificable. - Los pasos deben ser acciones concretas y numeradas. - Los criterios de aceptación deben ser medibles y comprobables. - Si la tarea es grande, cre",
+      "status": "completed",
+      "source": "tasks/history/T-053.md",
+      "category": "mejora",
+      "parent": "",
+      "epic_task": "",
+      "archived": true
     }
   ],
   "docs/tasks/T-054.md": [
@@ -3619,6 +3873,30 @@
       "parent": "",
       "epic_task": "",
       "archived": true
+    },
+    {
+      "id": "SESSION-2026-10-25-10",
+      "type": "session",
+      "title": "T-054: Poblar README.md con la información real del proyecto Voktera",
+      "summary": "**Goal**: T-054: Poblar README.md con la información real del proyecto Voktera **Decisiones tomadas:** - DEC-001: Política de inactividad en GBP por 30 días y Plan de Limpieza de servicios: Inferido d",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-10.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-10",
+      "type": "changelog",
+      "title": "T-054: Poblar README.md con la información real del proyecto Voktera",
+      "summary": "**Goal**: T-054: Poblar README.md con la información real del proyecto Voktera **Decisiones tomadas:** - DEC-001: Política de inactividad en GBP por 30 días y Plan de Limpieza de servicios: Inferido d",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-10.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
     }
   ],
   "docs/modules/MOD-001.md": [
@@ -3793,6 +4071,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "CHANGELOG-2026-10-24-2",
       "type": "changelog",
       "title": "Sesion DeepSeek-004 (2026-10-23)",
@@ -3835,6 +4125,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -4119,12 +4421,36 @@
   ],
   "docs/modules/MOD-009.md": [
     {
+      "id": "MOD-009",
+      "type": "module",
+      "title": "voktera.online/styles.css — Hoja compartida mobile-first del sitio VOKTERA",
+      "summary": "- `adn familia <ruta>` → ver conocimiento vinculado a la ruta. - `adn arbol <ruta>` → ver jerarquía del módulo. - `adn crear modulo \"...\" --scope <ruta>` → crear MOD. - Si el módulo cuelga de una carp",
+      "status": "active",
+      "source": "modules/MOD-009.md",
+      "category": "",
+      "parent": "MOD-002",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25-7",
       "type": "session",
       "title": "T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD",
       "status": "closed",
       "source": "sessions/SESSION-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -4143,18 +4469,16 @@
       "archived": false
     },
     {
-      "id": "MOD-009",
-      "type": "module",
-      "title": "voktera.online/styles.css — Hoja compartida mobile-first del sitio VOKTERA",
-      "summary": "- `adn familia <ruta>` → ver conocimiento vinculado a la ruta. - `adn arbol <ruta>` → ver jerarquía del módulo. - `adn crear modulo \"...\" --scope <ruta>` → crear MOD. - Si el módulo cuelga de una carp",
-      "status": "active",
-      "source": "modules/MOD-009.md",
-      "category": "documentacion",
-      "parent": "MOD-002",
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
       "epic_task": "",
-      "archived": false,
-      "updated_by": "Claude-005",
-      "updated_at": "2026-10-25T07:07:51Z"
+      "archived": false
     }
   ],
   "docs/modules/MOD-010.md": [
@@ -4169,6 +4493,30 @@
       "parent": "MOD-002",
       "epic_task": "",
       "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
     }
   ],
   "voktera.online/nav.js": [
@@ -4181,6 +4529,30 @@
       "source": "modules/MOD-010.md",
       "category": "",
       "parent": "MOD-002",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
       "epic_task": "",
       "archived": false
     }
@@ -4311,6 +4683,42 @@
   ],
   "docs/contracts/CTR-002.md": [
     {
+      "id": "CTR-002",
+      "type": "contract",
+      "title": "Estándar de página nueva voktera.online (checklist obligatorio)",
+      "summary": "Checklist OBLIGATORIO para cualquier página nueva de `voktera.online` (vertical de servicio o localidad). Garantiza que toda página nueva nazca con la misma navegación, el mismo botón flotante de What",
+      "status": "active",
+      "source": "contracts/CTR-002.md",
+      "category": "",
+      "parent": "",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25-10",
+      "type": "session",
+      "title": "T-054: Poblar README.md con la información real del proyecto Voktera",
+      "summary": "**Goal**: T-054: Poblar README.md con la información real del proyecto Voktera **Decisiones tomadas:** - DEC-001: Política de inactividad en GBP por 30 días y Plan de Limpieza de servicios: Inferido d",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-10.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -4319,6 +4727,30 @@
       "source": "sessions/SESSION-2026-10-25.md",
       "category": "",
       "parent": "T-018",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-10",
+      "type": "changelog",
+      "title": "T-054: Poblar README.md con la información real del proyecto Voktera",
+      "summary": "**Goal**: T-054: Poblar README.md con la información real del proyecto Voktera **Decisiones tomadas:** - DEC-001: Política de inactividad en GBP por 30 días y Plan de Limpieza de servicios: Inferido d",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-10.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
       "epic_task": "",
       "archived": false
     },
@@ -4333,20 +4765,6 @@
       "parent": "T-018",
       "epic_task": "",
       "archived": false
-    },
-    {
-      "id": "CTR-002",
-      "type": "contract",
-      "title": "Estándar de página nueva voktera.online (checklist obligatorio)",
-      "summary": "Checklist OBLIGATORIO para cualquier página nueva de `voktera.online` (vertical de servicio o localidad). Garantiza que toda página nueva nazca con la misma navegación, el mismo botón flotante de What",
-      "status": "active",
-      "source": "contracts/CTR-002.md",
-      "category": "arquitectura",
-      "parent": "",
-      "epic_task": "",
-      "archived": false,
-      "updated_by": "Claude-005",
-      "updated_at": "2026-10-25T07:07:19Z"
     }
   ],
   "docs/contracts/CTR-003.md": [
@@ -4553,6 +4971,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -4583,6 +5013,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -4639,6 +5081,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -4687,6 +5141,18 @@
       "archived": false
     },
     {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "CHANGELOG-2026-10-25",
       "type": "changelog",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -4713,12 +5179,36 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-10",
+      "type": "session",
+      "title": "T-054: Poblar README.md con la información real del proyecto Voktera",
+      "summary": "**Goal**: T-054: Poblar README.md con la información real del proyecto Voktera **Decisiones tomadas:** - DEC-001: Política de inactividad en GBP por 30 días y Plan de Limpieza de servicios: Inferido d",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-10.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25-7",
       "type": "session",
       "title": "T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD",
       "status": "closed",
       "source": "sessions/SESSION-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -4749,12 +5239,36 @@
       "archived": false
     },
     {
+      "id": "CHANGELOG-2026-10-25-10",
+      "type": "changelog",
+      "title": "T-054: Poblar README.md con la información real del proyecto Voktera",
+      "summary": "**Goal**: T-054: Poblar README.md con la información real del proyecto Voktera **Decisiones tomadas:** - DEC-001: Política de inactividad en GBP por 30 días y Plan de Limpieza de servicios: Inferido d",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-10.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "CHANGELOG-2026-10-25-7",
       "type": "changelog",
       "title": "T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación",
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -4799,6 +5313,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -4829,6 +5355,18 @@
       "summary": "**Goal**: T-050: Rediseñar estética del panel dropdown (Servicios) y menú de navegación **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 ",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-7.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",
@@ -4987,6 +5525,18 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-8",
+      "type": "session",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 -",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "SESSION-2026-10-25",
       "type": "session",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -5059,6 +5609,18 @@
       "archived": false
     },
     {
+      "id": "CHANGELOG-2026-10-25-8",
+      "type": "changelog",
+      "title": "T-053: Crear favicon e integrarlo en las 15 páginas",
+      "summary": "**Goal**: T-053: Crear favicon e integrarlo en las 15 páginas **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - MOD-001 - MOD-002 - MOD-009 - MOD-010 - T-032 **Archiv",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-8.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "CHANGELOG-2026-10-25",
       "type": "changelog",
       "title": "T-043: Ajustes visuales finales: Logo, Menú Hamburguesa y Botón WhatsApp",
@@ -5085,12 +5647,36 @@
       "archived": false
     },
     {
+      "id": "SESSION-2026-10-25-9",
+      "type": "session",
+      "title": "Sesion Claude-003 (2026-10-24)",
+      "summary": "**Goal**: Sesion Claude-003 (2026-10-24) **Decisiones tomadas:** - (ninguna) **Hipótesis:** - (ninguna) **Artefactos tocados:** - CTR-001 - CTR-002 - CTR-003 - FLW-001 - MOD-002 - MOD-009 - T-032 **Ar",
+      "status": "closed",
+      "source": "sessions/SESSION-2026-10-25-9.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
       "id": "CHANGELOG-2026-10-25-6",
       "type": "changelog",
       "title": "T-018: WhatsApp coherente y nav unificado en todo el sitio (11 páginas)",
       "summary": "**Goal**: T-018: WhatsApp coherente y nav unificado en todo el sitio (11 páginas) **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-002 - MOD-002 - NOTE-001 - T-014 - T-032 - T-036 -",
       "status": "closed",
       "source": "changelog/CHANGELOG-2026-10-25-6.md",
+      "category": "",
+      "parent": "T-032",
+      "epic_task": "",
+      "archived": false
+    },
+    {
+      "id": "CHANGELOG-2026-10-25-9",
+      "type": "changelog",
+      "title": "Sesion Claude-003 (2026-10-24)",
+      "summary": "**Goal**: Sesion Claude-003 (2026-10-24) **Decisiones tomadas:** - (ninguna) **Artefactos afectados:** - CTR-001 - CTR-002 - CTR-003 - FLW-001 - MOD-002 - MOD-009 - T-032 **Archivos modificados:** - (",
+      "status": "closed",
+      "source": "changelog/CHANGELOG-2026-10-25-9.md",
       "category": "",
       "parent": "T-032",
       "epic_task": "",

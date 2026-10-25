@@ -1,8 +1,8 @@
 {
   "project_root": "/mnt/disco_hdd/work/workspace/apps/web-voktera",
-  "total_files": 137,
-  "total_loc": 23037,
-  "max_mtime": 1792912039.4929223,
+  "total_files": 139,
+  "total_loc": 23933,
+  "max_mtime": 1792912188.6475399,
   "completo": true,
   "files": {
     "human_backlog.md": {
@@ -45,7 +45,7 @@
       "path": "docs/.knowledge_index.json",
       "language": "json",
       "framework": null,
-      "lines": 5096,
+      "lines": 5590,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -221,6 +221,15 @@
       "symbols": [],
       "imported_by": []
     },
+    "docs/changelog/CHANGELOG-2026-10-25-8.md": {
+      "path": "docs/changelog/CHANGELOG-2026-10-25-8.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 67,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
     "docs/changelog/CHANGELOG-2026-10-25.md": {
       "path": "docs/changelog/CHANGELOG-2026-10-25.md",
       "language": "markdown",
@@ -297,7 +306,7 @@
       "path": "docs/modules/MOD-002.md",
       "language": "markdown",
       "framework": null,
-      "lines": 74,
+      "lines": 80,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -360,7 +369,7 @@
       "path": "docs/modules/MOD-009.md",
       "language": "markdown",
       "framework": null,
-      "lines": 80,
+      "lines": 84,
       "imports": [],
       "symbols": [],
       "imported_by": []
@@ -541,6 +550,15 @@
       "language": "markdown",
       "framework": null,
       "lines": 477,
+      "imports": [],
+      "symbols": [],
+      "imported_by": []
+    },
+    "docs/sessions/SESSION-2026-10-25-8.md": {
+      "path": "docs/sessions/SESSION-2026-10-25-8.md",
+      "language": "markdown",
+      "framework": null,
+      "lines": 325,
       "imports": [],
       "symbols": [],
       "imported_by": []

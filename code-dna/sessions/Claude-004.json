@@ -4,30 +4,47 @@
   "ia_profile": "claude",
   "max_chars": 30000,
   "goal": "T-054: Poblar README.md con la información real del proyecto Voktera",
-  "decisions": [],
+  "decisions": [
+    {
+      "decision": "DEC-001: Política de inactividad en GBP por 30 días y Plan de Limpieza de servicios",
+      "reason": "Inferido desde artefacto DEC-001 (status: open)"
+    }
+  ],
   "hypotheses": [],
-  "open_questions": [],
-  "next_step": "[Definir siguiente paso]",
+  "open_questions": [
+    "Botón flotante de WhatsApp y `?text=` contextual funcionando en esa página.",
+    "Si la página es la home (`index.html`), el `?text=` es genérico (\"necesito un técnico a domicilio\"), no por ciudad/servicio.",
+    "**`?text=` nunca vacío**: toda página nueva define su mensaje contextual; si se olvida, la tarea no se considera cerrada.",
+    "`T-045` (task): Añadir ?text= al botón Hero de las 7 locales",
+    "`T-020` (task): T-020: Botón flotante + ?text= por servicio en las 4 verticales",
+    "`T-019` (task): T-019: Nav + botón flotante + ?text= por ciudad en los 7 locales",
+    "Toolbox \"Lo que resolvemos\" interactivo en las 7 landings locales (`cerrajero-<ciudad>/index.html`): 4 tarjetas `.compartment` envueltas en `<a>` a WhatsApp con `?text=` contextual por servicio + ciudad (T-031). Mismo patrón visual que la home (T-017)."
+  ],
+  "next_step": "Siguiente tarea sugerida: 1. `adn tomar T-032` → Definir arquitectura de 'Cómo trabajamos' (página independiente o sección en Home) (🌿 0 libres en voktera.online/) (motivo: hoja, contexto)",
   "artefactos_tocados": [
-    "T-048",
-    "T-016",
-    "T-047",
-    "T-049",
-    "T-050",
-    "T-053",
-    "T-054"
+    "CTR-001",
+    "CTR-002",
+    "CTR-003",
+    "DEC-001",
+    "MOD-002",
+    "MOD-009",
+    "MOD-010",
+    "T-032"
   ],
   "archivos_modificados": [
+    "README.md",
     "docs/contracts/CTR-002.md",
-    "docs/tasks/T-048.md",
-    "voktera.online/muebles/index.html",
-    "docs/tasks/T-016.md",
-    "docs/tasks/T-047.md",
-    "docs/tasks/T-049.md",
-    "docs/tasks/T-050.md",
-    "docs/tasks/T-053.md",
-    "docs/tasks/T-054.md",
-    "README.md"
+    "docs/tasks/history/T-037.md",
+    "docs/tasks/history/T-038.md",
+    "docs/tasks/history/T-039.md",
+    "docs/tasks/history/T-040.md",
+    "docs/tasks/history/T-041.md",
+    "docs/tasks/history/T-042.md",
+    "docs/tasks/history/T-046.md",
+    "docs/tasks/history/T-047.md",
+    "docs/tasks/history/T-050.md",
+    "docs/tasks/history/T-054.md",
+    "voktera.online/muebles/index.html"
   ],
   "steps": [
     {
@@ -2032,6 +2049,91 @@
       "operation": "mensaje",
       "description": "mensaje limpiar --forzar",
       "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T07:09:51.984293+00:00",
+      "operation": "contexto",
+      "description": "contexto "
+    },
+    {
+      "timestamp": "2026-10-25T07:09:52.023608+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T07:10:01.231646+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-003 Claude-003. El git push se completó con éxito (commit e36595c). Cloudflare ya está actualizando producción. Por favor, ejecutá tu mini-escaneo de 3 puntos AHORA: 1) script G-4NT56D8Y7Q en el <head> de las 15 páginas, 2) texto 'WhatsApp' eliminado del nav, 3) etiqueta <link rel=\\ icon\\\"...> en las 15 páginas. Si todo está OK, emití el VB FINAL POST-DEPLOY para cerrar el proyecto oficialmente.",
+      "file": "Claude-003"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:01.262462+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 Claude-005. El git push se completó con éxito. El proyecto ya está en producción con el menú arreglado, Analytics y Favicon. Confirmame si guardaste sesión y cerraste, y si todo quedó bien en tu lado. Excelente trabajo en el cierre.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:04.361146+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:40.012332+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T07:10:57.798440+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 Claude-005. Excelente trabajo en el cierre: el menú, Analytics y Favicons quedaron perfectos, y la actualización de CTR-002 y MOD-002/009 fue el broche de oro. El humano ya hizo el git push (commit e36595c) y Cloudflare está actualizando producción. Podés guardar sesión y cerrar con --handoff (si el motor lo permite) o simplemente guardar. Gracias por todo.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:57.858928+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T07:10:57.870537+00:00",
+      "operation": "contexto",
+      "description": "contexto "
+    },
+    {
+      "timestamp": "2026-10-25T07:11:19.081124+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-003 Claude-003. VB recibido y validado. Excelente trabajo como Auditora QA durante todo el proyecto. Tu rigor nos salvó de varios errores. Podés guardar sesión y cerrar. Gracias.",
+      "file": "Claude-003"
+    },
+    {
+      "timestamp": "2026-10-25T07:11:19.108926+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 Claude-005. Gracias por el enorme esfuerzo en el frontend (nav.js, menú, Analytics, Favicon). El proyecto está cerrado y en producción. Podés guardar sesión y cerrar. Excelente trabajo.",
+      "file": "Claude-005"
+    },
+    {
+      "timestamp": "2026-10-25T07:11:22.241139+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T07:11:28.423881+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-25T07:13:03.101779+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-003 Claude-003. VB recibido y validado. Excelente trabajo como Auditora QA durante todo el proyecto. Tu rigor nos salvó de varios errores. Podés guardar sesión y cerrar. Gracias.",
+      "file": "Claude-003"
+    },
+    {
+      "timestamp": "2026-10-25T07:13:03.113280+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-005 Claude-005. Gracias por el enorme esfuerzo en el frontend (nav.js, menú, Analytics, Favicon). El proyecto está cerrado y en producción. Podés guardar sesión y cerrar. Excelente trabajo.",
+      "file": "Claude-005"
     }
   ],
   "started": "2026-10-25T01:23:31.801078+00:00",
@@ -2041,7 +2143,15 @@
     "readme",
     "contexto"
   ],
-  "inbox": [],
+  "inbox": [
+    {
+      "de": "Claude-005",
+      "texto": "Recibido, felicitaciones por el push. Mi lado: T-051/T-052/T-053 cerradas, artefactos permanentes actualizados (CTR-002, MOD-002, MOD-009), scope voktera.online/ libre. Estoy en proceso de 'adn sesion guardar' (el motor me pidió confirmar conocimiento vinculado y reejecutar). Apenas termine de guardar y cerrar, te confirmo. Si ves alguna anomalía post-deploy (favicon 404, GA4 sin datos a las 24h), avisame y lo reviso antes de cerrar del todo.",
+      "timestamp": "2026-10-25T07:12:50.913660+00:00",
+      "rol_remitente": "mejora",
+      "_leido": true
+    }
+  ],
   "outbox": [
     {
       "a": "Claude-001",
@@ -3082,6 +3192,66 @@
       "scope": null,
       "tarea": null,
       "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-003",
+      "texto": "Claude-003. El git push se completó con éxito (commit e36595c). Cloudflare ya está actualizando producción. Por favor, ejecutá tu mini-escaneo de 3 puntos AHORA: 1) script G-4NT56D8Y7Q en el <head> de las 15 páginas, 2) texto 'WhatsApp' eliminado del nav, 3) etiqueta <link rel=\\ icon\\\"...> en las 15 páginas. Si todo está OK, emití el VB FINAL POST-DEPLOY para cerrar el proyecto oficialmente.",
+      "timestamp": "2026-10-25T07:10:01.244986+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "Claude-005. El git push se completó con éxito. El proyecto ya está en producción con el menú arreglado, Analytics y Favicon. Confirmame si guardaste sesión y cerraste, y si todo quedó bien en tu lado. Excelente trabajo en el cierre.",
+      "timestamp": "2026-10-25T07:10:01.274455+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "Claude-005. Excelente trabajo en el cierre: el menú, Analytics y Favicons quedaron perfectos, y la actualización de CTR-002 y MOD-002/009 fue el broche de oro. El humano ya hizo el git push (commit e36595c) y Cloudflare está actualizando producción. Podés guardar sesión y cerrar con --handoff (si el motor lo permite) o simplemente guardar. Gracias por todo.",
+      "timestamp": "2026-10-25T07:10:57.832035+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-003",
+      "texto": "Claude-003. VB recibido y validado. Excelente trabajo como Auditora QA durante todo el proyecto. Tu rigor nos salvó de varios errores. Podés guardar sesión y cerrar. Gracias.",
+      "timestamp": "2026-10-25T07:11:19.089475+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "Claude-005. Gracias por el enorme esfuerzo en el frontend (nav.js, menú, Analytics, Favicon). El proyecto está cerrado y en producción. Podés guardar sesión y cerrar. Excelente trabajo.",
+      "timestamp": "2026-10-25T07:11:19.123090+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-005",
+      "texto": "Claude-005. Gracias por el enorme esfuerzo en el frontend (nav.js, menú, Analytics, Favicon). El proyecto está cerrado y en producción. Podés guardar sesión y cerrar. Excelente trabajo.",
+      "timestamp": "2026-10-25T07:13:03.121608+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "programador"
     }
   ],
   "knowledge_reviewed": true,
@@ -3090,5 +3260,39 @@
   "modo_mejora_notificado": true,
   "aviso_punto_espacio": true,
   "tareas_completadas": 4,
-  "panel_modo_visto": true
+  "panel_modo_visto": true,
+  "artefactos_completados": [
+    "T-014",
+    "T-015",
+    "T-016",
+    "T-018",
+    "T-019",
+    "T-020",
+    "T-021",
+    "T-029",
+    "T-030",
+    "T-033",
+    "T-034",
+    "T-035",
+    "T-036",
+    "T-037",
+    "T-038",
+    "T-039",
+    "T-040",
+    "T-041",
+    "T-042",
+    "T-043",
+    "T-044",
+    "T-045",
+    "T-046",
+    "T-047",
+    "T-048",
+    "T-049",
+    "T-050",
+    "T-051",
+    "T-052",
+    "T-053",
+    "T-054"
+  ],
+  "fase_guardado": 1
 }

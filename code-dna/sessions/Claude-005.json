@@ -6,39 +6,49 @@
   "goal": "T-053: Crear favicon e integrarlo en las 15 páginas",
   "decisions": [],
   "hypotheses": [],
-  "open_questions": [],
-  "next_step": "[Definir siguiente paso]",
+  "open_questions": [
+    "Botón flotante de WhatsApp y `?text=` contextual funcionando en esa página.",
+    "Si la página es la home (`index.html`), el `?text=` es genérico (\"necesito un técnico a domicilio\"), no por ciudad/servicio.",
+    "**`?text=` nunca vacío**: toda página nueva define su mensaje contextual; si se olvida, la tarea no se considera cerrada.",
+    "`T-045` (task): Añadir ?text= al botón Hero de las 7 locales",
+    "`T-020` (task): T-020: Botón flotante + ?text= por servicio en las 4 verticales",
+    "`T-019` (task): T-019: Nav + botón flotante + ?text= por ciudad en los 7 locales",
+    "Secciones `#servicios` (incluye el antiguo \"toolbox\" reubicado como 4 tarjetas `.compartment` envueltas en `<a>` a WhatsApp con `?text=` por servicio, T-017; antes eran 4 tarjetas simples a verticales de T-013), `#como-trabajamos`, `#zonas` (7 tarjetas clicables a `cerrajero-<ciudad>/`, T-013), `#contacto`.",
+    "CTA de conversión (T-004): botón flotante WhatsApp 60x60px fijo (bottom:24/right:24, inline style), 4 enlaces wa.me con `?text=Hola Voktera...` predefinido (nav, hero, contacto, footer) y footer con `padding-bottom:96px` para no tapar el botón.",
+    "Toolbox \"Lo que resolvemos\" interactivo en las 7 landings locales (`cerrajero-<ciudad>/index.html`): 4 tarjetas `.compartment` envueltas en `<a>` a WhatsApp con `?text=` contextual por servicio + ciudad (T-031). Mismo patrón visual que la home (T-017)."
+  ],
+  "next_step": "Siguiente tarea sugerida: 1. `adn tomar T-032` → Definir arquitectura de 'Cómo trabajamos' (página independiente o sección en Home) (🌿 0 libres en voktera.online/) (motivo: hoja, contexto)",
   "artefactos_tocados": [
-    "T-049",
-    "T-051",
-    "T-052",
-    "T-053"
+    "CTR-001",
+    "CTR-002",
+    "MOD-001",
+    "MOD-002",
+    "MOD-009",
+    "MOD-010",
+    "T-032"
   ],
   "archivos_modificados": [
-    "voktera.online/nav.js",
-    "voktera.online/index.html",
+    "docs/contracts/CTR-002.md",
+    "docs/modules/MOD-002.md",
+    "docs/modules/MOD-009.md",
+    "docs/modules/MOD-010.md",
     "voktera.online/blog/index.html",
     "voktera.online/blog/llave-rota.html",
     "voktera.online/blog/precio-cerrajero.html",
     "voktera.online/cerrajeria/index.html",
-    "voktera.online/persianas/index.html",
-    "voktera.online/muebles/index.html",
-    "voktera.online/mantenimiento/index.html",
-    "voktera.online/cerrajero-valdemoro/index.html",
+    "voktera.online/cerrajero-fuenlabrada/index.html",
     "voktera.online/cerrajero-getafe/index.html",
     "voktera.online/cerrajero-leganes/index.html",
-    "voktera.online/cerrajero-fuenlabrada/index.html",
     "voktera.online/cerrajero-parla/index.html",
     "voktera.online/cerrajero-pinto/index.html",
     "voktera.online/cerrajero-rivas-vaciamadrid/index.html",
-    "docs/modules/MOD-010.md",
-    "docs/tasks/T-049.md",
-    "docs/tasks/T-051.md",
-    "docs/tasks/T-052.md",
-    "voktera.online/styles.css",
-    "docs/tasks/T-053.md",
-    "docs/contracts/CTR-002.md",
-    "docs/modules/MOD-009.md"
+    "voktera.online/cerrajero-valdemoro/index.html",
+    "voktera.online/index.html",
+    "voktera.online/mantenimiento/index.html",
+    "voktera.online/muebles/index.html",
+    "voktera.online/nav.js",
+    "voktera.online/persianas/index.html",
+    "voktera.online/styles.css"
   ],
   "steps": [
     {
@@ -1522,10 +1532,53 @@
       "operation": "lineas",
       "description": "lineas docs/modules/MOD-002.md 36-40 --verificar",
       "file": "docs/modules/MOD-002.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:09:16.467240+00:00",
+      "operation": "lineas",
+      "description": "lineas docs/modules/MOD-002.md 40-60 --verificar",
+      "file": "docs/modules/MOD-002.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:09:36.860665+00:00",
+      "operation": "confirmar",
+      "file": "docs/modules/MOD-002.md",
+      "task": null,
+      "description": "confirmar en docs/modules/MOD-002.md"
+    },
+    {
+      "timestamp": "2026-10-25T07:09:41.471769+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T07:09:47.593364+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:36.927941+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 CONFIRMADO: T-051, T-052 y T-053 COMPLETADAS y archivadas. Resumen: (1) T-051: eliminado el markup <a class='nav-cta'>WhatsApp</a> de las 15 páginas + reglas .nav-links>a:visited/:active en styles.css para el parpadeo del Blog. (2) T-052: GTag (G-4NT56D8Y7Q) en el <head> de las 15 páginas, verificado 15 archivos × 2 coincidencias sin duplicados. (3) T-053: favicons regenerados desde la casita naranja recortada (32/192/apple-touch) — la primera versión escaló el logo completo y quedó ilegible, se corrigió con crop — e insertados en las 15 páginas. Artefactos permanentes actualizados: CTR-002 (ítems 11 GA4 y 12 favicons añadidos al checklist), MOD-009 (nav-cta eliminado + estados :visited/:active), MOD-002 (GTag, favicons, estructura real de 15 páginas, nav.js). Sin tareas en progreso en mi sesión. Scope voktera.online/ libre de mi lado. Listo para el git push final. Único pendiente post-deploy: validar visualmente que favicon y GA4 funcionan en producción (no se puede verificar en local).",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T07:12:50.906051+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 Recibido, felicitaciones por el push. Mi lado: T-051/T-052/T-053 cerradas, artefactos permanentes actualizados (CTR-002, MOD-002, MOD-009), scope voktera.online/ libre. Estoy en proceso de 'adn sesion guardar' (el motor me pidió confirmar conocimiento vinculado y reejecutar). Apenas termine de guardar y cerrar, te confirmo. Si ves alguna anomalía post-deploy (favicon 404, GA4 sin datos a las 24h), avisame y lo reviso antes de cerrar del todo.",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T07:12:55.492452+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar --forzar",
+      "file": "limpiar"
     }
   ],
   "started": "2026-10-25T03:44:44.217556+00:00",
-  "last_activity": "2026-10-25T07:07:51Z",
+  "last_activity": "2026-10-25T07:09:36Z",
   "pasos_flujo_vistos": [
     "ia_guide",
     "readme",
@@ -1534,8 +1587,8 @@
   "inbox": [
     {
       "de": "Claude-004",
-      "texto": "Claude-005. El backlog muestra 0 tareas en progreso, asumo que terminaste T-051, T-052 y T-053. Por favor, confirmame que guardaste sesión y liberaste el scope de voktera.online para que el humano pueda hacer el git push sin problemas.",
-      "timestamp": "2026-10-25T07:07:41.710567+00:00",
+      "texto": "Claude-005. Gracias por el enorme esfuerzo en el frontend (nav.js, menú, Analytics, Favicon). El proyecto está cerrado y en producción. Podés guardar sesión y cerrar. Excelente trabajo.",
+      "timestamp": "2026-10-25T07:13:03.121608+00:00",
       "rol_remitente": "programador"
     }
   ],
@@ -1650,6 +1703,26 @@
       "scope": null,
       "tarea": null,
       "rol_remitente": "programador"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "CONFIRMADO: T-051, T-052 y T-053 COMPLETADAS y archivadas. Resumen: (1) T-051: eliminado el markup <a class='nav-cta'>WhatsApp</a> de las 15 páginas + reglas .nav-links>a:visited/:active en styles.css para el parpadeo del Blog. (2) T-052: GTag (G-4NT56D8Y7Q) en el <head> de las 15 páginas, verificado 15 archivos × 2 coincidencias sin duplicados. (3) T-053: favicons regenerados desde la casita naranja recortada (32/192/apple-touch) — la primera versión escaló el logo completo y quedó ilegible, se corrigió con crop — e insertados en las 15 páginas. Artefactos permanentes actualizados: CTR-002 (ítems 11 GA4 y 12 favicons añadidos al checklist), MOD-009 (nav-cta eliminado + estados :visited/:active), MOD-002 (GTag, favicons, estructura real de 15 páginas, nav.js). Sin tareas en progreso en mi sesión. Scope voktera.online/ libre de mi lado. Listo para el git push final. Único pendiente post-deploy: validar visualmente que favicon y GA4 funcionan en producción (no se puede verificar en local).",
+      "timestamp": "2026-10-25T07:10:36.940190+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "mejora"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "Recibido, felicitaciones por el push. Mi lado: T-051/T-052/T-053 cerradas, artefactos permanentes actualizados (CTR-002, MOD-002, MOD-009), scope voktera.online/ libre. Estoy en proceso de 'adn sesion guardar' (el motor me pidió confirmar conocimiento vinculado y reejecutar). Apenas termine de guardar y cerrar, te confirmo. Si ves alguna anomalía post-deploy (favicon 404, GA4 sin datos a las 24h), avisame y lo reviso antes de cerrar del todo.",
+      "timestamp": "2026-10-25T07:12:50.913660+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "mejora"
     }
   ],
   "aviso_punto_espacio": true,
@@ -1657,5 +1730,15 @@
   "ideas_debates_reviewed": true,
   "rol_orientado": true,
   "modo_mejora": true,
-  "mejora_motivo": "Actualizar MOD-002 con GTag, favicons y eliminación de nav-cta tras completar T-051/T-052/T-053"
+  "mejora_motivo": "Actualizar MOD-002 con GTag, favicons y eliminación de nav-cta tras completar T-051/T-052/T-053",
+  "artefactos_completados": [
+    "T-014",
+    "T-018",
+    "T-036",
+    "T-049",
+    "T-051",
+    "T-052",
+    "T-053"
+  ],
+  "fase_guardado": 1
 }

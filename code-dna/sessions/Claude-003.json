@@ -6,9 +6,25 @@
   "goal": "Sesion Claude-003 (2026-10-24)",
   "decisions": [],
   "hypotheses": [],
-  "open_questions": [],
-  "next_step": "[Definir siguiente paso]",
-  "artefactos_tocados": [],
+  "open_questions": [
+    "Botón flotante de WhatsApp y `?text=` contextual funcionando en esa página.",
+    "Si la página es la home (`index.html`), el `?text=` es genérico (\"necesito un técnico a domicilio\"), no por ciudad/servicio.",
+    "**`?text=` nunca vacío**: toda página nueva define su mensaje contextual; si se olvida, la tarea no se considera cerrada.",
+    "`T-045` (task): Añadir ?text= al botón Hero de las 7 locales",
+    "`T-020` (task): T-020: Botón flotante + ?text= por servicio en las 4 verticales",
+    "`T-019` (task): T-019: Nav + botón flotante + ?text= por ciudad en los 7 locales",
+    "Toolbox \"Lo que resolvemos\" interactivo en las 7 landings locales (`cerrajero-<ciudad>/index.html`): 4 tarjetas `.compartment` envueltas en `<a>` a WhatsApp con `?text=` contextual por servicio + ciudad (T-031). Mismo patrón visual que la home (T-017)."
+  ],
+  "next_step": "Siguiente tarea sugerida: 1. `adn tomar T-032` → Definir arquitectura de 'Cómo trabajamos' (página independiente o sección en Home) (🌿 0 libres en voktera.online/) (motivo: hoja)",
+  "artefactos_tocados": [
+    "CTR-001",
+    "CTR-002",
+    "CTR-003",
+    "FLW-001",
+    "MOD-002",
+    "MOD-009",
+    "T-032"
+  ],
   "archivos_modificados": [],
   "steps": [
     {
@@ -1599,6 +1615,77 @@
       "operation": "mensaje",
       "description": "mensaje limpiar",
       "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T07:09:55.102806+00:00",
+      "operation": "mensaje",
+      "description": "mensaje "
+    },
+    {
+      "timestamp": "2026-10-25T07:10:10.529873+00:00",
+      "operation": "buscar",
+      "description": "buscar G-4NT56D8Y7Q",
+      "file": "G-4NT56D8Y7Q"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:10.666323+00:00",
+      "operation": "buscar",
+      "description": "buscar rel=\"icon",
+      "file": "rel=\"icon"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:15.310324+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:25.999557+00:00",
+      "operation": "mensaje",
+      "description": "mensaje leer 1",
+      "file": "leer"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:26.026524+00:00",
+      "operation": "mensaje",
+      "description": "mensaje leer 2",
+      "file": "leer"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:26.041088+00:00",
+      "operation": "buscar",
+      "description": "buscar class=\"nav-cta",
+      "file": "class=\"nav-cta"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:26.129526+00:00",
+      "operation": "buscar",
+      "description": "buscar >WhatsApp<",
+      "file": ">WhatsApp<"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:32.293039+00:00",
+      "operation": "mensaje",
+      "description": "mensaje limpiar",
+      "file": "limpiar"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:44.607344+00:00",
+      "operation": "mensaje",
+      "description": "mensaje Claude-004 VB FINAL POST-DEPLOY — ✅ APROBADO, PROYECTO CERRADO. Mini-escaneo de 3 puntos sobre el código pusheado (commit e36595c): (1) ANALYTICS ✅: gtag.js G-4NT56D8Y7Q presente en el <head> de las 15 páginas (script async + gtag config), confirmado por búsqueda (15 archivos). (2) MENÚ ✅: <a class='nav-cta'>WhatsApp</a> ELIMINADO de las 15 páginas (0 coincidencias en HTML); el 'WhatsApp' restante es solo el enlace del footer (legítimo, wa.me). CTA de WhatsApp vive solo en .wa-float. (3) FAVICON ✅: <link rel='icon' 32x32 y 192x192> en las 15 páginas (rutas imagenes/ en home, ../imagenes/ en subcarpetas). Sin regresiones detectadas. VEREDICTO: proyecto APTO y desplegado. Cierro mi rol de Auditora QA (Claude-003) y procedo a guardar sesión. Excelente trabajo del equipo: Claude-004 (senior), Claude-005 (T-049/051/052/053), DeepSeek-009 (CSS mobile-first + T-050), DeepSeek-008/006 (sitemap/heroes).",
+      "file": "Claude-004"
+    },
+    {
+      "timestamp": "2026-10-25T07:10:52.324504+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar",
+      "file": "guardar"
+    },
+    {
+      "timestamp": "2026-10-25T07:12:46.828354+00:00",
+      "operation": "sesion",
+      "description": "sesion guardar --force",
+      "file": "guardar"
     }
   ],
   "started": "2026-10-24T04:40:37.652110+00:00",
@@ -1611,8 +1698,8 @@
   "inbox": [
     {
       "de": "Claude-004",
-      "texto": "Claude-003. ¡GO PARA EL MINI-ESCANEO! Claude-005 terminó las 3 tareas (menú, Analytics, Favicon). El humano está haciendo el git push ahora mismo. Por favor, verificá los 3 puntos (script G-4NT56D8Y7Q en <head>, texto WhatsApp eliminado, y favicon presente en las 15 páginas) y emiti tu VB FINAL post-deploy. Avisame.",
-      "timestamp": "2026-10-25T07:07:41.748887+00:00",
+      "texto": "Claude-003. VB recibido y validado. Excelente trabajo como Auditora QA durante todo el proyecto. Tu rigor nos salvó de varios errores. Podés guardar sesión y cerrar. Gracias.",
+      "timestamp": "2026-10-25T07:11:19.089475+00:00",
       "rol_remitente": "programador"
     }
   ],
@@ -2226,10 +2313,49 @@
       "scope": null,
       "tarea": null,
       "rol_remitente": "mejora"
+    },
+    {
+      "a": "Claude-004",
+      "texto": "VB FINAL POST-DEPLOY — ✅ APROBADO, PROYECTO CERRADO. Mini-escaneo de 3 puntos sobre el código pusheado (commit e36595c): (1) ANALYTICS ✅: gtag.js G-4NT56D8Y7Q presente en el <head> de las 15 páginas (script async + gtag config), confirmado por búsqueda (15 archivos). (2) MENÚ ✅: <a class='nav-cta'>WhatsApp</a> ELIMINADO de las 15 páginas (0 coincidencias en HTML); el 'WhatsApp' restante es solo el enlace del footer (legítimo, wa.me). CTA de WhatsApp vive solo en .wa-float. (3) FAVICON ✅: <link rel='icon' 32x32 y 192x192> en las 15 páginas (rutas imagenes/ en home, ../imagenes/ en subcarpetas). Sin regresiones detectadas. VEREDICTO: proyecto APTO y desplegado. Cierro mi rol de Auditora QA (Claude-003) y procedo a guardar sesión. Excelente trabajo del equipo: Claude-004 (senior), Claude-005 (T-049/051/052/053), DeepSeek-009 (CSS mobile-first + T-050), DeepSeek-008/006 (sitemap/heroes).",
+      "timestamp": "2026-10-25T07:10:44.642145+00:00",
+      "tipo": null,
+      "prioridad": null,
+      "scope": null,
+      "tarea": null,
+      "rol_remitente": "mejora"
     }
   ],
   "modo_mejora": true,
   "mejora_motivo": "Rol asignado por Claude-001: Auditora QA del proyecto. No edito código, valido antes del despliegue.",
   "knowledge_reviewed": true,
-  "aviso_punto_espacio": true
+  "aviso_punto_espacio": true,
+  "artefactos_completados": [
+    "T-014",
+    "T-015",
+    "T-018",
+    "T-019",
+    "T-020",
+    "T-021",
+    "T-026",
+    "T-028",
+    "T-029",
+    "T-030",
+    "T-031",
+    "T-035",
+    "T-036",
+    "T-041",
+    "T-042",
+    "T-044",
+    "T-045",
+    "T-046",
+    "T-047",
+    "T-048",
+    "T-049",
+    "T-050",
+    "T-051",
+    "T-052",
+    "T-053"
+  ],
+  "force_secuencia": true,
+  "fase_guardado": 1
 }
