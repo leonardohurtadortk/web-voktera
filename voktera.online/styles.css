@@ -1084,3 +1084,85 @@
   @media (min-width: 600px){
     .blog-content{ font-size:1.05rem; }
   }
+
+  /* ================= 404 (T-096) ================= */
+  .error-404{
+    max-width:720px;
+    padding:80px 24px;
+    text-align:center;
+    margin:0 auto;
+  }
+  .error-icon{
+    width:80px;
+    height:80px;
+    margin:0 auto 24px;
+    color:var(--accent);
+    opacity:.9;
+    display:block;
+  }
+  .error-code{
+    font-family:var(--mono);
+    font-size:0.85rem;
+    color:var(--accent);
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    margin-bottom:16px;
+  }
+  .error-title{
+    font-family:var(--display);
+    font-size:clamp(2rem,5vw,3rem);
+    margin-bottom:16px;
+  }
+  .error-lead{
+    font-size:1.1rem;
+    color:var(--ink-soft);
+    line-height:1.6;
+    margin-bottom:32px;
+  }
+  .error-actions{
+    display:flex;
+    flex-wrap:wrap;
+    gap:12px;
+    justify-content:center;
+    margin-bottom:40px;
+  }
+  .error-actions .btn{
+    padding:12px 20px;
+    border-radius:10px;
+    font-weight:600;
+  }
+  .error-section-title{
+    font-family:var(--display);
+    font-size:1.1rem;
+    margin:28px 0 14px;
+  }
+  .error-chips{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    justify-content:center;
+    max-width:580px;
+    margin:0 auto;
+  }
+  .error-chip{
+    padding:8px 14px;
+    background:var(--bg-soft);
+    border-radius:8px;
+    text-decoration:none;
+    color:var(--ink);
+    font-size:0.9rem;
+    transition:background .15s;
+  }
+  .error-chip:hover{ background:var(--line); }
+  .error-phone{
+    margin-top:48px;
+    font-family:var(--body);
+    font-size:0.9rem;
+    color:var(--ink-soft);
+  }
+  .error-phone a{
+    color:var(--accent);
+    text-decoration:none;
+    font-weight:600;
+  }
+  .error-phone a:hover{ text-decoration:underline; }
