@@ -1,0 +1,17 @@
+# Backups de scripts SEO
+*.bak-seo
+*.bak-preinyeccion/
+*.bak-faqfix
+*.bak-original
+*.bak-*
+
+# Locks transitorios del motor
+code-dna/.*.lock
+
+# Pending writes (se confirman o descartan en cada sesión)
+code-dna/pending_writes/
+
+# Sessions y read_artifacts (se regeneran)
+code-dna/sessions/*.json
+code-dna/sessions/*.md
+code-dna/sessions/*_read_artifacts.json

@@ -99,3 +99,98 @@
     init();
   }
 })();
+
+/**
+ * VOKTERA — Lógica de teléfonos y botones flotantes (T-059 + universal)
+ * - En táctil: el href="tel:" funciona nativo en TODOS los <a href="tel:">.
+ * - En desktop (mouse fino): intercepta el click en cualquier tel:, copia el número y muestra un toast.
+ * - Sube el padding del footer de 96px a 160px para acomodar dos botones flotantes en columna.
+ */
+(function () {
+  'use strict';
+
+  var TEL = '+34911266011';
+
+  function initFloat() {
+    document.querySelectorAll('footer[style*="padding-bottom:96px"]').forEach(function (footer) {
+      footer.style.paddingBottom = '160px';
+    });
+
+    var isDesktop = window.matchMedia('(hover: hover) and (pointer: fine)');
+    if (!isDesktop.matches) return;
+
+    // Handler universal: cualquier <a href="tel:..."> en el sitio
+    document.addEventListener('click', function (event) {
+      var link = event.target.closest('a[href^="tel:"]');
+      if (!link) return;
+      event.preventDefault();
+      var tel = link.getAttribute('href').replace(/^tel:/, '');
+      copyAndToast(tel || TEL, link);
+    });
+  }
+
+  function copyAndToast(text, sourceEl) {
+    var toast = document.querySelector('.float-toast');
+    if (!toast) {
+      toast = document.createElement('div');
+      toast.className = 'float-toast';
+      toast.setAttribute('role', 'status');
+      toast.setAttribute('aria-live', 'polite');
+      document.body.appendChild(toast);
+    }
+
+    function showToast(msg) {
+      // 1) Poner el texto PRIMERO para que offsetWidth mida el ancho real
+      toast.textContent = msg;
+      toast.classList.add('show');
+      // 2) Ahora posicionar con dimensiones reales
+      if (sourceEl) {
+        var rect = sourceEl.getBoundingClientRect();
+        var toastW = toast.offsetWidth;
+        var toastH = toast.offsetHeight;
+        var margin = 8;
+        // Horizontal: centrado sobre el icono, clamp a los bordes
+        var left = rect.left + rect.width / 2;
+        left = Math.max(toastW / 2 + margin, Math.min(window.innerWidth - toastW / 2 - margin, left));
+        // Vertical: SIEMPRE arriba del icono; si no cabe, abajo
+        var top = rect.top - toastH - 8;
+        if (top < margin) top = rect.bottom + 8;
+        toast.style.top = top + 'px';
+        toast.style.left = left + 'px';
+      }
+      // 3) Resetear timer
+      clearTimeout(toast._timer);
+      toast._timer = setTimeout(function () {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(function () {
+        showToast('Teléfono copiado: 911 26 60 11');
+      }).catch(function () {
+        showToast('Llama al 911 26 60 11');
+      });
+    } else {
+      var tmp = document.createElement('textarea');
+      tmp.value = text;
+      tmp.style.position = 'absolute';
+      tmp.style.left = '-9999px';
+      document.body.appendChild(tmp);
+      tmp.select();
+      try {
+        document.execCommand('copy');
+        showToast('Teléfono copiado: 911 26 60 11');
+      } catch (e) {
+        showToast('Llama al 911 26 60 11');
+      }
+      document.body.removeChild(tmp);
+    }
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFloat);
+  } else {
+    initFloat();
+  }
+})();
